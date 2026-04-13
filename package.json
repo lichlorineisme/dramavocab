@@ -7,8 +7,9 @@
     "dev": "vite",
     "dev:smart": "node scripts/dev-smart.mjs",
     "build": "vite build",
-    "preview": "vite preview",
-    "smoke:reading": "node scripts/smoke-reading-chain.mjs"
+    "preview": "npm run build && wrangler dev",
+    "smoke:reading": "node scripts/smoke-reading-chain.mjs",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.103.0",
@@ -20,10 +21,12 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.31.2",
     "@playwright/cli": "^0.1.6",
     "@tailwindcss/vite": "^4.2.2",
     "@vitejs/plugin-vue": "^6.0.5",
     "tailwindcss": "^4.2.2",
-    "vite": "^8.0.4"
+    "vite": "^8.0.4",
+    "wrangler": "^4.81.1"
   }
 }

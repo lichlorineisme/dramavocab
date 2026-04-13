@@ -1,0 +1,528 @@
+{
+  "bookId": "book-001",
+  "bookTitle": "契约成瘾：傅总他蓄谋已久",
+  "chapterId": "ch-01",
+  "chapterNumber": 1,
+  "chapterTitle": "雨 夜 的 敲 门 声 \\",
+  "vocabCount": 64,
+  "vocabList": [
+    {
+      "id": 1,
+      "word": "abrupt",
+      "phonetic": "/əˈbrʌpt/",
+      "pos": "adj",
+      "meaning": "突 然 的",
+      "difficulty": 2
+    },
+    {
+      "id": 2,
+      "word": "freelance",
+      "phonetic": "/ˈfriːlæns/",
+      "pos": "adj",
+      "meaning": "自 由 职 业 的",
+      "difficulty": 4
+    },
+    {
+      "id": 3,
+      "word": "appeal",
+      "phonetic": "/əˈpiːl/",
+      "pos": "n",
+      "meaning": "上 诉",
+      "difficulty": 2
+    },
+    {
+      "id": 4,
+      "word": "accumulate",
+      "phonetic": "/əˈkjuːmjʊleɪt/",
+      "pos": "v",
+      "meaning": "积 累",
+      "difficulty": 4
+    },
+    {
+      "id": 5,
+      "word": "savings",
+      "phonetic": "/ˈseɪvɪŋz/",
+      "pos": "n",
+      "meaning": "存 款",
+      "difficulty": 3
+    },
+    {
+      "id": 6,
+      "word": "card",
+      "phonetic": "/card/",
+      "pos": "n",
+      "meaning": "信 用 卡",
+      "difficulty": 1
+    },
+    {
+      "id": 7,
+      "word": "limit",
+      "phonetic": "/ˈlɪmɪt/",
+      "pos": "n",
+      "meaning": "限 额",
+      "difficulty": 2
+    },
+    {
+      "id": 8,
+      "word": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "pos": "v",
+      "meaning": "借",
+      "difficulty": 2
+    },
+    {
+      "id": 9,
+      "word": "lend",
+      "phonetic": "/lend/",
+      "pos": "v",
+      "meaning": "借 给",
+      "difficulty": 1
+    },
+    {
+      "id": 10,
+      "word": "pour",
+      "phonetic": "/pɔːr/",
+      "pos": "v",
+      "meaning": "倾 盆 而 下",
+      "difficulty": 1
+    },
+    {
+      "id": 11,
+      "word": "drizzle",
+      "phonetic": "/ˈdrɪzl/",
+      "pos": "n",
+      "meaning": "毛 毛 雨",
+      "difficulty": 3
+    },
+    {
+      "id": 12,
+      "word": "drench",
+      "phonetic": "/drentʃ/",
+      "pos": "v",
+      "meaning": "浸 湿",
+      "difficulty": 2
+    },
+    {
+      "id": 13,
+      "word": "torrential",
+      "phonetic": "/tɒˈrenʃl/",
+      "pos": "adj",
+      "meaning": "倾 盆 的",
+      "difficulty": 4
+    },
+    {
+      "id": 14,
+      "word": "umbrella",
+      "phonetic": "/ʌmˈbrelə/",
+      "pos": "n",
+      "meaning": "雨 伞",
+      "difficulty": 3
+    },
+    {
+      "id": 15,
+      "word": "subside",
+      "phonetic": "/səbˈsaɪd/",
+      "pos": "v",
+      "meaning": "减 退",
+      "difficulty": 3
+    },
+    {
+      "id": 16,
+      "word": "message",
+      "phonetic": "/ˈmesɪdʒ/",
+      "pos": "n",
+      "meaning": "信 息",
+      "difficulty": 3
+    },
+    {
+      "id": 17,
+      "word": "propose",
+      "phonetic": "/prəˈpəʊz/",
+      "pos": "v",
+      "meaning": "提 议",
+      "difficulty": 3
+    },
+    {
+      "id": 18,
+      "word": "arrangement",
+      "phonetic": "/əˈreɪndʒmənt/",
+      "pos": "n",
+      "meaning": "安 排",
+      "difficulty": 5
+    },
+    {
+      "id": 19,
+      "word": "compensation",
+      "phonetic": "/ˌkɒmpenˈseɪʃn/",
+      "pos": "n",
+      "meaning": "酬 劳",
+      "difficulty": 5
+    },
+    {
+      "id": 20,
+      "word": "entrepreneur",
+      "phonetic": "/ˌɒntrəprəˈnɜːr/",
+      "pos": "n",
+      "meaning": "企 业 家",
+      "difficulty": 5
+    },
+    {
+      "id": 21,
+      "word": "colossal",
+      "phonetic": "/kəˈlɒsl/",
+      "pos": "adj",
+      "meaning": "巨 大 的",
+      "difficulty": 3
+    },
+    {
+      "id": 22,
+      "word": "conglomerate",
+      "phonetic": "/kənˈɡlɒmərət/",
+      "pos": "n",
+      "meaning": "企 业 集 团",
+      "difficulty": 5
+    },
+    {
+      "id": 23,
+      "word": "actual",
+      "phonetic": "/ˈæktʃuəl/",
+      "pos": "adj",
+      "meaning": "实 际 的",
+      "difficulty": 2
+    },
+    {
+      "id": 24,
+      "word": "intersection",
+      "phonetic": "/ˌɪntəˈsekʃn/",
+      "pos": "n",
+      "meaning": "交 集",
+      "difficulty": 5
+    },
+    {
+      "id": 25,
+      "word": "empire",
+      "phonetic": "/ˈempaɪər/",
+      "pos": "n",
+      "meaning": "帝 国",
+      "difficulty": 2
+    },
+    {
+      "id": 26,
+      "word": "tycoon",
+      "phonetic": "/taɪˈkuːn/",
+      "pos": "n",
+      "meaning": "大 亨",
+      "difficulty": 2
+    },
+    {
+      "id": 27,
+      "word": "orbit",
+      "phonetic": "/ˈɔːrbɪt/",
+      "pos": "n",
+      "meaning": "轨 道",
+      "difficulty": 2
+    },
+    {
+      "id": 28,
+      "word": "tap",
+      "phonetic": "/tæp/",
+      "pos": "v",
+      "meaning": "轻 叩",
+      "difficulty": 1
+    },
+    {
+      "id": 29,
+      "word": "nervous",
+      "phonetic": "/ˈnɜːrvəs/",
+      "pos": "adj",
+      "meaning": "紧 张 的",
+      "difficulty": 3
+    },
+    {
+      "id": 30,
+      "word": "deliberate",
+      "phonetic": "/dɪˈlɪbərət/",
+      "pos": "adj",
+      "meaning": "故 意 的 ； 从 容 的",
+      "difficulty": 4
+    },
+    {
+      "id": 31,
+      "word": "flat",
+      "phonetic": "/flæt/",
+      "pos": "adj",
+      "meaning": "平 淡 的",
+      "difficulty": 1
+    },
+    {
+      "id": 32,
+      "word": "discuss",
+      "phonetic": "/dɪˈskʌs/",
+      "pos": "v",
+      "meaning": "讨 论",
+      "difficulty": 3
+    },
+    {
+      "id": 33,
+      "word": "enter",
+      "phonetic": "/ˈentər/",
+      "pos": "v",
+      "meaning": "进 入",
+      "difficulty": 2
+    },
+    {
+      "id": 34,
+      "word": "marriage",
+      "phonetic": "/ˈmærɪdʒ/",
+      "pos": "n",
+      "meaning": "婚 姻",
+      "difficulty": 3
+    },
+    {
+      "id": 35,
+      "word": "duration",
+      "phonetic": "/djʊˈreɪʃn/",
+      "pos": "n",
+      "meaning": "持 续 时 间",
+      "difficulty": 3
+    },
+    {
+      "id": 36,
+      "word": "exchange",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "pos": "n",
+      "meaning": "交 换",
+      "difficulty": 3
+    },
+    {
+      "id": 37,
+      "word": "cover",
+      "phonetic": "/ˈkʌvər/",
+      "pos": "v",
+      "meaning": "支 付",
+      "difficulty": 2
+    },
+    {
+      "id": 38,
+      "word": "legal",
+      "phonetic": "/ˈliːɡl/",
+      "pos": "adj",
+      "meaning": "法 律 的",
+      "difficulty": 2
+    },
+    {
+      "id": 39,
+      "word": "limit",
+      "phonetic": "/ˈlɪmɪt/",
+      "pos": "n",
+      "meaning": "上 限",
+      "difficulty": 2
+    },
+    {
+      "id": 40,
+      "word": "receive",
+      "phonetic": "/rɪˈsiːv/",
+      "pos": "v",
+      "meaning": "收 到",
+      "difficulty": 3
+    },
+    {
+      "id": 41,
+      "word": "allowance",
+      "phonetic": "/allowance/",
+      "pos": "n",
+      "meaning": "个 人 津 贴",
+      "difficulty": 4
+    },
+    {
+      "id": 42,
+      "word": "immediate",
+      "phonetic": "/ɪˈmiːdiət/",
+      "pos": "adj",
+      "meaning": "立 刻 的",
+      "difficulty": 4
+    },
+    {
+      "id": 43,
+      "word": "response",
+      "phonetic": "/rɪˈspɒns/",
+      "pos": "n",
+      "meaning": "回 应",
+      "difficulty": 3
+    },
+    {
+      "id": 44,
+      "word": "Partly",
+      "phonetic": "/ˈpɑːrtli/",
+      "pos": "adv",
+      "meaning": "部 分 地",
+      "difficulty": 2
+    },
+    {
+      "id": 45,
+      "word": "figure",
+      "phonetic": "/ˈfɪɡjər/",
+      "pos": "n",
+      "meaning": "数 字",
+      "difficulty": 2
+    },
+    {
+      "id": 46,
+      "word": "exceed",
+      "phonetic": "/ɪkˈsiːd/",
+      "pos": "v",
+      "meaning": "超 过",
+      "difficulty": 2
+    },
+    {
+      "id": 47,
+      "word": "worst",
+      "phonetic": "/wɜːrst/",
+      "pos": "adj",
+      "meaning": "最 坏 的",
+      "difficulty": 2
+    },
+    {
+      "id": 48,
+      "word": "expectation",
+      "phonetic": "/ˌekspekˈteɪʃn/",
+      "pos": "n",
+      "meaning": "预 期",
+      "difficulty": 5
+    },
+    {
+      "id": 49,
+      "word": "Partly",
+      "phonetic": "/ˈpɑːrtli/",
+      "pos": "adv",
+      "meaning": "部 分 地",
+      "difficulty": 2
+    },
+    {
+      "id": 50,
+      "word": "demeanor",
+      "phonetic": "/dɪˈmiːnər/",
+      "pos": "n",
+      "meaning": "举 止",
+      "difficulty": 3
+    },
+    {
+      "id": 51,
+      "word": "abnormal",
+      "phonetic": "/æbˈnɔːrml/",
+      "pos": "adj",
+      "meaning": "反 常 的",
+      "difficulty": 3
+    },
+    {
+      "id": 52,
+      "word": "awkward",
+      "phonetic": "/ˈɔːkwərd/",
+      "pos": "adj",
+      "meaning": "尴 尬 的",
+      "difficulty": 3
+    },
+    {
+      "id": 53,
+      "word": "emotional",
+      "phonetic": "/ɪˈməʊʃənl/",
+      "pos": "adj",
+      "meaning": "情 绪 的",
+      "difficulty": 4
+    },
+    {
+      "id": 54,
+      "word": "fluctuation",
+      "phonetic": "/ˌflʌktʃuˈeɪʃn/",
+      "pos": "n",
+      "meaning": "波 动",
+      "difficulty": 5
+    },
+    {
+      "id": 55,
+      "word": "precise",
+      "phonetic": "/prɪˈsaɪs/",
+      "pos": "adj",
+      "meaning": "精 确 的",
+      "difficulty": 3
+    },
+    {
+      "id": 56,
+      "word": "output",
+      "phonetic": "/ˈaʊtpʊt/",
+      "pos": "v",
+      "meaning": "输 出",
+      "difficulty": 2
+    },
+    {
+      "id": 57,
+      "word": "predetermined",
+      "phonetic": "/ˌpriːdɪˈtɜːrmɪnd/",
+      "pos": "adj",
+      "meaning": "预 先 设 定 的",
+      "difficulty": 5
+    },
+    {
+      "id": 58,
+      "word": "it",
+      "phonetic": "/it/",
+      "pos": "phrase",
+      "meaning": "考 虑 一 下",
+      "difficulty": 1
+    },
+    {
+      "id": 59,
+      "word": "hours",
+      "phonetic": "/ˈaʊərz/",
+      "pos": "n",
+      "meaning": "小 时",
+      "difficulty": 2
+    },
+    {
+      "id": 60,
+      "word": "advice",
+      "phonetic": "/advice/",
+      "pos": "n",
+      "meaning": "我 的 建 议",
+      "difficulty": 2
+    },
+    {
+      "id": 61,
+      "word": "overthink",
+      "phonetic": "/overthink/",
+      "pos": "v",
+      "meaning": "别 想 太 多",
+      "difficulty": 4
+    },
+    {
+      "id": 62,
+      "word": "rational",
+      "phonetic": "/ˈræʃnəl/",
+      "pos": "adj",
+      "meaning": "理 性 的",
+      "difficulty": 3
+    },
+    {
+      "id": 63,
+      "word": "calculated",
+      "phonetic": "/ˈkælkjʊleɪtɪd/",
+      "pos": "adj",
+      "meaning": "深 思 熟 虑 的",
+      "difficulty": 4
+    },
+    {
+      "id": 64,
+      "word": "need",
+      "phonetic": "/need/",
+      "pos": "phrase",
+      "meaning": "各 取 所 需",
+      "difficulty": 1
+    }
+  ],
+  "renderModes": {
+    "raw": "B abrupt \\ 25 freelance appeal accumulate savings credit card limit borrow \\'97\\'97 lend \\ pour drizzle drench torrential umbrella subside \\ message propose arrangement compensation \\ B entrepreneur \\'97\\'97 colossal conglomerate actual \\ intersection empire tycoon orbit \\ \\ tap \\'97\\'97 nervous deliberate flat discuss \\ enter marriage duration exchange cover legal \\'97\\'97 upper limit receive personal allowance \\ immediate response \\\n Partly \\'97\\'97 figure exceed worst expectation Partly demeanor abnormal awkward emotional fluctuation precise output predetermined \\ think about it \\ 24 hours my advice \\'97\\'97 don't overthink rational calculated We both get what we need \\\n\\\n\\",
+    "immersive": "B市 的 九 月 ， 雨 总 是 来 得 很 <span class=\"word-hl\" data-word=\"abrupt\">abrupt</span>。 \\\n我 叫 林 晚 ， 25岁 ， 是 一 名 <span class=\"word-hl\" data-word=\"freelance\">freelance</span> 同 声 传 译 员 。 父 亲 入 狱 三 年 了 ， 案 子 一 直 在 <span class=\"word-hl\" data-word=\"appeal\">appeal</span> 阶 段 ， 律 师 费 已 经 <span class=\"word-hl\" data-word=\"accumulate\">accumulate</span> 到 一 个 天 文 数 字 。 我 的 <span class=\"word-hl\" data-word=\"savings\">savings</span> 加 起 来 不 到 六 万 ， credit <span class=\"word-hl\" data-word=\"card\">card</span> 刷 到 了 <span class=\"word-hl\" data-word=\"limit\">limit</span>， 能 <span class=\"word-hl\" data-word=\"borrow\">borrow</span> 的 朋 友 都 问 过 了 \\'97\\'97没 人 再 愿 意 <span class=\"word-hl\" data-word=\"lend\">lend</span> 我 一 分 钱 。 \\\n那 天 晚 上 九 点 ， 我 走 出 写 字 楼 的 时 候 ， 天 空 已 经 开 始 <span class=\"word-hl\" data-word=\"pour\">pour</span> 了 。 这 不 是 普 通 的 <span class=\"word-hl\" data-word=\"drizzle\">drizzle</span>， 而 是 那 种 能 在 十 分 钟 内 把 整 条 街 <span class=\"word-hl\" data-word=\"drench\">drench</span> 透 的 <span class=\"word-hl\" data-word=\"torrential\">torrential</span> 雨 。 我 没 有 带 <span class=\"word-hl\" data-word=\"umbrella\">umbrella</span>， 只 能 缩 在 屋 檐 下 等 雨 势 <span class=\"word-hl\" data-word=\"subside\">subside</span>。 \\\n手 机 震 动 了 一 下 。 一 条 陌 生 号 码 发 来 的 <span class=\"word-hl\" data-word=\"message\">message</span>： 「 林 小 姐 ， 傅 总 想 与 您 <span class=\"word-hl\" data-word=\"propose\">propose</span> 一 项 <span class=\"word-hl\" data-word=\"arrangement\">arrangement</span>。 <span class=\"word-hl\" data-word=\"compensation\">compensation</span> 会 让 您 满 意 的 。 车 已 在 楼 下 等 候 。 」 \\\n哪 个 傅 总 ？ B市 姓 傅 的 <span class=\"word-hl\" data-word=\"entrepreneur\">entrepreneur</span> 不 少 ， 但 能 让 别 人 用 「 傅 总 」 称 呼 而 不 加 姓 氏 的 ， 这 座 城 市 大 概 只 有 一 个 \\'97\\'97傅 氏 集 团 这 个 <span class=\"word-hl\" data-word=\"colossal\">colossal</span> <span class=\"word-hl\" data-word=\"conglomerate\">conglomerate</span> 的 <span class=\"word-hl\" data-word=\"actual\">actual</span> 控 制 者 ， 傅 司 宴 。 \\\n但 我 跟 他 没 有 任 何 <span class=\"word-hl\" data-word=\"intersection\">intersection</span>。 一 个 做 同 声 传 译 的 小 透 明 ， 和 一 个 掌 管 八 百 亿 商 业 <span class=\"word-hl\" data-word=\"empire\">empire</span> 的 <span class=\"word-hl\" data-word=\"tycoon\">tycoon</span>， 活 在 完 全 不 同 的 <span class=\"word-hl\" data-word=\"orbit\">orbit</span> 上 。 \\\n半 小 时 后 ， 我 被 专 车 接 到 了 半 山 庄 园 。 \\\n傅 司 宴 在 客 厅 的 沙 发 上 坐 下 ， 手 指 在 桌 面 上 轻 <span class=\"word-hl\" data-word=\"tap\">tap</span> 了 两 下 \\'97\\'97这 不 是 <span class=\"word-hl\" data-word=\"nervous\">nervous</span> 的 习 惯 ， 而 是 一 种 <span class=\"word-hl\" data-word=\"deliberate\">deliberate</span> 节 奏 控 制 。 然 后 他 开 口 了 ， 语 气 <span class=\"word-hl\" data-word=\"flat\">flat</span> 得 像 在 <span class=\"word-hl\" data-word=\"discuss\">discuss</span> 天 气 ： \\\n「 我 不 绕 圈 子 。 我 希 望 你 和 我 <span class=\"word-hl\" data-word=\"enter\">enter</span> 一 段 <span class=\"word-hl\" data-word=\"marriage\">marriage</span>， <span class=\"word-hl\" data-word=\"duration\">duration</span> 三 年 。 作 为 <span class=\"word-hl\" data-word=\"exchange\">exchange</span>， 我 会 <span class=\"word-hl\" data-word=\"cover\">cover</span> 你 父 亲 案 子 的 所 有 <span class=\"word-hl\" data-word=\"legal\">legal</span> 费 用 \\'97\\'97没 有 upper <span class=\"word-hl\" data-word=\"limit\">limit</span>。 此 外 ， 每 季 度 你 会 <span class=\"word-hl\" data-word=\"receive\">receive</span> 一 笔 personal <span class=\"word-hl\" data-word=\"allowance\">allowance</span>， 金 额 两 百 万 。 」 \\\n我 没 有 <span class=\"word-hl\" data-word=\"immediate\">immediate</span> 的 <span class=\"word-hl\" data-word=\"response\">response</span>。 \\\n <span class=\"word-hl\" data-word=\"Partly\">Partly</span> 是 因 为 震 惊 \\'97\\'97两 千 万 加 上 无 上 限 的 法 律 支 持 ， 这 <span class=\"word-hl\" data-word=\"figure\">figure</span> 远 远 <span class=\"word-hl\" data-word=\"exceed\">exceed</span> 了 我 的 <span class=\"word-hl\" data-word=\"worst\">worst</span> <span class=\"word-hl\" data-word=\"expectation\">expectation</span>。 <span class=\"word-hl\" data-word=\"Partly\">Partly</span> 是 因 为 他 的 <span class=\"word-hl\" data-word=\"demeanor\">demeanor</span> 太 <span class=\"word-hl\" data-word=\"abnormal\">abnormal</span> 了 。 正 常 人 提 出 契 约 婚 姻 ， 多 少 会 带 点 <span class=\"word-hl\" data-word=\"awkward\">awkward</span> 或 <span class=\"word-hl\" data-word=\"emotional\">emotional</span> <span class=\"word-hl\" data-word=\"fluctuation\">fluctuation</span> 吧 ？ 但 他 全 程 冷 静 ， 像 一 台 <span class=\"word-hl\" data-word=\"precise\">precise</span> 的 机 器 在 <span class=\"word-hl\" data-word=\"output\">output</span> 一 个 <span class=\"word-hl\" data-word=\"predetermined\">predetermined</span> 结 果 。 \\\n「 我 可 以 think about <span class=\"word-hl\" data-word=\"it\">it</span>？ 」 我 问 。 \\\n「 当 然 。 你 有 24 <span class=\"word-hl\" data-word=\"hours\">hours</span>。 」 他 站 起 来 ， 「 但 my <span class=\"word-hl\" data-word=\"advice\">advice</span>\\'97\\'97 don't <span class=\"word-hl\" data-word=\"overthink\">overthink</span>。 这 对 你 是 一 个 <span class=\"word-hl\" data-word=\"rational\">rational</span> 的 选 择 ， 对 我 来 说 也 是 一 个 <span class=\"word-hl\" data-word=\"calculated\">calculated</span> 决 定 。 We both get what we <span class=\"word-hl\" data-word=\"need\">need</span>。 」 \\\n\\\n\\",
+    "perspective": "B市 的 九 月 ， 雨 总 是 来 得 很 abrupt<span class=\"meaning\">(adj. 突 然 的 )</span>。 \\\n我 叫 林 晚 ， 25岁 ， 是 一 名 freelance<span class=\"meaning\">(adj. 自 由 职 业 的 )</span> 同 声 传 译 员 。 父 亲 入 狱 三 年 了 ， 案 子 一 直 在 appeal<span class=\"meaning\">(n. 上 诉 )</span> 阶 段 ， 律 师 费 已 经 accumulate<span class=\"meaning\">(v. 积 累 )</span> 到 一 个 天 文 数 字 。 我 的 savings<span class=\"meaning\">(n. 存 款 )</span> 加 起 来 不 到 六 万 ， credit card<span class=\"meaning\">(n. 信 用 卡 )</span> 刷 到 了 limit<span class=\"meaning\">(n. 限 额 )</span>， 能 borrow<span class=\"meaning\">(v. 借 )</span> 的 朋 友 都 问 过 了 \\'97\\'97没 人 再 愿 意 lend<span class=\"meaning\">(v. 借 给 )</span> 我 一 分 钱 。 \\\n那 天 晚 上 九 点 ， 我 走 出 写 字 楼 的 时 候 ， 天 空 已 经 开 始 pour<span class=\"meaning\">(v. 倾 盆 而 下 )</span> 了 。 这 不 是 普 通 的 drizzle<span class=\"meaning\">(n. 毛 毛 雨 )</span>， 而 是 那 种 能 在 十 分 钟 内 把 整 条 街 drench<span class=\"meaning\">(v. 浸 湿 )</span> 透 的 torrential<span class=\"meaning\">(adj. 倾 盆 的 )</span> 雨 。 我 没 有 带 umbrella<span class=\"meaning\">(n. 雨 伞 )</span>， 只 能 缩 在 屋 檐 下 等 雨 势 subside<span class=\"meaning\">(v. 减 退 )</span>。 \\\n手 机 震 动 了 一 下 。 一 条 陌 生 号 码 发 来 的 message<span class=\"meaning\">(n. 信 息 )</span>： 「 林 小 姐 ， 傅 总 想 与 您 propose<span class=\"meaning\">(v. 提 议 )</span> 一 项 arrangement<span class=\"meaning\">(n. 安 排 )</span>。 compensation<span class=\"meaning\">(n. 酬 劳 )</span> 会 让 您 满 意 的 。 车 已 在 楼 下 等 候 。 」 \\\n哪 个 傅 总 ？ B市 姓 傅 的 entrepreneur<span class=\"meaning\">(n. 企 业 家 )</span> 不 少 ， 但 能 让 别 人 用 「 傅 总 」 称 呼 而 不 加 姓 氏 的 ， 这 座 城 市 大 概 只 有 一 个 \\'97\\'97傅 氏 集 团 这 个 colossal<span class=\"meaning\">(adj. 巨 大 的 )</span> conglomerate<span class=\"meaning\">(n. 企 业 集 团 )</span> 的 actual<span class=\"meaning\">(adj. 实 际 的 )</span> 控 制 者 ， 傅 司 宴 。 \\\n但 我 跟 他 没 有 任 何 intersection<span class=\"meaning\">(n. 交 集 )</span>。 一 个 做 同 声 传 译 的 小 透 明 ， 和 一 个 掌 管 八 百 亿 商 业 empire<span class=\"meaning\">(n. 帝 国 )</span> 的 tycoon<span class=\"meaning\">(n. 大 亨 )</span>， 活 在 完 全 不 同 的 orbit<span class=\"meaning\">(n. 轨 道 )</span> 上 。 \\\n半 小 时 后 ， 我 被 专 车 接 到 了 半 山 庄 园 。 \\\n傅 司 宴 在 客 厅 的 沙 发 上 坐 下 ， 手 指 在 桌 面 上 轻 tap<span class=\"meaning\">(v. 轻 叩 )</span> 了 两 下 \\'97\\'97这 不 是 nervous<span class=\"meaning\">(adj. 紧 张 的 )</span> 的 习 惯 ， 而 是 一 种 deliberate<span class=\"meaning\">(adj. 故 意 的 ； 从 容 的 )</span> 节 奏 控 制 。 然 后 他 开 口 了 ， 语 气 flat<span class=\"meaning\">(adj. 平 淡 的 )</span> 得 像 在 discuss<span class=\"meaning\">(v. 讨 论 )</span> 天 气 ： \\\n「 我 不 绕 圈 子 。 我 希 望 你 和 我 enter<span class=\"meaning\">(v. 进 入 )</span> 一 段 marriage<span class=\"meaning\">(n. 婚 姻 )</span>， duration<span class=\"meaning\">(n. 持 续 时 间 )</span> 三 年 。 作 为 exchange<span class=\"meaning\">(n. 交 换 )</span>， 我 会 cover<span class=\"meaning\">(v. 支 付 )</span> 你 父 亲 案 子 的 所 有 legal<span class=\"meaning\">(adj. 法 律 的 )</span> 费 用 \\'97\\'97没 有 upper limit<span class=\"meaning\">(n. 上 限 )</span>。 此 外 ， 每 季 度 你 会 receive<span class=\"meaning\">(v. 收 到 )</span> 一 笔 personal allowance<span class=\"meaning\">(n. 个 人 津 贴 )</span>， 金 额 两 百 万 。 」 \\\n我 没 有 immediate<span class=\"meaning\">(adj. 立 刻 的 )</span> 的 response<span class=\"meaning\">(n. 回 应 )</span>。 \\\n Partly<span class=\"meaning\">(adv. 部 分 地 )</span> 是 因 为 震 惊 \\'97\\'97两 千 万 加 上 无 上 限 的 法 律 支 持 ， 这 figure<span class=\"meaning\">(n. 数 字 )</span> 远 远 exceed<span class=\"meaning\">(v. 超 过 )</span> 了 我 的 worst<span class=\"meaning\">(adj. 最 坏 的 )</span> expectation<span class=\"meaning\">(n. 预 期 )</span>。 Partly<span class=\"meaning\">(adv. 部 分 地 )</span> 是 因 为 他 的 demeanor<span class=\"meaning\">(n. 举 止 )</span> 太 abnormal<span class=\"meaning\">(adj. 反 常 的 )</span> 了 。 正 常 人 提 出 契 约 婚 姻 ， 多 少 会 带 点 awkward<span class=\"meaning\">(adj. 尴 尬 的 )</span> 或 emotional<span class=\"meaning\">(adj. 情 绪 的 )</span> fluctuation<span class=\"meaning\">(n. 波 动 )</span> 吧 ？ 但 他 全 程 冷 静 ， 像 一 台 precise<span class=\"meaning\">(adj. 精 确 的 )</span> 的 机 器 在 output<span class=\"meaning\">(v. 输 出 )</span> 一 个 predetermined<span class=\"meaning\">(adj. 预 先 设 定 的 )</span> 结 果 。 \\\n「 我 可 以 think about it<span class=\"meaning\">(phrase. 考 虑 一 下 )</span>？ 」 我 问 。 \\\n「 当 然 。 你 有 24 hours<span class=\"meaning\">(n. 小 时 )</span>。 」 他 站 起 来 ， 「 但 my advice<span class=\"meaning\">(n. 我 的 建 议 )</span>\\'97\\'97 don't overthink<span class=\"meaning\">(v. 别 想 太 多 )</span>。 这 对 你 是 一 个 rational<span class=\"meaning\">(adj. 理 性 的 )</span> 的 选 择 ， 对 我 来 说 也 是 一 个 calculated<span class=\"meaning\">(adj. 深 思 熟 虑 的 )</span> 决 定 。 We both get what we need<span class=\"meaning\">(phrase. 各 取 所 需 )</span>。 」 \\\n\\\n\\",
+    "challenge": "B市 的 九 月 ， 雨 总 是 来 得 很 <span class=\"hint\">(adj. 突 然 的 )</span><input class=\"word-input\" data-word=\"abrupt\">。 \\\n我 叫 林 晚 ， 25岁 ， 是 一 名 <span class=\"hint\">(adj. 自 由 职 业 的 )</span><input class=\"word-input\" data-word=\"freelance\"> 同 声 传 译 员 。 父 亲 入 狱 三 年 了 ， 案 子 一 直 在 <span class=\"hint\">(n. 上 诉 )</span><input class=\"word-input\" data-word=\"appeal\"> 阶 段 ， 律 师 费 已 经 <span class=\"hint\">(v. 积 累 )</span><input class=\"word-input\" data-word=\"accumulate\"> 到 一 个 天 文 数 字 。 我 的 <span class=\"hint\">(n. 存 款 )</span><input class=\"word-input\" data-word=\"savings\"> 加 起 来 不 到 六 万 ， credit <span class=\"hint\">(n. 信 用 卡 )</span><input class=\"word-input\" data-word=\"card\"> 刷 到 了 <span class=\"hint\">(n. 限 额 )</span><input class=\"word-input\" data-word=\"limit\">， 能 <span class=\"hint\">(v. 借 )</span><input class=\"word-input\" data-word=\"borrow\"> 的 朋 友 都 问 过 了 \\'97\\'97没 人 再 愿 意 <span class=\"hint\">(v. 借 给 )</span><input class=\"word-input\" data-word=\"lend\"> 我 一 分 钱 。 \\\n那 天 晚 上 九 点 ， 我 走 出 写 字 楼 的 时 候 ， 天 空 已 经 开 始 <span class=\"hint\">(v. 倾 盆 而 下 )</span><input class=\"word-input\" data-word=\"pour\"> 了 。 这 不 是 普 通 的 <span class=\"hint\">(n. 毛 毛 雨 )</span><input class=\"word-input\" data-word=\"drizzle\">， 而 是 那 种 能 在 十 分 钟 内 把 整 条 街 <span class=\"hint\">(v. 浸 湿 )</span><input class=\"word-input\" data-word=\"drench\"> 透 的 <span class=\"hint\">(adj. 倾 盆 的 )</span><input class=\"word-input\" data-word=\"torrential\"> 雨 。 我 没 有 带 <span class=\"hint\">(n. 雨 伞 )</span><input class=\"word-input\" data-word=\"umbrella\">， 只 能 缩 在 屋 檐 下 等 雨 势 <span class=\"hint\">(v. 减 退 )</span><input class=\"word-input\" data-word=\"subside\">。 \\\n手 机 震 动 了 一 下 。 一 条 陌 生 号 码 发 来 的 <span class=\"hint\">(n. 信 息 )</span><input class=\"word-input\" data-word=\"message\">： 「 林 小 姐 ， 傅 总 想 与 您 <span class=\"hint\">(v. 提 议 )</span><input class=\"word-input\" data-word=\"propose\"> 一 项 <span class=\"hint\">(n. 安 排 )</span><input class=\"word-input\" data-word=\"arrangement\">。 <span class=\"hint\">(n. 酬 劳 )</span><input class=\"word-input\" data-word=\"compensation\"> 会 让 您 满 意 的 。 车 已 在 楼 下 等 候 。 」 \\\n哪 个 傅 总 ？ B市 姓 傅 的 <span class=\"hint\">(n. 企 业 家 )</span><input class=\"word-input\" data-word=\"entrepreneur\"> 不 少 ， 但 能 让 别 人 用 「 傅 总 」 称 呼 而 不 加 姓 氏 的 ， 这 座 城 市 大 概 只 有 一 个 \\'97\\'97傅 氏 集 团 这 个 <span class=\"hint\">(adj. 巨 大 的 )</span><input class=\"word-input\" data-word=\"colossal\"> <span class=\"hint\">(n. 企 业 集 团 )</span><input class=\"word-input\" data-word=\"conglomerate\"> 的 <span class=\"hint\">(adj. 实 际 的 )</span><input class=\"word-input\" data-word=\"actual\"> 控 制 者 ， 傅 司 宴 。 \\\n但 我 跟 他 没 有 任 何 <span class=\"hint\">(n. 交 集 )</span><input class=\"word-input\" data-word=\"intersection\">。 一 个 做 同 声 传 译 的 小 透 明 ， 和 一 个 掌 管 八 百 亿 商 业 <span class=\"hint\">(n. 帝 国 )</span><input class=\"word-input\" data-word=\"empire\"> 的 <span class=\"hint\">(n. 大 亨 )</span><input class=\"word-input\" data-word=\"tycoon\">， 活 在 完 全 不 同 的 <span class=\"hint\">(n. 轨 道 )</span><input class=\"word-input\" data-word=\"orbit\"> 上 。 \\\n半 小 时 后 ， 我 被 专 车 接 到 了 半 山 庄 园 。 \\\n傅 司 宴 在 客 厅 的 沙 发 上 坐 下 ， 手 指 在 桌 面 上 轻 <span class=\"hint\">(v. 轻 叩 )</span><input class=\"word-input\" data-word=\"tap\"> 了 两 下 \\'97\\'97这 不 是 <span class=\"hint\">(adj. 紧 张 的 )</span><input class=\"word-input\" data-word=\"nervous\"> 的 习 惯 ， 而 是 一 种 <span class=\"hint\">(adj. 故 意 的 ； 从 容 的 )</span><input class=\"word-input\" data-word=\"deliberate\"> 节 奏 控 制 。 然 后 他 开 口 了 ， 语 气 <span class=\"hint\">(adj. 平 淡 的 )</span><input class=\"word-input\" data-word=\"flat\"> 得 像 在 <span class=\"hint\">(v. 讨 论 )</span><input class=\"word-input\" data-word=\"discuss\"> 天 气 ： \\\n「 我 不 绕 圈 子 。 我 希 望 你 和 我 <span class=\"hint\">(v. 进 入 )</span><input class=\"word-input\" data-word=\"enter\"> 一 段 <span class=\"hint\">(n. 婚 姻 )</span><input class=\"word-input\" data-word=\"marriage\">， <span class=\"hint\">(n. 持 续 时 间 )</span><input class=\"word-input\" data-word=\"duration\"> 三 年 。 作 为 <span class=\"hint\">(n. 交 换 )</span><input class=\"word-input\" data-word=\"exchange\">， 我 会 <span class=\"hint\">(v. 支 付 )</span><input class=\"word-input\" data-word=\"cover\"> 你 父 亲 案 子 的 所 有 <span class=\"hint\">(adj. 法 律 的 )</span><input class=\"word-input\" data-word=\"legal\"> 费 用 \\'97\\'97没 有 upper <span class=\"hint\">(n. 上 限 )</span><input class=\"word-input\" data-word=\"limit\">。 此 外 ， 每 季 度 你 会 <span class=\"hint\">(v. 收 到 )</span><input class=\"word-input\" data-word=\"receive\"> 一 笔 personal <span class=\"hint\">(n. 个 人 津 贴 )</span><input class=\"word-input\" data-word=\"allowance\">， 金 额 两 百 万 。 」 \\\n我 没 有 <span class=\"hint\">(adj. 立 刻 的 )</span><input class=\"word-input\" data-word=\"immediate\"> 的 <span class=\"hint\">(n. 回 应 )</span><input class=\"word-input\" data-word=\"response\">。 \\\n <span class=\"hint\">(adv. 部 分 地 )</span><input class=\"word-input\" data-word=\"Partly\"> 是 因 为 震 惊 \\'97\\'97两 千 万 加 上 无 上 限 的 法 律 支 持 ， 这 <span class=\"hint\">(n. 数 字 )</span><input class=\"word-input\" data-word=\"figure\"> 远 远 <span class=\"hint\">(v. 超 过 )</span><input class=\"word-input\" data-word=\"exceed\"> 了 我 的 <span class=\"hint\">(adj. 最 坏 的 )</span><input class=\"word-input\" data-word=\"worst\"> <span class=\"hint\">(n. 预 期 )</span><input class=\"word-input\" data-word=\"expectation\">。 <span class=\"hint\">(adv. 部 分 地 )</span><input class=\"word-input\" data-word=\"Partly\"> 是 因 为 他 的 <span class=\"hint\">(n. 举 止 )</span><input class=\"word-input\" data-word=\"demeanor\"> 太 <span class=\"hint\">(adj. 反 常 的 )</span><input class=\"word-input\" data-word=\"abnormal\"> 了 。 正 常 人 提 出 契 约 婚 姻 ， 多 少 会 带 点 <span class=\"hint\">(adj. 尴 尬 的 )</span><input class=\"word-input\" data-word=\"awkward\"> 或 <span class=\"hint\">(adj. 情 绪 的 )</span><input class=\"word-input\" data-word=\"emotional\"> <span class=\"hint\">(n. 波 动 )</span><input class=\"word-input\" data-word=\"fluctuation\"> 吧 ？ 但 他 全 程 冷 静 ， 像 一 台 <span class=\"hint\">(adj. 精 确 的 )</span><input class=\"word-input\" data-word=\"precise\"> 的 机 器 在 <span class=\"hint\">(v. 输 出 )</span><input class=\"word-input\" data-word=\"output\"> 一 个 <span class=\"hint\">(adj. 预 先 设 定 的 )</span><input class=\"word-input\" data-word=\"predetermined\"> 结 果 。 \\\n「 我 可 以 think about <span class=\"hint\">(phrase. 考 虑 一 下 )</span><input class=\"word-input\" data-word=\"it\">？ 」 我 问 。 \\\n「 当 然 。 你 有 24 <span class=\"hint\">(n. 小 时 )</span><input class=\"word-input\" data-word=\"hours\">。 」 他 站 起 来 ， 「 但 my <span class=\"hint\">(n. 我 的 建 议 )</span><input class=\"word-input\" data-word=\"advice\">\\'97\\'97 don't <span class=\"hint\">(v. 别 想 太 多 )</span><input class=\"word-input\" data-word=\"overthink\">。 这 对 你 是 一 个 <span class=\"hint\">(adj. 理 性 的 )</span><input class=\"word-input\" data-word=\"rational\"> 的 选 择 ， 对 我 来 说 也 是 一 个 <span class=\"hint\">(adj. 深 思 熟 虑 的 )</span><input class=\"word-input\" data-word=\"calculated\"> 决 定 。 We both get what we <span class=\"hint\">(phrase. 各 取 所 需 )</span><input class=\"word-input\" data-word=\"need\">。 」 \\\n\\\n\\"
+  }
+}

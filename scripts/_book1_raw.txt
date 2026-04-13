@@ -1,0 +1,1153 @@
+《契约成瘾》
+
+第 01 章：雨夜的敲门声
+B市的九月，雨总是来得很 abrupt(adj. 突然的)。
+我叫林晚，25岁，是一名 freelance(adj. 自由职业的) 同声传译员。父亲入狱三年了，案子一直在 appeal(n. 上诉) 阶段，律师费已经 accumulate(v. 积累) 到一个天文数字。我的 savings(n. 存款) 加起来不到六万，credit card(n. 信用卡) 刷到了 limit(n. 限额)，能 borrow(v. 借) 的朋友都问过了——没人再愿意 lend(v. 借给) 我一分钱。
+那天晚上九点，我走出写字楼的时候，天空已经开始 pour(v. 倾盆而下) 了。这不是普通的 drizzle(n. 毛毛雨)，而是那种能在十分钟内把整条街 drench(v. 浸湿) 透的 torrential(adj. 倾盆的) 雨。我没有带 umbrella(n. 雨伞)，只能缩在屋檐下等雨势 subside(v. 减退)。
+手机震动了一下。一条陌生号码发来的 message(n. 信息)：「林小姐，傅总想与您 propose(v. 提议) 一项 arrangement(n. 安排)。compensation(n. 酬劳) 会让您满意的。车已在楼下等候。」
+哪个傅总？B市姓傅的 entrepreneur(n. 企业家) 不少，但能让别人用「傅总」称呼而不加姓氏的，这座城市大概只有一个——傅氏集团这个 colossal(adj. 巨大的) conglomerate(n. 企业集团) 的 actual(adj. 实际的) 控制者，傅司宴。
+但我跟他没有任何 intersection(n. 交集)。一个做同声传译的小透明，和一个掌管八百亿商业 empire(n. 帝国) 的 tycoon(n. 大亨)，活在完全不同的 orbit(n. 轨道) 上。
+半小时后，我被专车接到了半山庄园。
+傅司宴在客厅的沙发上坐下，手指在桌面上轻 tap(v. 轻叩) 了两下——这不是 nervous(adj. 紧张的) 的习惯，而是一种 deliberate(adj. 故意的；从容的) 节奏控制。然后他开口了，语气 flat(adj. 平淡的) 得像在 discuss(v. 讨论) 天气：
+「我不绕圈子。我希望你和我 enter(v. 进入) 一段 marriage(n. 婚姻)，duration(n. 持续时间) 三年。作为 exchange(n. 交换)，我会 cover(v. 支付) 你父亲案子的所有 legal(adj. 法律的) 费用——没有 upper limit(n. 上限)。此外，每季度你会 receive(v. 收到) 一笔 personal allowance(n. 个人津贴)，金额两百万。」
+我没有 immediate(adj. 立刻的) 的 response(n. 回应)。
+Partly(adv. 部分地) 是因为震惊——两千万加上无上限的法律支持，这 figure(n. 数字) 远远 exceed(v. 超过) 了我的 worst(adj. 最坏的) expectation(n. 预期)。Partly(adv. 部分地) 是因为他的 demeanor(n. 举止) 太 abnormal(adj. 反常的) 了。正常人提出契约婚姻，多少会带点 awkward(adj. 尴尬的) 或 emotional(adj. 情绪的) fluctuation(n. 波动) 吧？但他全程冷静，像一台 precise(adj. 精确的) 的机器在 output(v. 输出) 一个 predetermined(adj. 预先设定的) 结果。
+「我可以 think about it(phrase. 考虑一下)？」我问。
+「当然。你有 24 hours(n. 小时)。」他站起来，「但 my advice(n. 我的建议)——don't overthink(v. 别想太多)。这对你是一个 rational(adj. 理性的) 的选择，对我来说也是一个 calculated(adj. 深思熟虑的) 决定。We both get what we need(phrase. 各取所需)。」
+
+本章 vocabList (整理入库)
+JavaScript
+[
+  { "word": "abrupt", "phonetic": "/əˈbrʌpt/", "meaning": "adj. 突然的", "difficulty": "intermediate" },
+  { "word": "freelance", "phonetic": "/ˈfriːlɑːns/", "meaning": "adj. 自由职业的", "difficulty": "intermediate" },
+  { "word": "appeal", "phonetic": "/əˈpiːl/", "meaning": "n. 上诉", "difficulty": "intermediate" },
+  { "word": "accumulate", "phonetic": "/əˈkjuːmjəleɪt/", "meaning": "v. 积累", "difficulty": "intermediate" },
+  { "word": "savings", "phonetic": "/ˈseɪvɪŋz/", "meaning": "n. 存款", "difficulty": "beginner" },
+  { "word": "credit card", "phonetic": "/ˈkrɛdɪt kɑrd/", "meaning": "n. 信用卡", "difficulty": "beginner" },
+  { "word": "limit", "phonetic": "/ˈlɪmɪt/", "meaning": "n. 限额", "difficulty": "beginner" },
+  { "word": "borrow", "phonetic": "/ˈbɔroʊ/", "meaning": "v. 借", "difficulty": "beginner" },
+  { "word": "lend", "phonetic": "/lɛnd/", "meaning": "v. 借给", "difficulty": "beginner" },
+  { "word": "pour", "phonetic": "/pɔr/", "meaning": "v. 倾盆而下", "difficulty": "intermediate" },
+  { "word": "drizzle", "phonetic": "/ˈdrɪzəl/", "meaning": "n. 毛毛雨", "difficulty": "intermediate" },
+  { "word": "drench", "phonetic": "/drɛntʃ/", "meaning": "v. 浸湿", "difficulty": "intermediate" },
+  { "word": "torrential", "phonetic": "/təˈrɛnʃəl/", "meaning": "adj. 倾盆的", "difficulty": "advanced" },
+  { "word": "umbrella", "phonetic": "/əmˈbrɛlə/", "meaning": "n. 雨伞", "difficulty": "beginner" },
+  { "word": "subside", "phonetic": "/səbˈsaɪd/", "meaning": "v. 减退", "difficulty": "advanced" },
+  { "word": "message", "phonetic": "/ˈmɛsɪdʒ/", "meaning": "n. 信息", "difficulty": "beginner" },
+  { "word": "propose", "phonetic": "/prəˈpoʊz/", "meaning": "v. 提议", "difficulty": "intermediate" },
+  { "word": "arrangement", "phonetic": "/əˈreɪndʒmənt/", "meaning": "n. 安排", "difficulty": "intermediate" },
+  { "word": "compensation", "phonetic": "/ˌkɑmpənˈseɪʃən/", "meaning": "n. 酬劳", "difficulty": "advanced" },
+  { "word": "entrepreneur", "phonetic": "/ˌɑntrəprəˈnɜr/", "meaning": "n. 企业家", "difficulty": "advanced" },
+  { "word": "colossal", "phonetic": "/kəˈlɑsəl/", "meaning": "adj. 巨大的", "difficulty": "advanced" },
+  { "word": "conglomerate", "phonetic": "/kənˈglɑmərət/", "meaning": "n. 企业集团", "difficulty": "advanced" },
+  { "word": "actual", "phonetic": "/ˈækʧuəl/", "meaning": "adj. 实际的", "difficulty": "intermediate" },
+  { "word": "intersection", "phonetic": "/ˌɪntərˈsɛkʃən/", "meaning": "n. 交集", "difficulty": "intermediate" },
+  { "word": "empire", "phonetic": "/ˈɛmpaɪər/", "meaning": "n. 帝国", "difficulty": "intermediate" },
+  { "word": "tycoon", "phonetic": "/taɪˈkun/", "meaning": "n. 大亨", "difficulty": "advanced" },
+  { "word": "orbit", "phonetic": "/ˈɔrbɪt/", "meaning": "n. 轨道", "difficulty": "intermediate" },
+  { "word": "tap", "phonetic": "/tæp/", "meaning": "v. 轻叩", "difficulty": "beginner" },
+  { "word": "nervous", "phonetic": "/ˈnɜrvəs/", "meaning": "adj. 紧张的", "difficulty": "beginner" },
+  { "word": "deliberate", "phonetic": "/dɪˈlɪbərət/", "meaning": "adj. 故意的；从容的", "difficulty": "advanced" },
+  { "word": "flat", "phonetic": "/flæt/", "meaning": "adj. 平淡的", "difficulty": "beginner" },
+  { "word": "discuss", "phonetic": "/dɪˈskʌs/", "meaning": "v. 讨论", "difficulty": "beginner" },
+  { "word": "enter", "phonetic": "/ˈɛntər/", "meaning": "v. 进入", "difficulty": "beginner" },
+  { "word": "marriage", "phonetic": "/ˈmærɪdʒ/", "meaning": "n. 婚姻", "difficulty": "beginner" },
+  { "word": "duration", "phonetic": "/dʊˈreɪʃən/", "meaning": "n. 持续时间", "difficulty": "intermediate" },
+  { "word": "exchange", "phonetic": "/ɪksˈʧeɪndʒ/", "meaning": "n. 交换", "difficulty": "intermediate" },
+  { "word": "cover", "phonetic": "/ˈkʌvər/", "meaning": "v. 支付", "difficulty": "intermediate" },
+  { "word": "legal", "phonetic": "/ˈligəl/", "meaning": "adj. 法律的", "difficulty": "intermediate" },
+  { "word": "upper limit", "phonetic": "/ˈʌpər ˈlɪmɪt/", "meaning": "n. 上限", "difficulty": "intermediate" },
+  { "word": "receive", "phonetic": "/rɪˈsiv/", "meaning": "v. 收到", "difficulty": "beginner" },
+  { "word": "personal allowance", "phonetic": "/ˈpɜrsɪnɪl əˈlaʊəns/", "meaning": "n. 个人津贴", "difficulty": "advanced" },
+  { "word": "immediate", "phonetic": "/ɪˈmidiət/", "meaning": "adj. 立刻的", "difficulty": "intermediate" },
+  { "word": "response", "phonetic": "/rɪˈspɑns/", "meaning": "n. 回应", "difficulty": "intermediate" },
+  { "word": "partly", "phonetic": "/ˈpɑrtli/", "meaning": "adv. 部分地", "difficulty": "intermediate" },
+  { "word": "figure", "phonetic": "/ˈfɪgjər/", "meaning": "n. 数字", "difficulty": "intermediate" },
+  { "word": "exceed", "phonetic": "/ɪkˈsid/", "meaning": "v. 超过", "difficulty": "advanced" },
+  { "word": "worst", "phonetic": "/wɜrst/", "meaning": "adj. 最坏的", "difficulty": "beginner" },
+  { "word": "expectation", "phonetic": "/ˌɛkspɛkˈteɪʃən/", "meaning": "n. 预期", "difficulty": "intermediate" },
+  { "word": "demeanor", "phonetic": "/dɪˈminər/", "meaning": "n. 举止", "difficulty": "advanced" },
+  { "word": "abnormal", "phonetic": "/æbˈnɔrməl/", "meaning": "adj. 反常的", "difficulty": "intermediate" },
+  { "word": "awkward", "phonetic": "/ˈɔkwərd/", "meaning": "adj. 尴尬的", "difficulty": "intermediate" },
+  { "word": "emotional", "phonetic": "/ɪˈmoʊʃənəl/", "meaning": "adj. 情绪的", "difficulty": "intermediate" },
+  { "word": "fluctuation", "phonetic": "/ˌflʌkʧuˈeɪʃən/", "meaning": "n. 波动", "difficulty": "advanced" },
+  { "word": "precise", "phonetic": "/prɪˈsaɪs/", "meaning": "adj. 精确的", "difficulty": "intermediate" },
+  { "word": "output", "phonetic": "/ˈaʊtˌpʊt/", "meaning": "v. 输出", "difficulty": "intermediate" },
+  { "word": "predetermined", "phonetic": "/ˌpridɪˈtɜrmənd/", "meaning": "adj. 预先设定的", "difficulty": "advanced" },
+  { "word": "think about it", "phonetic": "/θɪŋk əˈbaʊt ɪt/", "meaning": "phrase. 考虑一下", "difficulty": "beginner" },
+  { "word": "hours", "phonetic": "/aʊərz/", "meaning": "n. 小时", "difficulty": "beginner" },
+  { "word": "my advice", "phonetic": "/maɪ ædˈvaɪs/", "meaning": "n. 我的建议", "difficulty": "beginner" },
+  { "word": "don't overthink", "phonetic": "/doʊnt ˌoʊvərˈθɪŋk/", "meaning": "v. 别想太多", "difficulty": "intermediate" },
+  { "word": "rational", "phonetic": "/ˈræʃənəl/", "meaning": "adj. 理性的", "difficulty": "intermediate" },
+  { "word": "calculated", "phonetic": "/ˈkælkjəˌleɪtəd/", "meaning": "adj. 深思熟虑的", "difficulty": "advanced" },
+  { "word": "we both get what we need", "phonetic": "/wi boʊθ gɛt wʌt wi nid/", "meaning": "phrase. 各取所需", "difficulty": "intermediate" }
+]
+
+
+
+
+第 02 章：傅氏集团顶层
+站在傅氏集团这座 skyscraper(n. 摩天大楼) 下方时，我平复了一下呼吸。
+陈助理领着我直接乘电梯到达了 top floor(n. 顶层)。办公室拥有 panoramic(adj. 全景的) 视野，几乎可以俯瞰整个 B 市。傅司宴正坐在一张宽大的办公桌后处理文件，头也不抬地示意我坐下。
+“周律师已经把协议准备好了。”他推过来一份厚厚的文档。
+我翻开协议，开始了正式的 negotiation(n. 谈判)。我重点检查了每一条 clause(n. 条款)，并要求增加几项 supplementary(adj. 补充的) 说明，以确保这份契约的 validity(n. 有效性) 和安全性。
+“我要求 strictly(adv. 严格地) 保护我的 independent(adj. 独立的) 生活空间。”我指着居住安排那一页说道，“我的 privacy(n. 隐私) 必须得到尊重。”
+傅司宴终于放下了手中的钢笔，目光深邃地看着我：“没问题。”
+我们随后讨论了关于 force majeure(n. 不可抗力) 导致的契约变动，以及三年后关于房产的 property right(n. 产权) 问题。当最后一处细节敲定，我在受赠人处签下了自己的 signature(n. 签名)。
+走出办公室时，几名正在等候汇报的 executive(n. 高管) 投来好奇的目光。傅司宴身上那种习惯性的 coldness(n. 冷漠) 似乎在这一刻消散了一点点。
+当晚，我带着简单的 luggage(n. 行李) 搬进了半山庄园。
+管家领我走向二楼的 suite(n. 套房)。房间的 interior(adj. 内部的) 设计非常 sophisticated(adj. 精致的)，整体呈现出一种 minimalist(adj. 极简主义的) 风格。我打开巨大的 wardrobe(n. 衣橱)，开始把自己的衣服一件件挂进去。
+连续几天的奔波让我感到一阵阵 exhaustion(n. 精疲力竭)。
+凌晨一点，我因为口渴下楼寻找 kitchen(n. 厨房)。在大理石操作台旁，我惊讶地发现了傅司宴。他脱掉了西装外套，只穿着一件白衬衫，正在翻找 ingredients(adj. 食材)。
+他看了我一眼，动作没停：“饿了？”
+不等我回答，他已经熟练地煮了两碗 noodles(n. 面条)。很快，一阵清淡的 fragrance(n. 香味) 弥漫在空气中。这种 unexpected(adj. 意想不到的) 烟火气让我感到一种 simple(adj. 简单的) comfort(n. 安慰)。
+我们坐在餐桌两头，陷入了 silent(adj. 沉默的) 的用餐时光。这大概是我们契约生活里第一次真正的 interaction(n. 互动)。
+我偷偷地 observe(v. 观察) 他。在公司时他是个冷酷 professional(adj. 专业的) 的商人，但此刻，这种 casual(adj. 随意的) 的状态 reveal(v. 展现) 出他性格里的另一个 layer(n. 层次)。
+“谢谢。”我轻声说。
+“合约内的事。”他淡淡回应，随即起身，“明天会有人带你熟悉环境。”
+看着他上楼的背影，我意识到这本 contract(n. 合同) 仅仅是一个开始。在这个奢华的牢笼里，我需要学会如何真正地 settle in(v. 安顿下来)，去面对未知的 future(n. 未来)。
+ 本章 vocabList 
+JavaScript
+[
+  { "word": "skyscraper", "phonetic": "/ˈskaɪskreɪpər/", "meaning": "n. 摩天大楼", "difficulty": "intermediate" },
+  { "word": "panoramic", "phonetic": "/ˌpænəˈræmɪk/", "meaning": "adj. 全景的", "difficulty": "advanced" },
+  { "word": "negotiation", "phonetic": "/nɪˌɡoʊʃiˈeɪʃn/", "meaning": "n. 谈判", "difficulty": "intermediate" },
+  { "word": "clause", "phonetic": "/klɔːz/", "meaning": "n. 条款", "difficulty": "advanced" },
+  { "word": "validity", "phonetic": "/vəˈlɪdəti/", "meaning": "n. 有效性", "difficulty": "advanced" },
+  { "word": "force majeure", "phonetic": "/ˌfɔːrs mæˈʒɜːr/", "meaning": "n. 不可抗力", "difficulty": "advanced" },
+  { "word": "property right", "phonetic": "/ˈprɑːpərti raɪt/", "meaning": "n. 产权", "difficulty": "intermediate" },
+  { "word": "sophisticated", "phonetic": "/səˈfɪstɪkeɪtɪd/", "meaning": "adj. 精致的；复杂的", "difficulty": "advanced" },
+  { "word": "minimalist", "phonetic": "/ˈmɪnɪməlɪst/", "meaning": "adj. 极简主义的", "difficulty": "intermediate" },
+  { "word": "exhaustion", "phonetic": "/ɪɡˈzɔːstʃən/", "meaning": "n. 精疲力竭", "difficulty": "intermediate" }
+]
+
+
+第 03 章：一纸婚约
+早上九点，B市民政局。
+这是我人生中第一次踏入这个 bureau(n. 局；办事处)。整个登记的 procedure(n. 程序) 进展得极快，傅司宴的团队展现出了极高的 efficiency(n. 效率)。
+当我们拿着刚出炉的红色 certificate(n. 证书) 走出大门时，我仍觉得一切有些 surreal(adj. 不真实的；离奇的)。仅仅不到四十八小时，我不仅将自己 legally(adv. 在法律上) 地与一个近乎陌生的男人 bind(v. 约束；绑定) 在了一起，而且我的 status(n. 身份；地位) 已经 officially(adv. 正式地) 变成了“傅太太”。
+回到宽敞的 vehicle(n. 车辆) 后座，空气依旧安静。周 attorney(n. 律师) 从副驾驶座递来了一份文件。
+“林小姐——抱歉，傅太太，这是协议的 final(adj. 最终的) version(n. 版本)，请您最后 verify(v. 核实) 一遍。”
+我接过这份厚重的 document(n. 文件)。协议中关于我父亲医疗和法律援助的条款，确实如傅司宴承诺的那样，写着没有任何附加条件的 limitless(adj. 无限制的) guarantee(n. 保证)。只要在这三年期间，他会 sponsor(v. 资助) 所有相关的巨额花销。
+这白纸黑字的承诺，给了我一种前所未有的 relief(n. 宽慰)。
+我没有再 hesitate(v. 犹豫)，拔出钢笔，在尾页利落地 sign(v. 签署) 下自己的名字，并 endorse(v. 签署；背书) 了指纹。
+从这一刻起，这是一场 straightforward(adj. 简单明了的)、建立在 mutual(adj. 相互的) 利益基础上的契约。只要他按时打钱，我就会毫无怨言地 fulfill(v. 履行) 作为名义妻子的所有 obligation(n. 义务)。
+“叮”的一声脆响，打破了车厢内的沉寂。
+是我手机收到的短信 notification(n. 通知)。我低头看去，是银行发来的到账提醒。
+作为协议的 preliminary(adj. 初步的) 资金，第一笔 installment(n. 分期付款)——整整 684 万人民币，已经成功 transfer(v. 转账) 到了我的个人账户里。
+看着账户里突然多出来的巨大 balance(n. 余额)，我才真切地感受到一种 realistic(adj. 现实的) 的安定感。这笔钱绝对 sufficient(adj. 充足的) 让我去 tackle(v. 处理；解决) 眼下律师团队的定金，以及父亲转院的各项开支。
+“款项收到了吗？”傅司宴的声音从旁边传来。他连看都没看我，目光依然锁在平板电脑的 asset(n. 资产) 报表上，仿佛我们刚才完成的只是一场微不足道的商业并购。
+“收到了。”我收起手机，语气平静。
+“很好。”他淡淡地说，“接下来的三年，希望我们合作愉快。”
+我看着窗外不断倒退的街景。这场 dramatic(adj. 戏剧性的) 人生 transition(n. 过渡) 已经完成。无论前方等待我的是怎样的 destiny(n. 命运)，我都必须作为他最合格的 companion(n. 同伴)，去 confront(v. 面对) 接下来的一切。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "bureau", "phonetic": "/ˈbjʊəroʊ/", "meaning": "n. 局；办事处", "difficulty": "intermediate" },
+  { "word": "procedure", "phonetic": "/prəˈsiːdʒər/", "meaning": "n. 程序", "difficulty": "intermediate" },
+  { "word": "efficiency", "phonetic": "/ɪˈfɪʃnsi/", "meaning": "n. 效率", "difficulty": "intermediate" },
+  { "word": "certificate", "phonetic": "/sərˈtɪfɪkət/", "meaning": "n. 证书", "difficulty": "intermediate" },
+  { "word": "surreal", "phonetic": "/səˈriːəl/", "meaning": "adj. 不真实的；离奇的", "difficulty": "advanced" },
+  { "word": "legally", "phonetic": "/ˈliːɡəli/", "meaning": "adv. 在法律上", "difficulty": "beginner" },
+  { "word": "bind", "phonetic": "/baɪnd/", "meaning": "v. 约束；绑定", "difficulty": "intermediate" },
+  { "word": "status", "phonetic": "/ˈsteɪtəs/", "meaning": "n. 身份；地位", "difficulty": "intermediate" },
+  { "word": "officially", "phonetic": "/əˈfɪʃəli/", "meaning": "adv. 正式地", "difficulty": "intermediate" },
+  { "word": "vehicle", "phonetic": "/ˈviːəkl/", "meaning": "n. 车辆", "difficulty": "beginner" },
+  { "word": "attorney", "phonetic": "/əˈtɜːrni/", "meaning": "n. 律师", "difficulty": "intermediate" },
+  { "word": "final", "phonetic": "/ˈfaɪnl/", "meaning": "adj. 最终的", "difficulty": "beginner" },
+  { "word": "version", "phonetic": "/ˈvɜːrʒn/", "meaning": "n. 版本", "difficulty": "beginner" },
+  { "word": "verify", "phonetic": "/ˈverɪfaɪ/", "meaning": "v. 核实", "difficulty": "advanced" },
+  { "word": "document", "phonetic": "/ˈdɑːkjumənt/", "meaning": "n. 文件", "difficulty": "beginner" },
+  { "word": "limitless", "phonetic": "/ˈlɪmɪtləs/", "meaning": "adj. 无限制的", "difficulty": "intermediate" },
+  { "word": "guarantee", "phonetic": "/ˌɡærənˈtiː/", "meaning": "n. 保证", "difficulty": "intermediate" },
+  { "word": "sponsor", "phonetic": "/ˈspɑːnsər/", "meaning": "v. 资助", "difficulty": "intermediate" },
+  { "word": "relief", "phonetic": "/rɪˈliːf/", "meaning": "n. 宽慰", "difficulty": "intermediate" },
+  { "word": "hesitate", "phonetic": "/ˈhezɪteɪt/", "meaning": "v. 犹豫", "difficulty": "intermediate" },
+  { "word": "sign", "phonetic": "/saɪn/", "meaning": "v. 签署", "difficulty": "beginner" },
+  { "word": "endorse", "phonetic": "/ɪnˈdɔːrs/", "meaning": "v. 签署；背书", "difficulty": "advanced" },
+  { "word": "straightforward", "phonetic": "/ˌstreɪtˈfɔːrwərd/", "meaning": "adj. 简单明了的", "difficulty": "advanced" },
+  { "word": "mutual", "phonetic": "/ˈmjuːtʃuəl/", "meaning": "adj. 相互的", "difficulty": "intermediate" },
+  { "word": "fulfill", "phonetic": "/fʊlˈfɪl/", "meaning": "v. 履行", "difficulty": "intermediate" },
+  { "word": "obligation", "phonetic": "/ˌɑːblɪˈɡeɪʃn/", "meaning": "n. 义务", "difficulty": "intermediate" },
+  { "word": "notification", "phonetic": "/ˌnoʊtɪfɪˈkeɪʃn/", "meaning": "n. 通知", "difficulty": "intermediate" },
+  { "word": "preliminary", "phonetic": "/prɪˈlɪmɪneri/", "meaning": "adj. 初步的", "difficulty": "advanced" },
+  { "word": "installment", "phonetic": "/ɪnˈstɔːlmənt/", "meaning": "n. 分期付款", "difficulty": "advanced" },
+  { "word": "transfer", "phonetic": "/ˈtrænsfɜːr/", "meaning": "v. 转账", "difficulty": "intermediate" },
+  { "word": "balance", "phonetic": "/ˈbæləns/", "meaning": "n. 余额", "difficulty": "intermediate" },
+  { "word": "realistic", "phonetic": "/ˌriːəˈlɪstɪk/", "meaning": "adj. 现实的", "difficulty": "intermediate" },
+  { "word": "sufficient", "phonetic": "/səˈfɪʃnt/", "meaning": "adj. 充足的", "difficulty": "intermediate" },
+  { "word": "tackle", "phonetic": "/ˈtækl/", "meaning": "v. 处理；解决", "difficulty": "intermediate" },
+  { "word": "asset", "phonetic": "/ˈæset/", "meaning": "n. 资产", "difficulty": "intermediate" },
+  { "word": "dramatic", "phonetic": "/drəˈmætɪk/", "meaning": "adj. 戏剧性的", "difficulty": "intermediate" },
+  { "word": "transition", "phonetic": "/trænˈzɪʃn/", "meaning": "n. 过渡", "difficulty": "intermediate" },
+  { "word": "destiny", "phonetic": "/ˈdestəni/", "meaning": "n. 命运", "difficulty": "intermediate" },
+  { "word": "companion", "phonetic": "/kəmˈpænjən/", "meaning": "n. 同伴", "difficulty": "intermediate" },
+  { "word": "confront", "phonetic": "/kənˈfrʌnt/", "meaning": "v. 面对", "difficulty": "advanced" }
+]
+
+
+
+第 04 章：为什么是我
+成为傅太太的第三天，迎来了我的社交 debut(n. 首次亮相)。
+造型师团队花了三个小时将我 transform(v. 改变)。看着镜子里穿着 gorgeous(adj. 华丽的) 高定晚礼服的自己，我甚至觉得有些陌生。这套 outfit(n. 全套服装) 昂贵得令人咋舌，完美地掩盖了我原本的疲惫，赋予了我一种 glamorous(adj. 迷人的) 气场。
+傅司宴亲自来 accompany(v. 陪伴) 我前往晚宴的 venue(n. 场地)。
+宴会大厅里衣香鬓影，聚集了B市大半的商业 elite(n. 精英) 和 prominent(adj. 显赫的) 家族成员。当傅司宴挽着我走入会场时，原本嘈杂的空气瞬间安静了一秒，随后立刻涌起一阵阵刻意压低的 whisper(n. 低语)。
+我能感受到四面八方投来的目光里充满了探究与 curiosity(n. 好奇心)。这些人像是在暗自 evaluate(v. 评估) 我的身价，试图扒出我是哪家突然冒出来的千金。这种 superficial(adj. 肤浅的) 的名利场总是充满了 hypocrisy(n. 虚伪)。
+傅司宴将我介绍给几位重要客户。为了履行契约，我努力维持着完美的微笑，配合他上演一出 fake(adj. 假的) 的恩爱戏码。他偶尔会低头帮我理一下耳边的碎发，眼神里带着恰到好处的 affection(n. 柔情)。
+他的表演简直 flawless(adj. 完美无瑕的)，这层深情的 disguise(n. 伪装) 连我差点都要骗过了。
+然而，这种被时刻注视的氛围实在太 overwhelming(adj. 压倒性的) 了，让人感到一阵阵的 suffocate(v. 窒息)。
+找了个借口，我决定 escape(v. 逃离) 现场透透气。
+我独自走到二楼的露天 balcony(n. 阳台)。夜间的凉爽 breeze(n. 微风) 拂过脸颊，终于让我在这个 solitary(adj. 独自的) 的角落里找回了一丝理智。
+Shortly(adv. 不久) 之后，身后传来了沉稳的脚步声。不用回头我也知道，是他 approach(v. 靠近) 了。
+“不习惯这种 scenario(n. 场景)？”他递给我一杯温水。
+我接过水杯，决定向他提出那个压在心底的疑问。我转过身，非常 straightforward(adj. 坦率的) 地看着他的眼睛：
+“傅总，我一直不明白。想要做傅太太的 candidate(n. 候选人) 那么多，无论从家世背景还是商业联姻的 criteria(n. 标准) 来看，我都不是最合适的。为什么是我？”
+从任何商业 logic(n. 逻辑) 来分析，这笔两千万的 investment(n. 投资) 都不划算。
+傅司宴靠在栏杆上，手里晃动着红酒杯。夜色让他的侧脸看起来有些 mysterious(adj. 神秘的)。
+他沉默了一个 pause(n. 停顿)，才缓缓开口：“商场上，数据可以造假，背景可以伪装。但在某些时候，我更相信自己的 instinct(n. 直觉)。”
+“intuition(n. 直觉)？”我皱了皱眉。
+“你可以把它当成一个不可解的 puzzle(n. 谜团)。”他转过头，深邃的目光紧紧锁定我，语气里带着一丝试图 fascinate(v. 吸引) 人的魔力，“而且，你的背景足够干净，性格足够 resilient(adj. 坚韧的)。在这场戏里，你需要一个为你挡住外界流言的 shield(n. 盾牌)，而我需要一个不会带来麻烦的妻子。这难道不是一种完美的互补吗？”
+我只能压下心底那一丝 vulnerable(adj. 脆弱的) 情绪。我看着他，试图从他眼里分辨出哪句是商业说辞，哪句是 genuine(adj. 真实的) 的想法。但我失败了。
+在傅司宴的世界里，一切似乎都是经过计算的，但我却隐隐觉得，在这层华丽的 illusion(n. 错觉) 之下，还藏着某些我尚未看透的东西。而我，已经成了他计划中 indispensable(adj. 不可或缺的) 的一环。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "debut", "phonetic": "/ˈdeɪbjuː/", "meaning": "n. 首次亮相", "difficulty": "intermediate" },
+  { "word": "transform", "phonetic": "/trænsˈfɔːrm/", "meaning": "v. 改变", "difficulty": "intermediate" },
+  { "word": "gorgeous", "phonetic": "/ˈɡɔːrdʒəs/", "meaning": "adj. 华丽的", "difficulty": "intermediate" },
+  { "word": "outfit", "phonetic": "/ˈaʊtfɪt/", "meaning": "n. 全套服装", "difficulty": "beginner" },
+  { "word": "glamorous", "phonetic": "/ˈɡlæmərəs/", "meaning": "adj. 迷人的", "difficulty": "advanced" },
+  { "word": "accompany", "phonetic": "/əˈkʌmpəni/", "meaning": "v. 陪伴", "difficulty": "intermediate" },
+  { "word": "venue", "phonetic": "/ˈvenjuː/", "meaning": "n. 场地", "difficulty": "intermediate" },
+  { "word": "elite", "phonetic": "/ɪˈliːt/", "meaning": "n. 精英", "difficulty": "intermediate" },
+  { "word": "prominent", "phonetic": "/ˈprɑːmɪnənt/", "meaning": "adj. 显赫的；著名的", "difficulty": "advanced" },
+  { "word": "whisper", "phonetic": "/ˈwɪspər/", "meaning": "n. 低语", "difficulty": "beginner" },
+  { "word": "curiosity", "phonetic": "/ˌkjʊriˈɑːsəti/", "meaning": "n. 好奇心", "difficulty": "intermediate" },
+  { "word": "evaluate", "phonetic": "/ɪˈvæljueɪt/", "meaning": "v. 评估", "difficulty": "intermediate" },
+  { "word": "superficial", "phonetic": "/ˌsuːpərˈfɪʃl/", "meaning": "adj. 肤浅的；表面的", "difficulty": "advanced" },
+  { "word": "hypocrisy", "phonetic": "/hɪˈpɑːkrəsi/", "meaning": "n. 虚伪", "difficulty": "advanced" },
+  { "word": "fake", "phonetic": "/feɪk/", "meaning": "adj. 假的", "difficulty": "beginner" },
+  { "word": "affection", "phonetic": "/əˈfekʃn/", "meaning": "n. 柔情；喜爱", "difficulty": "intermediate" },
+  { "word": "flawless", "phonetic": "/ˈflɔːləs/", "meaning": "adj. 完美无瑕的", "difficulty": "advanced" },
+  { "word": "disguise", "phonetic": "/dɪsˈɡaɪz/", "meaning": "n. 伪装", "difficulty": "intermediate" },
+  { "word": "overwhelming", "phonetic": "/ˌoʊvərˈwelmɪŋ/", "meaning": "adj. 压倒性的", "difficulty": "advanced" },
+  { "word": "suffocate", "phonetic": "/ˈsʌfəkeɪt/", "meaning": "v. 窒息", "difficulty": "advanced" },
+  { "word": "escape", "phonetic": "/ɪˈskeɪp/", "meaning": "v. 逃离", "difficulty": "beginner" },
+  { "word": "balcony", "phonetic": "/ˈbælkəni/", "meaning": "n. 阳台", "difficulty": "beginner" },
+  { "word": "breeze", "phonetic": "/briːz/", "meaning": "n. 微风", "difficulty": "beginner" },
+  { "word": "solitary", "phonetic": "/ˈsɑːləteri/", "meaning": "adj. 独自的", "difficulty": "advanced" },
+  { "word": "shortly", "phonetic": "/ˈʃɔːrtli/", "meaning": "adv. 不久", "difficulty": "beginner" },
+  { "word": "approach", "phonetic": "/əˈproʊtʃ/", "meaning": "v. 靠近", "difficulty": "intermediate" },
+  { "word": "scenario", "phonetic": "/səˈnærioʊ/", "meaning": "n. 场景", "difficulty": "intermediate" },
+  { "word": "straightforward", "phonetic": "/ˌstreɪtˈfɔːrwərd/", "meaning": "adj. 坦率的", "difficulty": "advanced" },
+  { "word": "candidate", "phonetic": "/ˈkændɪdət/", "meaning": "n. 候选人", "difficulty": "intermediate" },
+  { "word": "criteria", "phonetic": "/kraɪˈtɪriə/", "meaning": "n. 标准", "difficulty": "advanced" },
+  { "word": "logic", "phonetic": "/ˈlɑːdʒɪk/", "meaning": "n. 逻辑", "difficulty": "intermediate" },
+  { "word": "investment", "phonetic": "/ɪnˈvestmənt/", "meaning": "n. 投资", "difficulty": "intermediate" },
+  { "word": "mysterious", "phonetic": "/mɪˈstɪriəs/", "meaning": "adj. 神秘的", "difficulty": "intermediate" },
+  { "word": "pause", "phonetic": "/pɔːz/", "meaning": "n. 停顿", "difficulty": "beginner" },
+  { "word": "instinct", "phonetic": "/ˈɪnstɪŋkt/", "meaning": "n. 直觉；本能", "difficulty": "advanced" },
+  { "word": "intuition", "phonetic": "/ˌɪntuˈɪʃn/", "meaning": "n. 直觉", "difficulty": "advanced" },
+  { "word": "puzzle", "phonetic": "/ˈpʌzl/", "meaning": "n. 谜团", "difficulty": "intermediate" },
+  { "word": "fascinate", "phonetic": "/ˈfæsɪneɪt/", "meaning": "v. 吸引；迷住", "difficulty": "advanced" },
+  { "word": "resilient", "phonetic": "/rɪˈzɪliənt/", "meaning": "adj. 坚韧的", "difficulty": "advanced" },
+  { "word": "shield", "phonetic": "/ʃiːld/", "meaning": "n. 盾牌", "difficulty": "intermediate" },
+  { "word": "vulnerable", "phonetic": "/ˈvʌlnərəbl/", "meaning": "adj. 脆弱的", "difficulty": "advanced" },
+  { "word": "genuine", "phonetic": "/ˈdʒenjuɪn/", "meaning": "adj. 真实的", "difficulty": "intermediate" },
+  { "word": "illusion", "phonetic": "/ɪˈluːʒn/", "meaning": "n. 错觉；幻觉", "difficulty": "advanced" },
+  { "word": "indispensable", "phonetic": "/ˌɪndɪˈspensəbl/", "meaning": "adj. 不可或缺的", "difficulty": "advanced" }
+]
+
+第 05 章：签字的那一刻
+第二天上午，律师安排了一位 notary(n. 公证人) 来进行财产协议的最后确认。为了避免未来的 dispute(n. 纠纷)，我们对婚前 asset(n. 资产) 进行了彻底的 separation(n. 分离)。这份 comprehensive(adj. 全面的) 的文件将 guarantee(v. 保证) 双方在三年后干净利落地解除关系，不涉及任何 property(n. 财产) 分割。
+下午，我带着一丝 reluctant(adj. 不情愿的) 的心情赴了陆景川的 appointment(n. 约会)。
+我们在市中心的一家安静的 cafe(n. 咖啡馆) 碰面。他看起来有些 exhausted(adj. 疲惫的)，但看到我时眼神依然关切。
+“晚晚，我听说叔叔的医疗费补齐了？”他带着一丝 suspicious(adj. 怀疑的) 的目光看着我，试图 probe(v. 探究) 资金的来源，“那笔巨大的 debt(n. 债务) 是怎么 alleviate(v. 缓解) 的？你是不是借了高利贷？”
+“没有，我找到了一个可靠的 sponsor(n. 赞助方)。”我喝了一口咖啡，在两人之间划下了一道清晰的 boundary(n. 边界)。我知道他话语里的 implication(n. 暗示)，也明白他的 intention(n. 意图)，但我无法回应。
+我不想刻意 alienate(v. 疏远) 他，但我必须 reject(v. 拒绝) 他那份 fragile(adj. 脆弱的) 的感情。如果他继续 persist(v. 坚持)，只会给彼此带来更多伤害。
+“景川，我现在唯一的 priority(n. 优先事项) 是我父亲的 welfare(n. 福利；安康) 和我的工作。”我的语气听起来有些 harsh(adj. 严酷的)，“我们只能是普通朋友。”
+陆景川的脸色瞬间苍白，最终无奈地苦笑了一下。
+傍晚回到庄园，管家通知我，我的所有 belongings(n. 物品) 已经全部被 relocate(v. 搬迁)。原本我住在侧楼的客房区，但为了对外做戏，我被安排搬进了主楼二层，紧挨着傅司宴的 master bedroom(n. 主卧)。
+这种物理距离上的 proximity(n. 接近) 让我感到一丝不安。作为一个极度看重 privacy(n. 隐私) 的人，我感觉自己的个人 territory(n. 领地) 随时可能被 invade(v. 侵入)。
+但当我推开新房间的门时，我愣住了。房间的 layout(n. 布局) 极其 spacious(adj. 宽敞的)，不仅附带步入式衣帽间，还有一个 dedicated(adj. 专用的) 独立书房。墙壁是 soundproof(adj. 隔音的)，桌上摆着一套 premium(adj. 顶级的) 的同传翻译 equipment(n. 设备)，完全满足我 professional(adj. 专业的) 的工作需求。
+这是一个极其 considerate(adj. 体贴的) 的 gesture(n. 姿态)。这种 unexpected(adj. 意想不到的) 的细节关怀，几乎要将我原本竖起的防备心理给 overwhelm(v. 压倒；淹没)。傅司宴这个男人，我越来越难以 evaluate(v. 评估) 他了。
+我深吸一口气，告诉自己必须尽快 adapt(v. 适应) 新的 routine(n. 日常)。毕竟，在这个屋檐下，我随时可能与他发生不期而遇的 encounter(n. 偶遇)，而我们之间那种 subtle(adj. 微妙的) 的权力 dynamic(n. 动态)，才刚刚拉开帷幕。
+本章 vocabList 
+JavaScript
+[
+  { "word": "notary", "phonetic": "/ˈnoʊtəri/", "meaning": "n. 公证人", "difficulty": "advanced" },
+  { "word": "dispute", "phonetic": "/dɪˈspjuːt/", "meaning": "n. 纠纷；争端", "difficulty": "intermediate" },
+  { "word": "asset", "phonetic": "/ˈæset/", "meaning": "n. 资产", "difficulty": "intermediate" },
+  { "word": "separation", "phonetic": "/ˌsepəˈreɪʃn/", "meaning": "n. 分离", "difficulty": "intermediate" },
+  { "word": "comprehensive", "phonetic": "/ˌkɑːmprɪˈhensɪv/", "meaning": "adj. 全面的", "difficulty": "intermediate" },
+  { "word": "guarantee", "phonetic": "/ˌɡærənˈtiː/", "meaning": "v. 保证", "difficulty": "intermediate" },
+  { "word": "property", "phonetic": "/ˈprɑːpərti/", "meaning": "n. 财产", "difficulty": "beginner" },
+  { "word": "reluctant", "phonetic": "/rɪˈlʌktənt/", "meaning": "adj. 不情愿的", "difficulty": "intermediate" },
+  { "word": "appointment", "phonetic": "/əˈpɔɪntmənt/", "meaning": "n. 约会；预约", "difficulty": "beginner" },
+  { "word": "cafe", "phonetic": "/kæˈfeɪ/", "meaning": "n. 咖啡馆", "difficulty": "beginner" },
+  { "word": "exhausted", "phonetic": "/ɪɡˈzɔːstɪd/", "meaning": "adj. 疲惫的", "difficulty": "intermediate" },
+  { "word": "suspicious", "phonetic": "/səˈspɪʃəs/", "meaning": "adj. 怀疑的", "difficulty": "intermediate" },
+  { "word": "probe", "phonetic": "/proʊb/", "meaning": "v. 探究；盘问", "difficulty": "advanced" },
+  { "word": "debt", "phonetic": "/det/", "meaning": "n. 债务", "difficulty": "intermediate" },
+  { "word": "alleviate", "phonetic": "/əˈliːvieɪt/", "meaning": "v. 缓解；减轻", "difficulty": "advanced" },
+  { "word": "sponsor", "phonetic": "/ˈspɑːnsər/", "meaning": "n. 赞助方；出资人", "difficulty": "intermediate" },
+  { "word": "boundary", "phonetic": "/ˈbaʊndəri/", "meaning": "n. 边界", "difficulty": "intermediate" },
+  { "word": "implication", "phonetic": "/ˌɪmplɪˈkeɪʃn/", "meaning": "n. 暗示；含意", "difficulty": "advanced" },
+  { "word": "intention", "phonetic": "/ɪnˈtenʃn/", "meaning": "n. 意图；目的", "difficulty": "intermediate" },
+  { "word": "alienate", "phonetic": "/ˈeɪliəneɪt/", "meaning": "v. 疏远", "difficulty": "advanced" },
+  { "word": "reject", "phonetic": "/rɪˈdʒekt/", "meaning": "v. 拒绝", "difficulty": "intermediate" },
+  { "word": "fragile", "phonetic": "/ˈfrædʒl/", "meaning": "adj. 脆弱的", "difficulty": "intermediate" },
+  { "word": "persist", "phonetic": "/pərˈsɪst/", "meaning": "v. 坚持；执意", "difficulty": "intermediate" },
+  { "word": "priority", "phonetic": "/praɪˈɔːrəti/", "meaning": "n. 优先事项", "difficulty": "intermediate" },
+  { "word": "welfare", "phonetic": "/ˈwelfer/", "meaning": "n. 福利；安康", "difficulty": "intermediate" },
+  { "word": "harsh", "phonetic": "/hɑːrʃ/", "meaning": "adj. 严酷的；严厉的", "difficulty": "intermediate" },
+  { "word": "belongings", "phonetic": "/bɪˈlɔːŋɪŋz/", "meaning": "n. 物品；所有物", "difficulty": "intermediate" },
+  { "word": "relocate", "phonetic": "/ˌriːˈloʊkeɪt/", "meaning": "v. 搬迁；重新安置", "difficulty": "intermediate" },
+  { "word": "master bedroom", "phonetic": "/ˈmæstər ˈbedruːm/", "meaning": "n. 主卧", "difficulty": "beginner" },
+  { "word": "proximity", "phonetic": "/prɑːkˈsɪməti/", "meaning": "n. 接近；邻近", "difficulty": "advanced" },
+  { "word": "privacy", "phonetic": "/ˈpraɪvəsi/", "meaning": "n. 隐私", "difficulty": "intermediate" },
+  { "word": "territory", "phonetic": "/ˈterətɔːri/", "meaning": "n. 领地；领域", "difficulty": "intermediate" },
+  { "word": "invade", "phonetic": "/ɪnˈveɪd/", "meaning": "v. 侵入；侵犯", "difficulty": "intermediate" },
+  { "word": "layout", "phonetic": "/ˈleɪaʊt/", "meaning": "n. 布局；设计", "difficulty": "intermediate" },
+  { "word": "spacious", "phonetic": "/ˈspeɪʃəs/", "meaning": "adj. 宽敞的", "difficulty": "intermediate" },
+  { "word": "dedicated", "phonetic": "/ˈdedɪkeɪtɪd/", "meaning": "adj. 专用的；专注的", "difficulty": "intermediate" },
+  { "word": "soundproof", "phonetic": "/ˈsaʊndpruːf/", "meaning": "adj. 隔音的", "difficulty": "intermediate" },
+  { "word": "premium", "phonetic": "/ˈpriːmiəm/", "meaning": "adj. 顶级的；优质的", "difficulty": "intermediate" },
+  { "word": "equipment", "phonetic": "/ɪˈkwɪpmənt/", "meaning": "n. 设备", "difficulty": "intermediate" },
+  { "word": "professional", "phonetic": "/prəˈfeʃənl/", "meaning": "adj. 专业的", "difficulty": "beginner" },
+  { "word": "considerate", "phonetic": "/kənˈsɪdərət/", "meaning": "adj. 体贴的", "difficulty": "intermediate" },
+  { "word": "gesture", "phonetic": "/ˈdʒestʃər/", "meaning": "n. 姿态；手势", "difficulty": "intermediate" },
+  { "word": "unexpected", "phonetic": "/ˌʌnɪkˈspektɪd/", "meaning": "adj. 意想不到的", "difficulty": "intermediate" },
+  { "word": "overwhelm", "phonetic": "/ˌoʊvərˈwelm/", "meaning": "v. 压倒；淹没", "difficulty": "advanced" },
+  { "word": "evaluate", "phonetic": "/ɪˈvæljueɪt/", "meaning": "v. 评估", "difficulty": "intermediate" },
+  { "word": "adapt", "phonetic": "/əˈdæpt/", "meaning": "v. 适应", "difficulty": "intermediate" },
+  { "word": "routine", "phonetic": "/ruːˈtiːn/", "meaning": "n. 日常；常规", "difficulty": "intermediate" },
+  { "word": "encounter", "phonetic": "/ɪnˈkaʊntər/", "meaning": "n. 偶遇；邂逅", "difficulty": "intermediate" },
+  { "word": "subtle", "phonetic": "/ˈsʌtl/", "meaning": "adj. 微妙的", "difficulty": "advanced" },
+  { "word": "dynamic", "phonetic": "/daɪˈnæmɪk/", "meaning": "n. 动态；互动关系", "difficulty": "advanced" }
+]
+
+
+第 06 章：入住傅宅
+搬进半山庄园的第一个清晨，我被设定好的 alarm(n. 闹钟) 准时唤醒。阳光透过巨大的落地窗洒在 luxurious(adj. 奢华的) 的地毯上。我花了几分钟才让自己 adjust(v. 适应) 这个彻底改变了的 environment(n. 环境)。
+洗漱完毕后，我走出卧室。整个二楼的 hallway(n. 走廊) 极其 quiet(adj. 安静的)，傅司宴的房间门紧闭着。我们虽然处于同一楼层，但仿佛有一道 invisible(adj. 无形的) 的屏障，将我们的生活 strictly(adv. 严格地) 地 divide(v. 划分) 开来。
+沿着旋转楼梯下楼，管家以 impeccable(adj. 无可挑剔的) 的礼仪在 dining room(n. 餐厅) 等候。长长的餐桌上摆放着极其 abundant(adj. 丰富的) 且 nutritious(adj. 营养的) 的早餐，散发着诱人的 aroma(n. 香气)。
+出乎我意料的是，傅司宴已经坐在那里了。
+他没有穿那种极具 oppressive(adj. 压迫性的) 的定制西装，而是换上了一件质地柔软的 cashmere(n. 羊绒) 针织衫。这种 domestic(adj. 家庭的；居家的) 的打扮极大地削弱了他身上的 aggressive(adj. 侵略性的) 气场，形成了一种强烈的 contrast(n. 反差)。
+听到脚步声，他从全英文的 financial(adj. 金融的) 报纸中抬起头，朝我微微 nod(v. 点头)，算是打了个招呼。
+“早。”他的语气依旧是一贯的 bland(adj. 平淡的；乏味的)。
+“早。”我在长桌的另一端坐下，我们之间隔着极其 awkward(adj. 尴尬的) 的物理距离。管家上前，为我倒了一杯热 beverage(n. 饮料)。
+这顿早餐吃得异常 silent(adj. 沉默的)。除了银质餐具偶尔发出的 clink(n. 叮当声)，没有任何 verbal(adj. 口头的) 的 communication(n. 交流)。
+但我忍不住偷偷 glance(v. 瞥) 他。他喝咖啡的动作非常 elegant(adj. 优雅的)，指骨修长，透着一种 inherent(adj. 与生俱来的) 的贵气。我不得不承认，即使在最 casual(adj. 随意的) 的状态下，他依然散发着一种 undeniable(adj. 不可否认的) 的 masculine(adj. 男性的) 魅力。
+这种极低 frequency(n. 频率) 的互动，反而让我感到一丝 comfort(n. 舒适；安慰)。我并不擅长去 cater(v. 迎合) 别人的情绪，而他显然也没有兴趣进行虚伪的 small talk(n. 闲聊)。
+“我八点半有一个重要的 conference(n. 会议)。”他是个极度 punctual(adj. 准时的) 的人，严格遵守着自己的 schedule(n. 日程)。他看了一眼腕表，站起身来，“司机在外面，如果你需要去市区，可以随时 dispatch(v. 派遣) 他。”
+“不用了，我今天有两份翻译资料需要 concentrate(v. 集中精力) 处理。”我喝了一口牛奶，表现得十分 independent(adj. 独立的)。
+他没有勉强，拿过助理递来的 briefcase(n. 公文包)，大步流星地 depart(v. 离开) 了庄园。
+随着引擎声渐渐远去，偌大的房子再次陷入了绝对的 isolation(n. 孤立；隔离)。我长舒了一口气，回到自己的书房，戴上耳机，开始了我作为傅太太的第一个 routine(n. 常规；日常) 工作日。这份契约生活，似乎比我预想的要更加 manageable(adj. 易于管理的)。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "alarm", "phonetic": "/əˈlɑːrm/", "meaning": "n. 闹钟", "difficulty": "beginner" },
+  { "word": "luxurious", "phonetic": "/lʌɡˈʒʊriəs/", "meaning": "adj. 奢华的", "difficulty": "intermediate" },
+  { "word": "adjust", "phonetic": "/əˈdʒʌst/", "meaning": "v. 适应", "difficulty": "intermediate" },
+  { "word": "environment", "phonetic": "/ɪnˈvaɪrənmənt/", "meaning": "n. 环境", "difficulty": "beginner" },
+  { "word": "hallway", "phonetic": "/ˈhɔːlweɪ/", "meaning": "n. 走廊", "difficulty": "beginner" },
+  { "word": "quiet", "phonetic": "/ˈkwaɪət/", "meaning": "adj. 安静的", "difficulty": "beginner" },
+  { "word": "invisible", "phonetic": "/ɪnˈvɪzəbl/", "meaning": "adj. 无形的", "difficulty": "intermediate" },
+  { "word": "strictly", "phonetic": "/ˈstrɪktli/", "meaning": "adv. 严格地", "difficulty": "intermediate" },
+  { "word": "divide", "phonetic": "/dɪˈvaɪd/", "meaning": "v. 划分", "difficulty": "beginner" },
+  { "word": "impeccable", "phonetic": "/ɪmˈpekəbl/", "meaning": "adj. 无可挑剔的", "difficulty": "advanced" },
+  { "word": "dining room", "phonetic": "/ˈdaɪnɪŋ ruːm/", "meaning": "n. 餐厅", "difficulty": "beginner" },
+  { "word": "abundant", "phonetic": "/əˈbʌndənt/", "meaning": "adj. 丰富的", "difficulty": "intermediate" },
+  { "word": "nutritious", "phonetic": "/nuˈtrɪʃəs/", "meaning": "adj. 营养的", "difficulty": "intermediate" },
+  { "word": "aroma", "phonetic": "/əˈroʊmə/", "meaning": "n. 香气", "difficulty": "intermediate" },
+  { "word": "oppressive", "phonetic": "/əˈpresɪv/", "meaning": "adj. 压迫性的", "difficulty": "advanced" },
+  { "word": "cashmere", "phonetic": "/ˈkæʒmɪr/", "meaning": "n. 羊绒", "difficulty": "intermediate" },
+  { "word": "domestic", "phonetic": "/dəˈmestɪk/", "meaning": "adj. 家庭的；居家的", "difficulty": "intermediate" },
+  { "word": "aggressive", "phonetic": "/əˈɡresɪv/", "meaning": "adj. 侵略性的", "difficulty": "intermediate" },
+  { "word": "contrast", "phonetic": "/ˈkɑːntræst/", "meaning": "n. 反差；对比", "difficulty": "intermediate" },
+  { "word": "financial", "phonetic": "/faɪˈnænʃl/", "meaning": "adj. 金融的", "difficulty": "beginner" },
+  { "word": "nod", "phonetic": "/nɑːd/", "meaning": "v. 点头", "difficulty": "beginner" },
+  { "word": "bland", "phonetic": "/blænd/", "meaning": "adj. 平淡的；乏味的", "difficulty": "advanced" },
+  { "word": "awkward", "phonetic": "/ˈɔːkwərd/", "meaning": "adj. 尴尬的", "difficulty": "intermediate" },
+  { "word": "beverage", "phonetic": "/ˈbevərɪdʒ/", "meaning": "n. 饮料", "difficulty": "intermediate" },
+  { "word": "silent", "phonetic": "/ˈsaɪlənt/", "meaning": "adj. 沉默的", "difficulty": "beginner" },
+  { "word": "clink", "phonetic": "/klɪŋk/", "meaning": "n. 叮当声", "difficulty": "advanced" },
+  { "word": "verbal", "phonetic": "/ˈvɜːrbl/", "meaning": "adj. 口头的", "difficulty": "intermediate" },
+  { "word": "communication", "phonetic": "/kəˌmjuːnɪˈkeɪʃn/", "meaning": "n. 交流", "difficulty": "intermediate" },
+  { "word": "glance", "phonetic": "/ɡlæns/", "meaning": "v. 瞥", "difficulty": "intermediate" },
+  { "word": "elegant", "phonetic": "/ˈelɪɡənt/", "meaning": "adj. 优雅的", "difficulty": "intermediate" },
+  { "word": "inherent", "phonetic": "/ɪnˈhɪrənt/", "meaning": "adj. 与生俱来的", "difficulty": "advanced" },
+  { "word": "casual", "phonetic": "/ˈkæʒuəl/", "meaning": "adj. 随意的", "difficulty": "intermediate" },
+  { "word": "undeniable", "phonetic": "/ˌʌndɪˈnaɪəbl/", "meaning": "adj. 不可否认的", "difficulty": "advanced" },
+  { "word": "masculine", "phonetic": "/ˈmæskjəlɪn/", "meaning": "adj. 男性的", "difficulty": "advanced" },
+  { "word": "frequency", "phonetic": "/ˈfriːkwənsi/", "meaning": "n. 频率", "difficulty": "intermediate" },
+  { "word": "comfort", "phonetic": "/ˈkʌmfərt/", "meaning": "n. 舒适；安慰", "difficulty": "beginner" },
+  { "word": "cater", "phonetic": "/ˈkeɪtər/", "meaning": "v. 迎合", "difficulty": "advanced" },
+  { "word": "small talk", "phonetic": "/ˈsmɔːl tɔːk/", "meaning": "n. 闲聊", "difficulty": "beginner" },
+  { "word": "conference", "phonetic": "/ˈkɑːnfərəns/", "meaning": "n. 会议", "difficulty": "beginner" },
+  { "word": "punctual", "phonetic": "/ˈpʌŋktʃuəl/", "meaning": "adj. 准时的", "difficulty": "intermediate" },
+  { "word": "schedule", "phonetic": "/ˈskedʒuːl/", "meaning": "n. 日程", "difficulty": "beginner" },
+  { "word": "dispatch", "phonetic": "/dɪˈspætʃ/", "meaning": "v. 派遣", "difficulty": "advanced" },
+  { "word": "concentrate", "phonetic": "/ˈkɑːnsntreɪt/", "meaning": "v. 集中精力", "difficulty": "intermediate" },
+  { "word": "independent", "phonetic": "/ˌɪndɪˈpendənt/", "meaning": "adj. 独立的", "difficulty": "intermediate" },
+  { "word": "briefcase", "phonetic": "/ˈbriːfkeɪs/", "meaning": "n. 公文包", "difficulty": "intermediate" },
+  { "word": "depart", "phonetic": "/dɪˈpɑːrt/", "meaning": "v. 离开", "difficulty": "intermediate" },
+  { "word": "isolation", "phonetic": "/ˌaɪsəˈleɪʃn/", "meaning": "n. 孤立；隔离", "difficulty": "intermediate" },
+  { "word": "routine", "phonetic": "/ruːˈtiːn/", "meaning": "n. 常规；日常", "difficulty": "intermediate" },
+  { "word": "manageable", "phonetic": "/ˈmænɪdʒəbl/", "meaning": "adj. 易于管理的", "difficulty": "intermediate" }
+]
+
+
+第 07 章：第一条规则
+搬进庄园的第三天，傅司宴在书房向我 outline(v. 概述) 了这段婚姻的三条核心 principle(n. 原则)。
+第一，不打听。双方 strictly(adv. 严格地) 尊重彼此的界限，不得 interfere(v. 干涉) 对方的 private(adj. 私人的) 事务。 第二，口径统一。在 public(adj. 公开的) 场合必须保持 narrative(n. 叙事) 的 consistency(n. 一致性)，扮演好恩爱夫妻，绝不能 expose(v. 暴露) 契约的真相。 第三，专业距离。在私下里保持绝对的物理与心理 distance(n. 距离)，forbid(v. 禁止) 产生任何不必要的感情纠葛。
+“只要你 adhere(v. 遵守) 这三点，我们就能维持 mutual(adj. 相互的) 的 harmony(n. 和谐)。”他当时的语气冷得像在宣读一份 rigid(adj. 死板的) 的法庭判决，在两人之间划下了一道不可逾越的 boundary(n. 边界)。
+接下来的日子里，我们确实做到了。生活轨迹 barely(adv. 几乎不) 发生 overlap(v. 重叠)。白天他是一个忙碌的总裁，我继续接我的翻译单子。一切维持着 surface(n. 表面) 的平静，仿佛有一堵 invisible(adj. 无形的) 的墙横亘在我们中间。
+直到契约生效的第十天。
+那是接近 midnight(n. 午夜) 的时刻。一阵突如其来的 insomnia(n. 失眠) 让我无法入睡。我起身去楼下倒水，wander(v. 游荡) 经过一楼尽头的起居室时，我停下了脚步。
+厚重的木门呈 ajar(adj. 微开的) 状态。没有开大灯，只有一盏昏暗的落地灯亮着。
+我无意中往门缝里投去一个 glimpse(n. 瞥见)，却瞬间屏住了呼吸。
+傅司宴坐在地毯上。他卸下了平时那副刀枪不入的盔甲，手里拿着一个陈旧的木质 frame(n. 相框)，盯着里面的一张 photograph(n. 照片) 出神。
+借着昏暗的光线，我看到他侧脸上出现了一种极其 vulnerable(adj. 脆弱的) 甚至可以说是 fragile(adj. 易碎的) 的神情。那是一种深深的 nostalgia(n. 怀念) 和化不开的悲伤。
+这完全颠覆了他平日里冷酷无情的形象。那个永远戴着完美无瑕的 mask(n. 面具)、将所有 emotion(n. 情绪) 都严密 conceal(v. 隐藏) 起来的男人，此刻竟然流露出如此毫无防备的 trace(n. 痕迹)。
+也许是我的呼吸声惊动了他，他 abruptly(adv. 突然地) 抬起头。
+四目相对的瞬间，空气立刻变得 tense(adj. 紧张的)。他眼底的脆弱瞬间消失，取而代之的是一种近乎 hostile(adj. 有敌意的) 的冰冷。他迅速将相框反扣，塞进旁边的 drawer(n. 抽屉) 里。
+被当场抓包的尴尬让我下意识地想要 apologize(v. 道歉)：“抱歉，我不是故意要 interrupt(v. 打断) 你……”
+“出去。”他的声音低沉，带着不容置疑的警告。
+我没有再废话，立刻转身 retreat(v. 撤退)。
+回到卧室，我把那杯冷水 swallow(v. 吞咽) 下去，心跳依然有些快。
+理智告诉我应该遵循第一条原则，pretend(v. 假装) 什么都没看到。但女人的 instinct(n. 直觉) 却在疯狂叫嚣，那张照片里绝对藏着一个巨大的 secret(n. 秘密)。
+这件 unexpected(adj. 意想不到的) 的插曲，就像一颗 seed(n. 种子)，在我原本试图保持冷漠的心底，悄悄生出了一丝无法遏制的 curiosity(n. 好奇心)。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "outline", "phonetic": "/ˈaʊtlaɪn/", "meaning": "v. 概述", "difficulty": "intermediate" },
+  { "word": "principle", "phonetic": "/ˈprɪnsəpl/", "meaning": "n. 原则", "difficulty": "intermediate" },
+  { "word": "strictly", "phonetic": "/ˈstrɪktli/", "meaning": "adv. 严格地", "difficulty": "intermediate" },
+  { "word": "interfere", "phonetic": "/ˌɪntərˈfɪr/", "meaning": "v. 干涉", "difficulty": "advanced" },
+  { "word": "private", "phonetic": "/ˈpraɪvət/", "meaning": "adj. 私人的", "difficulty": "beginner" },
+  { "word": "public", "phonetic": "/ˈpʌblɪk/", "meaning": "adj. 公开的", "difficulty": "beginner" },
+  { "word": "narrative", "phonetic": "/ˈnærətɪv/", "meaning": "n. 叙事；说法", "difficulty": "advanced" },
+  { "word": "consistency", "phonetic": "/kənˈsɪstənsi/", "meaning": "n. 一致性", "difficulty": "advanced" },
+  { "word": "expose", "phonetic": "/ɪkˈspoʊz/", "meaning": "v. 暴露；揭露", "difficulty": "intermediate" },
+  { "word": "distance", "phonetic": "/ˈdɪstəns/", "meaning": "n. 距离", "difficulty": "beginner" },
+  { "word": "forbid", "phonetic": "/fərˈbɪd/", "meaning": "v. 禁止", "difficulty": "intermediate" },
+  { "word": "adhere", "phonetic": "/ədˈhɪr/", "meaning": "v. 遵守", "difficulty": "advanced" },
+  { "word": "mutual", "phonetic": "/ˈmjuːtʃuəl/", "meaning": "adj. 相互的", "difficulty": "intermediate" },
+  { "word": "harmony", "phonetic": "/ˈhɑːrməni/", "meaning": "n. 和谐", "difficulty": "intermediate" },
+  { "word": "rigid", "phonetic": "/ˈrɪdʒɪd/", "meaning": "adj. 死板的；严格的", "difficulty": "advanced" },
+  { "word": "boundary", "phonetic": "/ˈbaʊndəri/", "meaning": "n. 边界", "difficulty": "intermediate" },
+  { "word": "barely", "phonetic": "/ˈberli/", "meaning": "adv. 几乎不", "difficulty": "intermediate" },
+  { "word": "overlap", "phonetic": "/ˌoʊvərˈlæp/", "meaning": "v. 重叠", "difficulty": "intermediate" },
+  { "word": "surface", "phonetic": "/ˈsɜːrfɪs/", "meaning": "n. 表面", "difficulty": "intermediate" },
+  { "word": "invisible", "phonetic": "/ɪnˈvɪzəbl/", "meaning": "adj. 无形的", "difficulty": "intermediate" },
+  { "word": "midnight", "phonetic": "/ˈmɪdnaɪt/", "meaning": "n. 午夜", "difficulty": "beginner" },
+  { "word": "insomnia", "phonetic": "/ɪnˈsɑːmniə/", "meaning": "n. 失眠", "difficulty": "advanced" },
+  { "word": "wander", "phonetic": "/ˈwɑːndər/", "meaning": "v. 游荡", "difficulty": "intermediate" },
+  { "word": "ajar", "phonetic": "/əˈdʒɑːr/", "meaning": "adj. 微开的；半掩的", "difficulty": "advanced" },
+  { "word": "glimpse", "phonetic": "/ɡlɪmps/", "meaning": "n. 瞥见", "difficulty": "intermediate" },
+  { "word": "frame", "phonetic": "/freɪm/", "meaning": "n. 相框；框架", "difficulty": "intermediate" },
+  { "word": "photograph", "phonetic": "/ˈfoʊtəɡræf/", "meaning": "n. 照片", "difficulty": "beginner" },
+  { "word": "vulnerable", "phonetic": "/ˈvʌlnərəbl/", "meaning": "adj. 脆弱的", "difficulty": "advanced" },
+  { "word": "fragile", "phonetic": "/ˈfrædʒəl/", "meaning": "adj. 易碎的；脆弱的", "difficulty": "intermediate" },
+  { "word": "nostalgia", "phonetic": "/nəˈstældʒə/", "meaning": "n. 怀念；怀旧", "difficulty": "advanced" },
+  { "word": "mask", "phonetic": "/mæsk/", "meaning": "n. 面具", "difficulty": "intermediate" },
+  { "word": "emotion", "phonetic": "/ɪˈmoʊʃn/", "meaning": "n. 情绪", "difficulty": "intermediate" },
+  { "word": "conceal", "phonetic": "/kənˈsiːl/", "meaning": "v. 隐藏", "difficulty": "advanced" },
+  { "word": "trace", "phonetic": "/treɪs/", "meaning": "n. 痕迹", "difficulty": "intermediate" },
+  { "word": "abruptly", "phonetic": "/əˈbrʌptli/", "meaning": "adv. 突然地", "difficulty": "intermediate" },
+  { "word": "tense", "phonetic": "/tens/", "meaning": "adj. 紧张的", "difficulty": "intermediate" },
+  { "word": "hostile", "phonetic": "/ˈhɑːstl/", "meaning": "adj. 有敌意的", "difficulty": "advanced" },
+  { "word": "drawer", "phonetic": "/drɔːr/", "meaning": "n. 抽屉", "difficulty": "beginner" },
+  { "word": "apologize", "phonetic": "/əˈpɑːlədʒaɪz/", "meaning": "v. 道歉", "difficulty": "beginner" },
+  { "word": "interrupt", "phonetic": "/ˌɪntəˈrʌpt/", "meaning": "v. 打断", "difficulty": "intermediate" },
+  { "word": "retreat", "phonetic": "/rɪˈtriːt/", "meaning": "v. 撤退；退缩", "difficulty": "intermediate" },
+  { "word": "swallow", "phonetic": "/ˈswɑːloʊ/", "meaning": "v. 吞咽", "difficulty": "intermediate" },
+  { "word": "pretend", "phonetic": "/prɪˈtend/", "meaning": "v. 假装", "difficulty": "intermediate" },
+  { "word": "instinct", "phonetic": "/ˈɪnstɪŋkt/", "meaning": "n. 直觉；本能", "difficulty": "advanced" },
+  { "word": "secret", "phonetic": "/ˈsiːkrət/", "meaning": "n. 秘密", "difficulty": "beginner" },
+  { "word": "unexpected", "phonetic": "/ˌʌnɪkˈspektɪd/", "meaning": "adj. 意想不到的", "difficulty": "intermediate" },
+  { "word": "seed", "phonetic": "/siːd/", "meaning": "n. 种子", "difficulty": "beginner" },
+  { "word": "curiosity", "phonetic": "/ˌkjʊriˈɑːsəti/", "meaning": "n. 好奇心", "difficulty": "intermediate" }
+]
+
+
+第 08 章：没有宾客的婚礼
+虽然我们已经领取了结婚证，但按照合同，我们还需要完成一场作为形式的 ceremony(n. 仪式)。
+没有鲜花，没有媒体，整个 intimate(adj. 私密的) 的场地里只有五个人：我、傅司宴、陈助理和两位律师作为我们的 witness(n. 见证人)。
+傅司宴将一枚巨大的 diamond(n. 钻石) 戒指套进我的无名指。这枚戒指璀璨夺目，却是一个纯粹的 artificial(adj. 虚假的) 道具，仅仅是我们契约关系的 symbol(n. 象征)。
+牧师宣读誓词时，我们像两个毫无感情的 actor(n. 演员)，机械地 commit(v. 承诺) 彼此的未来。整个过程极其 efficient(adj. 高效的)，没有一丝一毫的 romantic(adj. 浪漫的) 氛围。
+仪式结束后，已是深夜。一整天紧绷的神经让我感到彻底的 exhausted(adj. 精疲力竭的)，但我的 appetite(n. 胃口) 却被消耗殆尽，胃里一阵阵痉挛。
+迈巴赫在路过一条老街时，傅司宴突然命令司机停车。他带我走进了一家极其 ordinary(adj. 普通的) 甚至有些 shabby(adj. 破旧的) 的苍蝇馆子，点了两碗热腾腾的鲜肉馄饨。
+在这样的环境里，穿着高定西装的他显得格格不入。但他毫不在意，动作 graceful(adj. 优雅的) 地用开水烫过一次性筷子，递到我面前。
+升腾的 steam(n. 蒸汽) 稍微 blur(v. 模糊) 了他冷峻的轮廓。
+“今天辛苦了。”他突然开口，低沉的嗓音里带着一丝罕见的、sincere(adj. 真诚的) apology(n. 道歉)，“我平时习惯了 dictate(v. 独裁；命令)，忽略了这毕竟是你的婚礼。抱歉。”
+我惊讶地看着他。这个向来 arrogant(adj. 傲慢的) 的男人，居然会向我低头。这让我原本 rational(adj. 理性的) 的防线产生了一丝极其 subtle(adj. 微妙的) 的动摇。
+就在这时，我的手机开始在包里疯狂 vibrate(v. 震动)。
+屏幕上闪烁的 caller(n. 来电者) 是我最好的朋友苏棉。她显然已经敏锐地察觉到了我最近 abnormal(adj. 反常的) 的行踪。
+我走到店外接听。电话一接通，她就开始了连珠炮似的 interrogate(v. 审问)：“林晚！你最近到底在干什么？你爸账户里突然多出来的那笔天价资金是怎么回事？”
+面对她 aggressive(adj. 咄咄逼人的) 的追问，我感到一阵深深的 guilty(adj. 内疚的)。如果真相暴露，我将面临 severe(adj. 严重的) 的法律 consequence(n. 后果)。苏棉对我极其 loyal(adj. 忠诚的)，我最不想 deceive(v. 欺骗) 的就是她。
+但我别无选择。我只能强装镇定，fabricate(v. 捏造) 了一个听起来足够 convincing(adj. 令人信服的) 的谎言：“我接了一个长期的海外保密同传项目，client(n. 客户) 预付了全款。”
+“真的？”苏棉依然有些 suspicious(adj. 怀疑的)。
+“真的。我签了严格的 confidentiality(n. 保密) 协议，所以不能多说。”我努力让自己的声音不发抖。
+挂断电话后，夜风吹过，我感到一种前所未有的 isolation(n. 孤立感)。为了拯救父亲，我不得不戴上沉重的 disguise(n. 伪装)，将自己与过去的世界彻底 isolate(v. 隔离)。
+我转过身，隔着玻璃窗，看到我名义上的 companion(n. 同伴) 傅司宴正静静地坐在那里。他就像是一个危险的 mystery(n. 谜)，而我，已经彻底坠入了他编织的这张网中，再也无法 escape(v. 逃脱)。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "ceremony", "phonetic": "/ˈserəmoʊni/", "meaning": "n. 仪式", "difficulty": "intermediate" },
+  { "word": "intimate", "phonetic": "/ˈɪntɪmət/", "meaning": "adj. 私密的；亲密的", "difficulty": "advanced" },
+  { "word": "witness", "phonetic": "/ˈwɪtnəs/", "meaning": "n. 见证人", "difficulty": "intermediate" },
+  { "word": "diamond", "phonetic": "/ˈdaɪəmənd/", "meaning": "n. 钻石", "difficulty": "beginner" },
+  { "word": "artificial", "phonetic": "/ˌɑːrtɪˈfɪʃl/", "meaning": "adj. 虚假的；人造的", "difficulty": "intermediate" },
+  { "word": "symbol", "phonetic": "/ˈsɪmbl/", "meaning": "n. 象征", "difficulty": "intermediate" },
+  { "word": "actor", "phonetic": "/ˈæktər/", "meaning": "n. 演员", "difficulty": "beginner" },
+  { "word": "commit", "phonetic": "/kəˈmɪt/", "meaning": "v. 承诺", "difficulty": "intermediate" },
+  { "word": "efficient", "phonetic": "/ɪˈfɪʃnt/", "meaning": "adj. 高效的", "difficulty": "intermediate" },
+  { "word": "romantic", "phonetic": "/roʊˈmæntɪk/", "meaning": "adj. 浪漫的", "difficulty": "beginner" },
+  { "word": "exhausted", "phonetic": "/ɪɡˈzɔːstɪd/", "meaning": "adj. 精疲力竭的", "difficulty": "intermediate" },
+  { "word": "appetite", "phonetic": "/ˈæpɪtaɪt/", "meaning": "n. 胃口", "difficulty": "intermediate" },
+  { "word": "ordinary", "phonetic": "/ˈɔːrdneri/", "meaning": "adj. 普通的", "difficulty": "beginner" },
+  { "word": "shabby", "phonetic": "/ˈʃæbi/", "meaning": "adj. 破旧的", "difficulty": "advanced" },
+  { "word": "graceful", "phonetic": "/ˈɡreɪsfl/", "meaning": "adj. 优雅的", "difficulty": "intermediate" },
+  { "word": "steam", "phonetic": "/stiːm/", "meaning": "n. 蒸汽", "difficulty": "intermediate" },
+  { "word": "blur", "phonetic": "/blɜːr/", "meaning": "v. 模糊", "difficulty": "intermediate" },
+  { "word": "sincere", "phonetic": "/sɪnˈsɪr/", "meaning": "adj. 真诚的", "difficulty": "intermediate" },
+  { "word": "apology", "phonetic": "/əˈpɑːlədʒi/", "meaning": "n. 道歉", "difficulty": "beginner" },
+  { "word": "dictate", "phonetic": "/ˈdɪkteɪt/", "meaning": "v. 独裁；命令", "difficulty": "advanced" },
+  { "word": "arrogant", "phonetic": "/ˈærəɡənt/", "meaning": "adj. 傲慢的", "difficulty": "advanced" },
+  { "word": "rational", "phonetic": "/ˈræʃnəl/", "meaning": "adj. 理性的", "difficulty": "intermediate" },
+  { "word": "subtle", "phonetic": "/ˈsʌtl/", "meaning": "adj. 微妙的", "difficulty": "advanced" },
+  { "word": "vibrate", "phonetic": "/ˈvaɪbreɪt/", "meaning": "v. 震动", "difficulty": "intermediate" },
+  { "word": "caller", "phonetic": "/ˈkɔːlər/", "meaning": "n. 来电者", "difficulty": "beginner" },
+  { "word": "abnormal", "phonetic": "/æbˈnɔːrml/", "meaning": "adj. 反常的", "difficulty": "intermediate" },
+  { "word": "interrogate", "phonetic": "/ɪnˈterəɡeɪt/", "meaning": "v. 审问", "difficulty": "advanced" },
+  { "word": "aggressive", "phonetic": "/əˈɡresɪv/", "meaning": "adj. 咄咄逼人的", "difficulty": "intermediate" },
+  { "word": "guilty", "phonetic": "/ˈɡɪlti/", "meaning": "adj. 内疚的", "difficulty": "intermediate" },
+  { "word": "severe", "phonetic": "/sɪˈvɪr/", "meaning": "adj. 严重的", "difficulty": "intermediate" },
+  { "word": "consequence", "phonetic": "/ˈkɑːnsɪkwens/", "meaning": "n. 后果", "difficulty": "intermediate" },
+  { "word": "loyal", "phonetic": "/ˈlɔɪəl/", "meaning": "adj. 忠诚的", "difficulty": "intermediate" },
+  { "word": "deceive", "phonetic": "/dɪˈsiːv/", "meaning": "v. 欺骗", "difficulty": "intermediate" },
+  { "word": "fabricate", "phonetic": "/ˈfæbrɪkeɪt/", "meaning": "v. 捏造", "difficulty": "advanced" },
+  { "word": "convincing", "phonetic": "/kənˈvɪnsɪŋ/", "meaning": "adj. 令人信服的", "difficulty": "intermediate" },
+  { "word": "client", "phonetic": "/ˈklaɪənt/", "meaning": "n. 客户", "difficulty": "beginner" },
+  { "word": "suspicious", "phonetic": "/səˈspɪʃəs/", "meaning": "adj. 怀疑的", "difficulty": "intermediate" },
+  { "word": "confidentiality", "phonetic": "/ˌkɑːnfɪˌdenʃiˈæləti/", "meaning": "n. 保密", "difficulty": "advanced" },
+  { "word": "isolation", "phonetic": "/ˌaɪsəˈleɪʃn/", "meaning": "n. 孤立感", "difficulty": "advanced" },
+  { "word": "disguise", "phonetic": "/dɪsˈɡaɪz/", "meaning": "n. 伪装", "difficulty": "intermediate" },
+  { "word": "isolate", "phonetic": "/ˈaɪsəleɪt/", "meaning": "v. 隔离", "difficulty": "intermediate" },
+  { "word": "companion", "phonetic": "/kəmˈpænjən/", "meaning": "n. 同伴", "difficulty": "intermediate" },
+  { "word": "mystery", "phonetic": "/ˈmɪstəri/", "meaning": "n. 谜", "difficulty": "intermediate" },
+  { "word": "escape", "phonetic": "/ɪˈskeɪp/", "meaning": "v. 逃脱", "difficulty": "beginner" }
+]
+
+
+
+第 09 章：新身份：傅太太
+周末的 charity(n. 慈善) auction(n. 拍卖会) 是我作为傅太太的首次公开亮相。
+这场 banquet(n. 宴会) 聚集了全市最 prestigious(adj. 享有声望的) 的商业家族。傅司宴亲自 escort(v. 护送) 我走上红毯。造型师为我挑选的星空高定礼服让我看起来格外 stunning(adj. 惊艳的) 和 radiant(adj. 容光焕发的)。
+当我们步入大厅，所有的 spotlight(n. 聚光灯) 瞬间集中在我们身上。周围的 socialite(n. 名媛) 们交头接耳，空气中弥漫着压抑的 gossip(n. 流言蜚语) 和 murmur(n. 喃喃低语)。她们对我的 identity(n. 身份) 充满了好奇。
+在这个 exclusive(adj. 高级的；独有的) 的圈子里，我敏锐地察觉到了一丝不寻常的 atmosphere(n. 气氛)。
+很快，这种隐秘的 hostility(n. 敌意) 就具象化了。
+一个穿着酒红色深V礼服的女人端着香槟走了过来。她长得极其美艳，举手投足间带着一种强烈的 superiority(n. 优越感) 和 confident(adj. 自信的) 气场。她就是顾清歌，傅司宴的 previous(adj. 以前的) 未婚妻，也是今晚我最大的 rival(n. 竞争对手)。
+“司宴，好久不见。”她直接忽略了我，deliberately(adv. 故意地) 向傅司宴搭话，试图 provoke(v. 挑衅) 我的底线。
+傅司宴微微颔首，表情淡漠：“顾小姐。”
+顾清歌转向我，嘴角勾起一抹 sarcastic(adj. 嘲讽的) 的微笑，并 feign(v. 假装) 出一丝惊讶：“这位就是传闻中的傅太太？真是让人意外。我还以为司宴会选一个更有背景的女孩，而不是一个随时可以被丢弃的 substitute(n. 替代品)。”
+这种当面的羞辱试图让我感到 inferior(adj. 低人一等的) 甚至暴露出我的 ignorance(n. 无知)。但经历过家庭变故的我，早就学会了如何保护自己的 dignity(n. 尊严)。
+我没有退缩，而是努力 maintain(v. 维持) 着绝对的 composure(n. 镇定)。我微笑着看她，准备 retaliate(v. 反击)：“顾小姐似乎有些 underestimate(v. 低估) 傅总的眼光了。婚姻不是商业并购，不需要拿背景板来凑数。”
+面对我的 tactic(n. 策略)，顾清歌的脸色微微一僵。她大概没想到我会如此毫不留情地 challenge(v. 挑战) 她。
+就在气氛剑拔弩张时，傅司宴突然伸手，紧紧揽住了我的腰。
+他强行 intervene(v. 干预) 了这场女人的战争。他看着顾清歌，声音冷得像淬了冰：“清歌，注意你的言辞。林晚是我 legitimate(adj. 合法的；正当的) 妻子。”
+这句话像一颗深水炸弹，瞬间 stun(v. 使震惊) 了周围竖起耳朵偷听的人。
+傅司宴没有停下，他继续当众 declare(v. 宣布)：“在这个宴会上，她拥有与我同等的 absolute(adj. 绝对的) privilege(n. 特权)。没有任何人可以质疑她的位置。”
+他用一种不容置疑的方式，向所有人宣示了他对我 monopolize(v. 独占；霸占) 的保护姿态。这是一种 unquestionable(adj. 毫无疑问的) 的 aura(n. 气场)，彻底击碎了所有关于我们关系不合的 rumor(n. 谣言)。
+顾清歌握着酒杯的手指微微发白。显然，她意识到在这个男人心里，我已经有了一个 irreplaceable(adj. 不可替代的) 的位置——至少在外人看来，他对我展现出了极大的 devotion(n. 忠诚；奉献)。
+感受着腰间那只有力的大手，我侧头看向傅司宴冷硬的下颌线，心跳不争气地漏了一拍。明知道这只是契约规定好的“恩爱戏码”，但在这一刻，我却真切地感受到了一种被偏爱的错觉。
+
+本章 vocabList
+JavaScript
+
+[
+  { "word": "charity", "phonetic": "/ˈtʃærəti/", "meaning": "n. 慈善", "difficulty": "beginner" },
+  { "word": "auction", "phonetic": "/ˈɔːkʃn/", "meaning": "n. 拍卖会", "difficulty": "intermediate" },
+  { "word": "banquet", "phonetic": "/ˈbæŋkwɪt/", "meaning": "n. 宴会", "difficulty": "intermediate" },
+  { "word": "prestigious", "phonetic": "/preˈstiːdʒəs/", "meaning": "adj. 享有声望的", "difficulty": "advanced" },
+  { "word": "escort", "phonetic": "/ɪˈskɔːrt/", "meaning": "v. 护送", "difficulty": "intermediate" },
+  { "word": "stunning", "phonetic": "/ˈstʌnɪŋ/", "meaning": "adj. 惊艳的", "difficulty": "intermediate" },
+  { "word": "radiant", "phonetic": "/ˈreɪdiənt/", "meaning": "adj. 容光焕发的", "difficulty": "advanced" },
+  { "word": "spotlight", "phonetic": "/ˈspɑːtlaɪt/", "meaning": "n. 聚光灯", "difficulty": "intermediate" },
+  { "word": "socialite", "phonetic": "/ˈsoʊʃəlaɪt/", "meaning": "n. 名媛；社会名流", "difficulty": "advanced" },
+  { "word": "gossip", "phonetic": "/ˈɡɑːsɪp/", "meaning": "n. 流言蜚语", "difficulty": "beginner" },
+  { "word": "murmur", "phonetic": "/ˈmɜːrmər/", "meaning": "n. 喃喃低语", "difficulty": "advanced" },
+  { "word": "identity", "phonetic": "/aɪˈdentəti/", "meaning": "n. 身份", "difficulty": "beginner" },
+  { "word": "exclusive", "phonetic": "/ɪkˈskluːsɪv/", "meaning": "adj. 高级的；独有的", "difficulty": "intermediate" },
+  { "word": "atmosphere", "phonetic": "/ˈætməsfɪr/", "meaning": "n. 气氛", "difficulty": "beginner" },
+  { "word": "hostility", "phonetic": "/hɑːˈstɪləti/", "meaning": "n. 敌意", "difficulty": "advanced" },
+  { "word": "superiority", "phonetic": "/suːˌpɪriˈɔːrəti/", "meaning": "n. 优越感", "difficulty": "advanced" },
+  { "word": "confident", "phonetic": "/ˈkɑːnfɪdənt/", "meaning": "adj. 自信的", "difficulty": "beginner" },
+  { "word": "previous", "phonetic": "/ˈpriːviəs/", "meaning": "adj. 以前的", "difficulty": "beginner" },
+  { "word": "rival", "phonetic": "/ˈraɪvl/", "meaning": "n. 竞争对手", "difficulty": "intermediate" },
+  { "word": "deliberately", "phonetic": "/dɪˈlɪbərətli/", "meaning": "adv. 故意地", "difficulty": "intermediate" },
+  { "word": "provoke", "phonetic": "/prəˈvoʊk/", "meaning": "v. 挑衅", "difficulty": "advanced" },
+  { "word": "sarcastic", "phonetic": "/sɑːrˈkæstɪk/", "meaning": "adj. 嘲讽的", "difficulty": "advanced" },
+  { "word": "feign", "phonetic": "/feɪn/", "meaning": "v. 假装", "difficulty": "advanced" },
+  { "word": "substitute", "phonetic": "/ˈsʌbstɪtuːt/", "meaning": "n. 替代品", "difficulty": "intermediate" },
+  { "word": "inferior", "phonetic": "/ɪnˈfɪriər/", "meaning": "adj. 低人一等的", "difficulty": "intermediate" },
+  { "word": "ignorance", "phonetic": "/ˈɪɡnərəns/", "meaning": "n. 无知", "difficulty": "intermediate" },
+  { "word": "dignity", "phonetic": "/ˈdɪɡnəti/", "meaning": "n. 尊严", "difficulty": "intermediate" },
+  { "word": "maintain", "phonetic": "/meɪnˈteɪn/", "meaning": "v. 维持", "difficulty": "intermediate" },
+  { "word": "composure", "phonetic": "/kəmˈpoʊʒər/", "meaning": "n. 镇定", "difficulty": "advanced" },
+  { "word": "retaliate", "phonetic": "/rɪˈtælieɪt/", "meaning": "v. 反击", "difficulty": "advanced" },
+  { "word": "underestimate", "phonetic": "/ˌʌndərˈestɪmeɪt/", "meaning": "v. 低估", "difficulty": "intermediate" },
+  { "word": "tactic", "phonetic": "/ˈtæktɪk/", "meaning": "n. 策略", "difficulty": "intermediate" },
+  { "word": "challenge", "phonetic": "/ˈtʃælɪndʒ/", "meaning": "v. 挑战", "difficulty": "beginner" },
+  { "word": "intervene", "phonetic": "/ˌɪntərˈviːn/", "meaning": "v. 干预", "difficulty": "advanced" },
+  { "word": "legitimate", "phonetic": "/lɪˈdʒɪtɪmət/", "meaning": "adj. 合法的；正当的", "difficulty": "advanced" },
+  { "word": "stun", "phonetic": "/stʌn/", "meaning": "v. 使震惊", "difficulty": "intermediate" },
+  { "word": "declare", "phonetic": "/dɪˈkler/", "meaning": "v. 宣布", "difficulty": "intermediate" },
+  { "word": "absolute", "phonetic": "/ˈæbsəluːt/", "meaning": "adj. 绝对的", "difficulty": "intermediate" },
+  { "word": "privilege", "phonetic": "/ˈprɪvəlɪdʒ/", "meaning": "n. 特权", "difficulty": "intermediate" },
+  { "word": "monopolize", "phonetic": "/məˈnɑːpəlaɪz/", "meaning": "v. 独占；霸占", "difficulty": "advanced" },
+  { "word": "unquestionable", "phonetic": "/ʌnˈkwestʃənəbl/", "meaning": "adj. 毫无疑问的", "difficulty": "advanced" },
+  { "word": "aura", "phonetic": "/ˈɔːrə/", "meaning": "n. 气场", "difficulty": "intermediate" },
+  { "word": "rumor", "phonetic": "/ˈruːmər/", "meaning": "n. 谣言", "difficulty": "beginner" },
+  { "word": "irreplaceable", "phonetic": "/ˌɪrɪˈpleɪsəbl/", "meaning": "adj. 不可替代的", "difficulty": "advanced" },
+  { "word": "devotion", "phonetic": "/dɪˈvoʊʃn/", "meaning": "n. 忠诚；奉献", "difficulty": "advanced" }
+]
+
+第 10 章：第一次冲突
+昨晚的慈善晚宴无疑是一场 massive(adj. 巨大的) 的公关胜利。
+第二天清晨，傅氏集团的公关团队带着大量昂贵的 jewelry(n. 珠宝) 抵达庄园，为下午的 exclusive(adj. 独家的) 财经杂志 interview(n. 采访) 做准备。
+造型师拿出一个天鹅绒盒子，里面躺着一条极其 extravagant(adj. 奢侈的) 的蓝宝石 necklace(n. 项链)。
+“太太，这是傅总指定的 accessory(n. 配饰)。”
+我看着那条沉甸甸的宝石，心里涌起一阵强烈的 reluctance(n. 不情愿)。戴上它，我感觉自己就像一个没有灵魂的 puppet(n. 傀儡)，只是被用来向外界 display(v. 展示) 傅家财富的漂亮物件。
+我试图与造型师 negotiate(v. 协商)：“能换一条款式简单的吗？”
+“抱歉，这是傅总 explicit(adj. 明确的) 的指示。”
+我的忍耐达到了极限。自从签下契约，我一直努力做一个 obedient(adj. 顺从的) 的乙方，但这种连穿戴都要被完全 manipulate(v. 操纵) 的感觉让我开始 stifle(v. 窒息)。如果连这也要妥协，我以后只会彻底失去自我。
+我推开首饰盒，径直走向二楼书房。门半掩着，我深吸一口气，决定直接与他 confront(v. 对峙)。
+“我不戴那条项链。”我站在办公桌前，坚定地 assert(v. 主张) 我的底线，“协议规定我需要配合出席活动，但没说我必须交出穿着的 autonomy(n. 自主权)。我是个活生生的人，不是你的展示架。”
+书房里的空气瞬间变得 tense(adj. 紧张的)。
+傅司宴放下钢笔，黑眸直直地 gaze(v. 凝视) 着我。我做好了迎接他 harsh(adj. 严厉的) 责备的准备，毕竟他习惯了去 dictate(v. 支配) 一切，绝不允许别人 rebel(v. 反抗)。
+然而，他并没有发怒。相反，他的眼里闪过一丝 unexpected(adj. 意想不到的) 的 approval(n. 赞同)。
+我愣住了，完全无法 comprehend(v. 理解) 他的反应。
+傅司宴站起身，走到我面前：“林晚，我需要的是一个能在社交场上站稳脚跟的傅太太，而不是一个只会低头服从的附属品。如果你连对我发脾气的 courage(n. 勇气) 都没有，以后怎么去应付外界更恶劣的算计？”
+原来，这是一场测试。
+他看着我，语调平缓地 clarify(v. 澄清) 了相处模式：“从今天起，关于你的外在形象，你可以拥有更 flexible(adj. 灵活的) 的决定权。如果你不喜欢某样东西，我们可以寻找 alternative(n. 替代方案)。”
+他竟然在向我做出 compromise(n. 妥协)。
+“那我们的契约……”
+“框架不变，但执行细节可以变成一种基于 respect(n. 尊重) 的 partnership(n. 合伙关系)。”他语气笃定，“只要结果是 mutually(adv. 互相地) acceptable(adj. 可接受的)。”
+这场冲突，以一种不可思议的方式收场。它标志着我们之间权力 dynamic(n. 动态) 的一次重要 shift(n. 转变)。
+我终于不用再维持那种 superficial(adj. 表面的) 的伪装。在这个奢华的牢笼里，我争取到了一丝 authentic(adj. 真实的) 的呼吸空间。
+而傅司宴，这个男人远比我想象的更加深不可测。他的每一步 strategy(n. 策略) 都带着一种令人战栗的、profound(adj. 深刻的) 算计。
+
+本章 vocabList 
+JavaScript
+
+[
+  { "word": "massive", "phonetic": "/ˈmæsɪv/", "meaning": "adj. 巨大的", "difficulty": "intermediate" },
+  { "word": "jewelry", "phonetic": "/ˈdʒuːəlri/", "meaning": "n. 珠宝", "difficulty": "beginner" },
+  { "word": "exclusive", "phonetic": "/ɪkˈskluːsɪv/", "meaning": "adj. 独家的；高级的", "difficulty": "intermediate" },
+  { "word": "interview", "phonetic": "/ˈɪntərvjuː/", "meaning": "n. 采访", "difficulty": "beginner" },
+  { "word": "extravagant", "phonetic": "/ɪkˈstrævəɡənt/", "meaning": "adj. 奢侈的；挥霍的", "difficulty": "advanced" },
+  { "word": "necklace", "phonetic": "/ˈnekləs/", "meaning": "n. 项链", "difficulty": "beginner" },
+  { "word": "accessory", "phonetic": "/əkˈsesəri/", "meaning": "n. 配饰", "difficulty": "intermediate" },
+  { "word": "reluctance", "phonetic": "/rɪˈlʌktəns/", "meaning": "n. 不情愿", "difficulty": "intermediate" },
+  { "word": "puppet", "phonetic": "/ˈpʌpɪt/", "meaning": "n. 傀儡", "difficulty": "intermediate" },
+  { "word": "display", "phonetic": "/dɪˈspleɪ/", "meaning": "v. 展示", "difficulty": "beginner" },
+  { "word": "negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "meaning": "v. 协商", "difficulty": "intermediate" },
+  { "word": "explicit", "phonetic": "/ɪkˈsplɪsɪt/", "meaning": "adj. 明确的", "difficulty": "advanced" },
+  { "word": "obedient", "phonetic": "/əˈbiːdiənt/", "meaning": "adj. 顺从的", "difficulty": "intermediate" },
+  { "word": "manipulate", "phonetic": "/məˈnɪpjuleɪt/", "meaning": "v. 操纵", "difficulty": "advanced" },
+  { "word": "stifle", "phonetic": "/ˈstaɪfl/", "meaning": "v. 窒息；压抑", "difficulty": "advanced" },
+  { "word": "confront", "phonetic": "/kənˈfrʌnt/", "meaning": "v. 对峙；面对", "difficulty": "intermediate" },
+  { "word": "assert", "phonetic": "/əˈsɜːrt/", "meaning": "v. 主张；断言", "difficulty": "advanced" },
+  { "word": "autonomy", "phonetic": "/ɔːˈtɑːnəmi/", "meaning": "n. 自主权", "difficulty": "advanced" },
+  { "word": "tense", "phonetic": "/tens/", "meaning": "adj. 紧张的", "difficulty": "intermediate" },
+  { "word": "gaze", "phonetic": "/ɡeɪz/", "meaning": "v. 凝视", "difficulty": "intermediate" },
+  { "word": "harsh", "phonetic": "/hɑːrʃ/", "meaning": "adj. 严厉的", "difficulty": "intermediate" },
+  { "word": "dictate", "phonetic": "/ˈdɪkteɪt/", "meaning": "v. 支配；命令", "difficulty": "advanced" },
+  { "word": "rebel", "phonetic": "/rɪˈbel/", "meaning": "v. 反抗", "difficulty": "intermediate" },
+  { "word": "unexpected", "phonetic": "/ˌʌnɪkˈspektɪd/", "meaning": "adj. 意想不到的", "difficulty": "intermediate" },
+  { "word": "approval", "phonetic": "/əˈpruːvl/", "meaning": "n. 赞同", "difficulty": "intermediate" },
+  { "word": "comprehend", "phonetic": "/ˌkɑːmprɪˈhend/", "meaning": "v. 理解", "difficulty": "advanced" },
+  { "word": "courage", "phonetic": "/ˈkɜːrɪdʒ/", "meaning": "n. 勇气", "difficulty": "beginner" },
+  { "word": "clarify", "phonetic": "/ˈklærəfaɪ/", "meaning": "v. 澄清", "difficulty": "intermediate" },
+  { "word": "flexible", "phonetic": "/ˈfleksəbl/", "meaning": "adj. 灵活的", "difficulty": "intermediate" },
+  { "word": "alternative", "phonetic": "/ɔːlˈtɜːrnətɪv/", "meaning": "n. 替代方案", "difficulty": "intermediate" },
+  { "word": "compromise", "phonetic": "/ˈkɑːmprəmaɪz/", "meaning": "n. 妥协", "difficulty": "intermediate" },
+  { "word": "respect", "phonetic": "/rɪˈspekt/", "meaning": "n. 尊重", "difficulty": "beginner" },
+  { "word": "partnership", "phonetic": "/ˈpɑːrtnərʃɪp/", "meaning": "n. 合伙关系；伙伴关系", "difficulty": "intermediate" },
+  { "word": "mutually", "phonetic": "/ˈmjuːtʃuəli/", "meaning": "adv. 互相地", "difficulty": "intermediate" },
+  { "word": "acceptable", "phonetic": "/əkˈseptəbl/", "meaning": "adj. 可接受的", "difficulty": "beginner" },
+  { "word": "dynamic", "phonetic": "/daɪˈnæmɪk/", "meaning": "n. 动态", "difficulty": "advanced" },
+  { "word": "shift", "phonetic": "/ʃɪft/", "meaning": "n. 转变", "difficulty": "intermediate" },
+  { "word": "superficial", "phonetic": "/ˌsuːpərˈfɪʃl/", "meaning": "adj. 表面的", "difficulty": "advanced" },
+  { "word": "authentic", "phonetic": "/ɔːˈθentɪk/", "meaning": "adj. 真实的", "difficulty": "advanced" },
+  { "word": "strategy", "phonetic": "/ˈstrætədʒi/", "meaning": "n. 策略", "difficulty": "intermediate" },
+  { "word": "profound", "phonetic": "/prəˈfaʊnd/", "meaning": "adj. 深刻的", "difficulty": "advanced" }
+]
+
+
+
+第 11 章：十年前的疤痕
+一年一度的亚太经济 summit(n. 峰会) 在 B 市隆重开幕。作为傅太太，我陪同傅司宴出席。现场汇聚了来自世界各地的 distinguished(adj. 尊贵的) 嘉宾和企业巨头。
+在下午的一场关于新能源开发的闭门会议中，发生了一个 unforeseen(adj. 无法预料的) 的 emergency(n. 紧急情况)。法方代表的首席同传突发急性肠胃炎被送往医院，而这场涉及数十亿欧元的 collaboration(n. 合作) 磋商根本无法暂停。
+会议室里陷入了短暂的混乱。法方代表显得十分 anxious(adj. 焦虑的)。
+傅司宴微微偏头，目光深沉地看向我。我明白他的意思。作为一名前外交官的女儿和顶尖的自由译员，我没有任何退缩的理由。我主动站了出来，表示愿意作为 replacement(n. 替换者) 救场。
+戴上同传耳机的那一刻，我进入了绝对的专注状态。面对幻灯片上极其复杂的工程学和法律 terminology(n. 术语)，我深吸一口气，开始 interpret(v. 口译)。
+我的发音极其 fluent(adj. 流利的)，用词 accurately(adv. 准确地) 且精准。我成功消除了双方由于文化差异带来的沟通 barrier(n. 障碍)，确保了整场 consultation(n. 磋商) 的 smooth(adj. 顺利的) 进行。
+当最终的合作意向书签下时，法方总裁站起身，对我竖起了大拇指，表达了极大的 appreciation(n. 欣赏)。
+“傅总，您的太太真是太 brilliant(adj. 才华横溢的) 了。”他用法语称赞道，“她的 capability(n. 能力) 令人惊叹，这是我见过最出色的翻译。”
+会议室里响起了热烈的 applause(n. 掌声)。我转头看向傅司宴，他看着我的眼神里褪去了平日的冷漠，闪过一丝不易察觉的、proud(adj. 骄傲的) 光芒。
+“干得漂亮。”他低声对我说，这是他第一次对我给予如此直接的 compliment(n. 赞美)。
+傍晚，我们乘车返回庄园。
+高强度的脑力劳动让我感到一阵深深的 fatigue(n. 疲劳)。我靠在 limousine(n. 豪华轿车) 的真皮座椅上，闭目养神，意识渐渐有些 fuzzy(adj. 模糊的)。
+车子在路口遇到一个红灯，司机猛踩了一脚刹车。由于惯性，我下意识地往前栽倒。傅司宴眼疾手快，伸出手臂稳稳地挡在了我的额头前。
+他的西装袖口顺势滑落了一截，露出了结实的 forearm(n. 前臂)。
+借着车窗外闪过的路灯，我突然瞥见他小臂内侧有一道暗红色的、狰狞的旧 scar(n. 疤痕)。
+那道疤痕的形状是如此的 familiar(adj. 熟悉的)，就像一道闪电，瞬间 trigger(v. 触发) 了我脑海深处一段被刻意封存的 memory(n. 记忆)。
+整整一个 decade(n. 十年) 前，市中心图书馆发生过一场可怕的火灾。
+在浓烟滚滚的废墟中，是一个 anonymous(adj. 匿名的) 的少年将昏迷的我 rescue(v. 救出)。我当时死死抓着他的手臂，一块燃烧的木板砸下来，在他的小臂上留下了一道烧伤的痕迹。我至今记得那个疤痕的走向。
+这难道仅仅是一个 coincidence(n. 巧合) 吗？
+我盯着他的手臂，那道疤痕与我记忆中的画面是如此的 identical(adj. 完全相同的)。原本随着时间流逝而逐渐 fade(v. 褪色) 的记忆瞬间变得无比清晰。
+难道这一切并非偶然，而是某种早已写好的 fate(n. 命运)？
+我抬起头，看向他冷峻的侧脸，内心掀起了惊涛骇浪。我开始 suspect(v. 怀疑)，傅司宴当初跳过那么多名媛，指名道姓要和我签订契约婚姻的背后，是否隐藏着更深层的 motive(n. 动机)。
+他是否一直在 intentionally(adv. 有意地) 靠近我？
+为了解开这个致命的 riddle(n. 谜题)，我决定暗中去 investigate(v. 调查) 他的过去，找出被掩盖的 truth(n. 真相)。这段看似是用两千万买断的荒唐婚姻，似乎隐藏着一种 indisputable(adj. 毋庸置疑的) 的深情羁绊。
+
+📝 本章 vocabList 
+JavaScript
+
+[
+  { "word": "summit", "phonetic": "/ˈsʌmɪt/", "meaning": "n. 峰会", "difficulty": "intermediate" },
+  { "word": "distinguished", "phonetic": "/dɪˈstɪŋɡwɪʃt/", "meaning": "adj. 尊贵的；卓越的", "difficulty": "advanced" },
+  { "word": "unforeseen", "phonetic": "/ˌʌnfɔːrˈsiːn/", "meaning": "adj. 无法预料的", "difficulty": "advanced" },
+  { "word": "emergency", "phonetic": "/ɪˈmɜːrdʒənsi/", "meaning": "n. 紧急情况", "difficulty": "beginner" },
+  { "word": "collaboration", "phonetic": "/kəˌlæbəˈreɪʃn/", "meaning": "n. 合作", "difficulty": "intermediate" },
+  { "word": "anxious", "phonetic": "/ˈæŋkʃəs/", "meaning": "adj. 焦虑的", "difficulty": "intermediate" },
+  { "word": "replacement", "phonetic": "/rɪˈpleɪsmənt/", "meaning": "n. 替换者；替代品", "difficulty": "intermediate" },
+  { "word": "terminology", "phonetic": "/ˌtɜːrməˈnɑːlədʒi/", "meaning": "n. 术语", "difficulty": "advanced" },
+  { "word": "interpret", "phonetic": "/ɪnˈtɜːrprət/", "meaning": "v. 口译；解释", "difficulty": "intermediate" },
+  { "word": "fluent", "phonetic": "/ˈfluːənt/", "meaning": "adj. 流利的", "difficulty": "intermediate" },
+  { "word": "accurately", "phonetic": "/ˈækjərətli/", "meaning": "adv. 准确地", "difficulty": "intermediate" },
+  { "word": "barrier", "phonetic": "/ˈbæriər/", "meaning": "n. 障碍", "difficulty": "intermediate" },
+  { "word": "consultation", "phonetic": "/ˌkɑːnslˈteɪʃn/", "meaning": "n. 磋商；咨询", "difficulty": "advanced" },
+  { "word": "smooth", "phonetic": "/smuːð/", "meaning": "adj. 顺利的；平滑的", "difficulty": "beginner" },
+  { "word": "appreciation", "phonetic": "/əˌpriːʃiˈeɪʃn/", "meaning": "n. 欣赏；感激", "difficulty": "intermediate" },
+  { "word": "brilliant", "phonetic": "/ˈbrɪliənt/", "meaning": "adj. 才华横溢的", "difficulty": "intermediate" },
+  { "word": "capability", "phonetic": "/ˌkeɪpəˈbɪləti/", "meaning": "n. 能力", "difficulty": "intermediate" },
+  { "word": "applause", "phonetic": "/əˈplɔːz/", "meaning": "n. 掌声", "difficulty": "intermediate" },
+  { "word": "proud", "phonetic": "/praʊd/", "meaning": "adj. 骄傲的", "difficulty": "beginner" },
+  { "word": "compliment", "phonetic": "/ˈkɑːmplɪmənt/", "meaning": "n. 赞美", "difficulty": "intermediate" },
+  { "word": "fatigue", "phonetic": "/fəˈtiːɡ/", "meaning": "n. 疲劳", "difficulty": "advanced" },
+  { "word": "limousine", "phonetic": "/ˈlɪməziːn/", "meaning": "n. 豪华轿车", "difficulty": "intermediate" },
+  { "word": "fuzzy", "phonetic": "/ˈfʌzi/", "meaning": "adj. 模糊的", "difficulty": "intermediate" },
+  { "word": "forearm", "phonetic": "/ˈfɔːrɑːrm/", "meaning": "n. 前臂", "difficulty": "intermediate" },
+  { "word": "scar", "phonetic": "/skɑːr/", "meaning": "n. 疤痕", "difficulty": "beginner" },
+  { "word": "familiar", "phonetic": "/fəˈmɪliər/", "meaning": "adj. 熟悉的", "difficulty": "beginner" },
+  { "word": "trigger", "phonetic": "/ˈtrɪɡər/", "meaning": "v. 触发", "difficulty": "intermediate" },
+  { "word": "memory", "phonetic": "/ˈmeməri/", "meaning": "n. 记忆", "difficulty": "beginner" },
+  { "word": "decade", "phonetic": "/ˈdekeɪd/", "meaning": "n. 十年", "difficulty": "intermediate" },
+  { "word": "anonymous", "phonetic": "/əˈnɑːnɪməs/", "meaning": "adj. 匿名的", "difficulty": "advanced" },
+  { "word": "rescue", "phonetic": "/ˈreskjuː/", "meaning": "v. 救出；营救", "difficulty": "intermediate" },
+  { "word": "coincidence", "phonetic": "/koʊˈɪnsɪdəns/", "meaning": "n. 巧合", "difficulty": "advanced" },
+  { "word": "identical", "phonetic": "/aɪˈdentɪkl/", "meaning": "adj. 完全相同的", "difficulty": "intermediate" },
+  { "word": "fade", "phonetic": "/feɪd/", "meaning": "v. 褪色；逐渐消失", "difficulty": "intermediate" },
+  { "word": "fate", "phonetic": "/feɪt/", "meaning": "n. 命运", "difficulty": "intermediate" },
+  { "word": "suspect", "phonetic": "/səˈspekt/", "meaning": "v. 怀疑", "difficulty": "intermediate" },
+  { "word": "motive", "phonetic": "/ˈmoʊtɪv/", "meaning": "n. 动机", "difficulty": "intermediate" },
+  { "word": "intentionally", "phonetic": "/ɪnˈtenʃənəli/", "meaning": "adv. 有意地", "difficulty": "intermediate" },
+  { "word": "riddle", "phonetic": "/ˈrɪdl/", "meaning": "n. 谜题", "difficulty": "intermediate" },
+  { "word": "investigate", "phonetic": "/ɪnˈvestɪɡeɪt/", "meaning": "v. 调查", "difficulty": "intermediate" },
+  { "word": "truth", "phonetic": "/truːθ/", "meaning": "n. 真相", "difficulty": "beginner" },
+  { "word": "indisputable", "phonetic": "/ˌɪndɪˈspjuːtəbl/", "meaning": "adj. 毋庸置疑的", "difficulty": "advanced" }
+]
+
+第 12 章：烧焦的借书证
+第二天，我正式启动了针对傅司宴的秘密 investigation(n. 调查)。
+要找到十年前那场火灾的 evidence(n. 证据) 极其困难。当年的新闻报道十分 fragmentary(adj. 零碎的)，且大部分纸质 archive(n. 档案) 已经在一场暴雨中被毁。
+但我没有放弃。我委托了一名私家侦探去 trace(v. 追踪) 傅司宴早年的活动 trajectory(n. 轨迹)。结果令人震惊：火灾发生的那一年，他所在的高中就位于图书馆 adjacent(adj. 毗邻的) 的街道。
+这个发现进一步 confirm(v. 证实) 了我的 hypothesis(n. 假设)。傅司宴绝不是在茫茫人海中 randomly(adv. 随机地) 挑选了我作为契约妻子。他极有可能是 deliberately(adv. 故意地) 策划了这一切。
+但他的 motive(n. 动机) 到底是什么？如果他真的是那个救命恩人，为什么要用这种冷冰冰的商业契约来 approach(v. 靠近) 我？
+为了寻找更 crucial(adj. 至关重要的) 的线索，我决定冒险。
+当晚，傅司宴在楼下进行一场冗长的跨国视频会议。我避开管家的 observation(n. 观察)，悄悄 sneak(v. 潜入) 了他二楼的私人书房。
+这是我第一次踏入他的绝对领地。书房的陈设极其 rigid(adj. 严谨的)，所有 document(n. 文件) 都按字母顺序排列。我小心翼翼地翻找，试图在保险柜旁的抽屉里找到一些 relevant(adj. 相关的) 的物品。
+在一排厚重的原文书背后，我摸到了一个有些格格不入的铁盒。打开一看，里面没有 confidential(adj. 机密的) 的商业机密，只有一张边缘烧焦的旧版借书证。
+上面的名字，赫然是“林晚”。
+我的心脏剧烈地跳动起来。这就是最直接的 proof(n. 证据)！
+就在这时，门外传来了沉稳的脚步声。
+我瞬间陷入了巨大的 panic(n. 恐慌)，立刻将铁盒放回原位。门被推开的刹那，我随手从书架上抽出了一本法文字典。
+傅司宴站在门口，眉头紧锁。他深邃的目光像利剑一样试图 penetrate(v. 刺透) 我的伪装，眼神里充满了不可名状的 suspicion(n. 怀疑)。
+“你在干什么？”他的声音极其 stern(adj. 严厉的)，带着一丝被侵犯领地的怒意。
+“我……”我努力维持镇定，fabricate(v. 捏造) 了一个借口，“我明天有个翻译项目，来找一本专业的参考书。”
+他一步步走近，高大挺拔的身躯带来一种强烈的 oppression(n. 压迫感)。他走到我面前，低头看了一眼我手里的字典，并没有拆穿我蹩脚的谎言。
+“林晚，我们签过 agreement(n. 协议)。”他冷冷地 remind(v. 提醒) 我，“这里是我的私人 boundary(n. 边界)。”
+“抱歉。”我低下头。
+但他并没有 punish(v. 惩罚) 我的越界。我注意到，他垂在身侧的手紧紧攥成拳头，手背上青筋凸起。他似乎正在用极大的自制力去 suppress(v. 压抑) 某种异常 intense(adj. 强烈的) 的情绪。
+“出去。”他转过身，声音有些沙哑。
+我快步离开。回到卧室，我的后背已经渗出了冷汗。但我知道，这场 psychological(adj. 心理的) 的博弈，我赢下了关键的一局。
+那个烧焦的借书证，打破了他所有的 logic(n. 逻辑) 与 camouflage(n. 伪装)。这个在商场上杀伐决断的 opponent(n. 对手)，其实有着最深的 contradiction(n. 矛盾)。
+接下来的日子，我会比他更加 cautious(adj. 谨慎的)。我要一层层剥开他那看似 rational(adj. 理性的) 的外壳，逼他露出隐藏最深的 emotion(n. 情感)。
+ 本章 vocabList 
+JavaScript
+
+[
+  { "word": "investigation", "phonetic": "/ɪnˌvestɪˈɡeɪʃn/", "meaning": "n. 调查", "difficulty": "intermediate" },
+  { "word": "evidence", "phonetic": "/ˈevɪdəns/", "meaning": "n. 证据", "difficulty": "beginner" },
+  { "word": "fragmentary", "phonetic": "/ˈfræɡmənteri/", "meaning": "adj. 零碎的", "difficulty": "advanced" },
+  { "word": "archive", "phonetic": "/ˈɑːrkaɪv/", "meaning": "n. 档案", "difficulty": "intermediate" },
+  { "word": "trace", "phonetic": "/treɪs/", "meaning": "v. 追踪", "difficulty": "intermediate" },
+  { "word": "trajectory", "phonetic": "/trəˈdʒektəri/", "meaning": "n. 轨迹", "difficulty": "advanced" },
+  { "word": "adjacent", "phonetic": "/əˈdʒeɪsnt/", "meaning": "adj. 毗邻的", "difficulty": "advanced" },
+  { "word": "confirm", "phonetic": "/kənˈfɜːrm/", "meaning": "v. 证实", "difficulty": "beginner" },
+  { "word": "hypothesis", "phonetic": "/haɪˈpɑːθəsɪs/", "meaning": "n. 假设", "difficulty": "advanced" },
+  { "word": "randomly", "phonetic": "/ˈrændəmli/", "meaning": "adv. 随机地", "difficulty": "intermediate" },
+  { "word": "deliberately", "phonetic": "/dɪˈlɪbərətli/", "meaning": "adv. 故意地", "difficulty": "intermediate" },
+  { "word": "motive", "phonetic": "/ˈmoʊtɪv/", "meaning": "n. 动机", "difficulty": "intermediate" },
+  { "word": "approach", "phonetic": "/əˈproʊtʃ/", "meaning": "v. 靠近", "difficulty": "intermediate" },
+  { "word": "crucial", "phonetic": "/ˈkruːʃl/", "meaning": "adj. 至关重要的", "difficulty": "intermediate" },
+  { "word": "observation", "phonetic": "/ˌɑːbzərˈveɪʃn/", "meaning": "n. 观察", "difficulty": "intermediate" },
+  { "word": "sneak", "phonetic": "/sniːk/", "meaning": "v. 潜入", "difficulty": "intermediate" },
+  { "word": "rigid", "phonetic": "/ˈrɪdʒɪd/", "meaning": "adj. 严谨的；死板的", "difficulty": "advanced" },
+  { "word": "document", "phonetic": "/ˈdɑːkjumənt/", "meaning": "n. 文件", "difficulty": "beginner" },
+  { "word": "relevant", "phonetic": "/ˈreləvənt/", "meaning": "adj. 相关的", "difficulty": "intermediate" },
+  { "word": "confidential", "phonetic": "/ˌkɑːnfɪˈdenʃl/", "meaning": "adj. 机密的", "difficulty": "advanced" },
+  { "word": "proof", "phonetic": "/pruːf/", "meaning": "n. 证据", "difficulty": "beginner" },
+  { "word": "panic", "phonetic": "/ˈpænɪk/", "meaning": "n. 恐慌", "difficulty": "beginner" },
+  { "word": "penetrate", "phonetic": "/ˈpenətreɪt/", "meaning": "v. 刺透；穿透", "difficulty": "advanced" },
+  { "word": "suspicion", "phonetic": "/səˈspɪʃn/", "meaning": "n. 怀疑", "difficulty": "intermediate" },
+  { "word": "stern", "phonetic": "/stɜːrn/", "meaning": "adj. 严厉的", "difficulty": "intermediate" },
+  { "word": "fabricate", "phonetic": "/ˈfæbrɪkeɪt/", "meaning": "v. 捏造", "difficulty": "advanced" },
+  { "word": "oppression", "phonetic": "/əˈpreʃn/", "meaning": "n. 压迫感", "difficulty": "advanced" },
+  { "word": "agreement", "phonetic": "/əˈɡriːmənt/", "meaning": "n. 协议", "difficulty": "beginner" },
+  { "word": "remind", "phonetic": "/rɪˈmaɪnd/", "meaning": "v. 提醒", "difficulty": "beginner" },
+  { "word": "boundary", "phonetic": "/ˈbaʊndəri/", "meaning": "n. 边界", "difficulty": "intermediate" },
+  { "word": "punish", "phonetic": "/ˈpʌnɪʃ/", "meaning": "v. 惩罚", "difficulty": "beginner" },
+  { "word": "suppress", "phonetic": "/səˈpres/", "meaning": "v. 压抑", "difficulty": "advanced" },
+  { "word": "intense", "phonetic": "/ɪnˈtens/", "meaning": "adj. 强烈的", "difficulty": "intermediate" },
+  { "word": "psychological", "phonetic": "/ˌsaɪkəˈlɑːdʒɪkl/", "meaning": "adj. 心理的", "difficulty": "intermediate" },
+  { "word": "logic", "phonetic": "/ˈlɑːdʒɪk/", "meaning": "n. 逻辑", "difficulty": "beginner" },
+  { "word": "camouflage", "phonetic": "/ˈkæməflɑːʒ/", "meaning": "n. 伪装", "difficulty": "advanced" },
+  { "word": "opponent", "phonetic": "/əˈpoʊnənt/", "meaning": "n. 对手", "difficulty": "intermediate" },
+  { "word": "contradiction", "phonetic": "/ˌkɑːntrəˈdɪkʃn/", "meaning": "n. 矛盾", "difficulty": "advanced" },
+  { "word": "cautious", "phonetic": "/ˈkɔːʃəs/", "meaning": "adj. 谨慎的", "difficulty": "intermediate" },
+  { "word": "rational", "phonetic": "/ˈræʃnəl/", "meaning": "adj. 理性的", "difficulty": "intermediate" },
+  { "word": "emotion", "phonetic": "/ɪˈmoʊʃn/", "meaning": "n. 情感", "difficulty": "beginner" }
+]
+
+
+第 13 章：老宅交锋
+昨晚书房的 confrontation(n. 对峙) 彻底改变了我们之间的氛围。
+早餐时，傅司宴依旧看着他的财经新闻，但空气中弥漫着一种难以名状的 tension(n. 紧张)。我不再像过去那样 timid(adj. 胆怯的)，而是开始大胆地 observe(v. 观察) 他。那个烧焦的借书证给了我极大的 confidence(n. 信心)。我意识到，在这场看似不平等的 transaction(n. 交易) 里，我并非完全处于 passive(adj. 被动的) 地位。
+下午，陈助理通知我，今晚需要回傅家老宅参加每月的家庭 gathering(n. 聚会)。
+傅氏家族是一个极其 complex(adj. 复杂的) 的庞然大物。老宅坐落在郊区，是一座历史悠久的百年 mansion(n. 宅邸)。
+当我们步入大厅时，我立刻感受到了一阵阵 hostile(adj. 有敌意的) 的目光。傅司宴的几位 relative(n. 亲戚) 坐在沙发上，脸上挂着极其 hypocritical(adj. 虚伪的) 的笑容。尤其是他的堂姐傅明珠，一向以家族的 orthodox(adj. 正统的) 继承人自居，对我的出现充满了深深的 prejudice(n. 偏见)。
+“司宴，你真的太 reckless(adj. 鲁莽的) 了。”晚宴进行到一半，傅明珠摇晃着红酒杯，语气里充满了 sarcasm(n. 讽刺)，“傅家的主母，怎么能是一个连父亲都在监狱里的 criminal(n. 罪犯) 的女儿？这会严重损害集团的 reputation(n. 声誉)。”
+这种当众的 humiliation(n. 羞辱) 显然是经过 deliberate(adj. 故意的) 策划的，目的是为了试探傅司宴的 bottom line(n. 底线)。
+如果是在昨晚之前，我或许会选择 tolerate(v. 容忍)。但现在，我决定展开 counterattack(v. 反击)。
+我放下餐具，拿起餐巾优雅地擦了擦嘴角，语气极其 calm(adj. 平静的)：“堂姐，我父亲的案件还在 litigation(n. 诉讼) 阶段，并未最终定罪。作为傅氏高管，您应该具备 fundamental(adj. 基本的) 的法律常识和商业素养，而不是在这里散播 baseless(adj. 毫无根据的) 的谣言。”
+我的反驳极其 eloquent(adj. 雄辩的) 且 flawless(adj. 完美无瑕的)，瞬间让傅明珠的脸色变得铁青。
+她猛地站起来，试图继续 provoke(v. 挑衅)：“你算什么东西，敢在这里教训我？”
+“她是我名正言顺的妻子。”傅司宴突然冷冷地开口。他的声音不大，却带着一种绝对的 authority(n. 权威)。
+他放下手中的酒杯，目光如刀刃般扫过全场：“我带她回来，不是为了接受你们的 evaluation(n. 评估)，而是来 notify(v. 通知) 你们她的存在。如果再有人对她表现出任何 disrespect(n. 不尊重)，我不介意让他在傅氏的股份里承担相应的 consequence(n. 后果)。”
+大厅里瞬间陷入了死一般的 silence(n. 沉默)。傅司宴的 warning(n. 警告) 极其 effective(adj. 有效的)，彻底粉碎了所有人的 arrogance(n. 傲慢)。
+回去的车上，夜色 obscure(v. 遮掩) 了车厢内的视线。
+傅司宴脱下西装外套，神情显得有些 exhausted(adj. 疲惫的)。我看着他，内心涌起一种极其 complicated(adj. 复杂的) 的情感。
+“今天谢谢你。”我打破了沉默，表达了我的 gratitude(n. 感激)。
+“我说过，我会保障你的 dignity(n. 尊严)。”他没有看我，语气依旧冷淡。
+我凑近了一点，空气中属于他的那种冷木香调瞬间变得更加 distinct(adj. 明显的)。我决定进行一次大胆的 probe(n. 试探)。
+“傅司宴，你对我这么好……”我盯着他的侧脸，故意让声音听起来有些 ambiguous(adj. 暧昧的)，“是因为契约，还是因为……十年前图书馆的那场火灾？”
+车厢里的温度仿佛瞬间骤降。他转过头，深邃的黑眸紧紧盯着我，眼神里闪过一丝 dangerous(adj. 危险的) 的光芒。
+这场真正的 psychological(adj. 心理的) 战争，我们终于正式交锋。
+
+📝 本章 vocabList 
+JavaScript
+
+[
+  { "word": "confrontation", "phonetic": "/ˌkɑːnfrənˈteɪʃn/", "meaning": "n. 对峙；冲突", "difficulty": "advanced" },
+  { "word": "tension", "phonetic": "/ˈtenʃn/", "meaning": "n. 紧张", "difficulty": "intermediate" },
+  { "word": "timid", "phonetic": "/ˈtɪmɪd/", "meaning": "adj. 胆怯的", "difficulty": "intermediate" },
+  { "word": "observe", "phonetic": "/əbˈzɜːrv/", "meaning": "v. 观察", "difficulty": "beginner" },
+  { "word": "confidence", "phonetic": "/ˈkɑːnfɪdəns/", "meaning": "n. 信心", "difficulty": "beginner" },
+  { "word": "transaction", "phonetic": "/trænˈzækʃn/", "meaning": "n. 交易", "difficulty": "intermediate" },
+  { "word": "passive", "phonetic": "/ˈpæsɪv/", "meaning": "adj. 被动的", "difficulty": "intermediate" },
+  { "word": "gathering", "phonetic": "/ˈɡæðərɪŋ/", "meaning": "n. 聚会", "difficulty": "beginner" },
+  { "word": "complex", "phonetic": "/kəmˈpleks/", "meaning": "adj. 复杂的", "difficulty": "intermediate" },
+  { "word": "mansion", "phonetic": "/ˈmænʃn/", "meaning": "n. 宅邸", "difficulty": "intermediate" },
+  { "word": "hostile", "phonetic": "/ˈhɑːstl/", "meaning": "adj. 有敌意的", "difficulty": "advanced" },
+  { "word": "relative", "phonetic": "/ˈrelətɪv/", "meaning": "n. 亲戚", "difficulty": "beginner" },
+  { "word": "hypocritical", "phonetic": "/ˌhɪpəˈkrɪtɪkl/", "meaning": "adj. 虚伪的", "difficulty": "advanced" },
+  { "word": "orthodox", "phonetic": "/ˈɔːrθədɑːks/", "meaning": "adj. 正统的", "difficulty": "advanced" },
+  { "word": "prejudice", "phonetic": "/ˈpredʒədɪs/", "meaning": "n. 偏见", "difficulty": "intermediate" },
+  { "word": "reckless", "phonetic": "/ˈrekləs/", "meaning": "adj. 鲁莽的", "difficulty": "advanced" },
+  { "word": "sarcasm", "phonetic": "/ˈsɑːrkæzəm/", "meaning": "n. 讽刺", "difficulty": "advanced" },
+  { "word": "criminal", "phonetic": "/ˈkrɪmɪnl/", "meaning": "n. 罪犯", "difficulty": "intermediate" },
+  { "word": "reputation", "phonetic": "/ˌrepjuˈteɪʃn/", "meaning": "n. 声誉", "difficulty": "intermediate" },
+  { "word": "humiliation", "phonetic": "/hjuːˌmɪliˈeɪʃn/", "meaning": "n. 羞辱", "difficulty": "advanced" },
+  { "word": "deliberate", "phonetic": "/dɪˈlɪbərət/", "meaning": "adj. 故意的", "difficulty": "intermediate" },
+  { "word": "bottom line", "phonetic": "/ˈbɑːtəm laɪn/", "meaning": "n. 底线", "difficulty": "intermediate" },
+  { "word": "tolerate", "phonetic": "/ˈtɑːləreɪt/", "meaning": "v. 容忍", "difficulty": "intermediate" },
+  { "word": "counterattack", "phonetic": "/ˈkaʊntərətæk/", "meaning": "v. 反击", "difficulty": "advanced" },
+  { "word": "calm", "phonetic": "/kɑːm/", "meaning": "adj. 平静的", "difficulty": "beginner" },
+  { "word": "litigation", "phonetic": "/ˌlɪtɪˈɡeɪʃn/", "meaning": "n. 诉讼", "difficulty": "advanced" },
+  { "word": "fundamental", "phonetic": "/ˌfʌndəˈmentl/", "meaning": "adj. 基本的", "difficulty": "intermediate" },
+  { "word": "baseless", "phonetic": "/ˈbeɪsləs/", "meaning": "adj. 毫无根据的", "difficulty": "advanced" },
+  { "word": "eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "adj. 雄辩的", "difficulty": "advanced" },
+  { "word": "flawless", "phonetic": "/ˈflɔːləs/", "meaning": "adj. 完美无瑕的", "difficulty": "advanced" },
+  { "word": "provoke", "phonetic": "/prəˈvoʊk/", "meaning": "v. 挑衅", "difficulty": "advanced" },
+  { "word": "authority", "phonetic": "/əˈθɔːrəti/", "meaning": "n. 权威", "difficulty": "intermediate" },
+  { "word": "evaluation", "phonetic": "/ɪˌvæljuˈeɪʃn/", "meaning": "n. 评估", "difficulty": "intermediate" },
+  { "word": "notify", "phonetic": "/ˈnoʊtɪfaɪ/", "meaning": "v. 通知", "difficulty": "intermediate" },
+  { "word": "disrespect", "phonetic": "/ˌdɪsrɪˈspekt/", "meaning": "n. 不尊重", "difficulty": "intermediate" },
+  { "word": "consequence", "phonetic": "/ˈkɑːnsɪkwens/", "meaning": "n. 后果", "difficulty": "intermediate" },
+  { "word": "silence", "phonetic": "/ˈsaɪləns/", "meaning": "n. 沉默", "difficulty": "beginner" },
+  { "word": "warning", "phonetic": "/ˈwɔːrnɪŋ/", "meaning": "n. 警告", "difficulty": "beginner" },
+  { "word": "effective", "phonetic": "/ɪˈfektɪv/", "meaning": "adj. 有效的", "difficulty": "intermediate" },
+  { "word": "arrogance", "phonetic": "/ˈærəɡəns/", "meaning": "n. 傲慢", "difficulty": "advanced" },
+  { "word": "obscure", "phonetic": "/əbˈskjʊr/", "meaning": "v. 遮掩", "difficulty": "advanced" },
+  { "word": "exhausted", "phonetic": "/ɪɡˈzɔːstɪd/", "meaning": "adj. 疲惫的", "difficulty": "intermediate" },
+  { "word": "complicated", "phonetic": "/ˈkɑːmplɪkeɪtɪd/", "meaning": "adj. 复杂的", "difficulty": "intermediate" },
+  { "word": "gratitude", "phonetic": "/ˈɡrætɪtuːd/", "meaning": "n. 感激", "difficulty": "intermediate" },
+  { "word": "dignity", "phonetic": "/ˈdɪɡnəti/", "meaning": "n. 尊严", "difficulty": "intermediate" },
+  { "word": "distinct", "phonetic": "/dɪˈstɪŋkt/", "meaning": "adj. 明显的", "difficulty": "intermediate" },
+  { "word": "probe", "phonetic": "/proʊb/", "meaning": "n. 试探", "difficulty": "advanced" },
+  { "word": "ambiguous", "phonetic": "/æmˈbɪɡjuəs/", "meaning": "adj. 暧昧的；模棱两可的", "difficulty": "advanced" },
+  { "word": "dangerous", "phonetic": "/ˈdeɪndʒərəs/", "meaning": "adj. 危险的", "difficulty": "beginner" },
+  { "word": "psychological", "phonetic": "/ˌsaɪkəˈlɑːdʒɪkl/", "meaning": "adj. 心理的", "difficulty": "intermediate" }
+]
+
+
+第 14 章：迟到十年的坦白
+“傅司宴，你对我这么好……是因为契约，还是因为……十年前图书馆的那场火灾？”
+听到这句话，迈巴赫发出一声刺耳的 friction(n. 摩擦) 声。司机猛地踩下 brake(n. 刹车)，车子在路边剧烈地停下。
+车厢内陷入死一般的寂静。隔板缓缓升起，司机极其识趣地将前后座的空间完全 isolate(v. 隔离)。
+傅司宴慢慢转过头。他眼底常年维持的冷静与克制在这一刻被彻底 shatter(v. 粉碎)。他没有试图去 evade(v. 逃避) 我的目光，那双漆黑的眼眸仿佛能瞬间 pierce(v. 刺透) 我所有的防备。
+“你果然还是发现了。”他的声音沙哑，带着一种我从未听过的 intensity(n. 强烈)。
+他没有 deny(v. 否认)，而是直接 acknowledge(v. 承认) 了这个被他 conceal(v. 隐藏) 了整整十年的秘密。我感到无比 astonished(adj. 震惊的)，心跳开始疯狂地 accelerate(v. 加速)。
+“所以，从一开始就没有什么 randomness(n. 随机性)？”我感觉自己的声音在微微 tremble(v. 颤抖)，“这场婚姻，是你 intentionally(adv. 有意地) orchestrate(v. 精心安排) 的？”
+“是。”他回答得毫不犹豫，不再掩饰他在这场局里的 dominant(adj. 占主导的) 地位。
+“为什么？”我感到一阵呼吸困难，仿佛快要 suffocate(v. 窒息)，“既然你就是当年在火场里 rescue(v. 营救) 我的人，为什么一开始不说？为什么要用冰冷的合同作为我们关系的 barrier(n. 障碍)？”
+他突然伸出手，一把将我拉近。他动作里带着一种 fierce(adj. 凶猛的) 力量，让我根本无法反抗。我们的距离瞬间缩短，空气中弥漫着一种近乎 lethal(adj. 致命的) 的压迫感。
+“因为我太了解你了，林晚。”他死死盯着我，卸下了所有的 facade(n. 假象)，“如果知道是我，你只会出于感激而对我产生 affection(n. 感情)，甚至把我当成恩人敬而远之。但我不要你的感激！”
+他的手指轻轻抚上我的侧脸，眼神里翻涌着让人心惊的 obsession(n. 执念)：“我要的是你心甘情愿地留在我身边。哪怕一开始只能用一纸荒唐的契约作为 shield(n. 盾牌)，我也要不择手段地 possess(v. 占有) 你的现在和未来。”
+我被他如此直白且偏执的 confession(n. 坦白) 彻底震慑住了。
+原来，这个在商场上能够 conquer(v. 征服) 一切的男人，在面对这段感情时，竟然也有着如此 fragile(adj. 脆弱的) 的不自信。他用最冷酷的商业手段，掩盖了他最 desperate(adj. 绝望的) 的渴望。
+“那你现在为什么承认了？”我看着他，眼眶有些发热。
+“因为我无法再继续 restrain(v. 克制) 自己了。”他深吸了一口气，眼底的防线全面 collapse(v. 坍塌)。
+下一秒，他遵从了内心的 urge(n. 冲动)，低头狠狠吻住了我。
+这个吻极其 impetuous(adj. 冲动的)，带着一种压抑了十年的狂热与偏执。这不再是演给别人看的戏，而是源于灵魂深处最 genuine(adj. 真实的) 的渴望。
+我试图象征性地 resist(v. 抵抗)，但在他强势的 embrace(n. 拥抱) 中，我所有的防线都显得徒劳。他的气息将我完全 envelop(v. 包围)，那种绝对的 intimacy(n. 亲密) 让我感到一阵阵晕眩。
+我知道，从他揭开真相的这一刻起，我们之间所有的试探和隐瞒都变得 transparent(adj. 透明的)。所谓的契约不过是一场掩人耳目的 illusion(n. 幻象)。这是一场 inevitable(adj. 不可避免的) 的沦陷，也是他蓄谋已久的一场疯狂 gamble(n. 赌博)。
+在这个狭窄隐秘的车厢里，我最终 relinquish(v. 放弃) 了挣扎，闭上眼睛，选择向这个爱了我十年的男人彻底 surrender(v. 投降)。
+
+📝 本章 vocabList 
+JavaScript
+
+[
+  { "word": "friction", "phonetic": "/ˈfrɪkʃn/", "meaning": "n. 摩擦", "difficulty": "intermediate" },
+  { "word": "brake", "phonetic": "/breɪk/", "meaning": "n. 刹车", "difficulty": "beginner" },
+  { "word": "isolate", "phonetic": "/ˈaɪsəleɪt/", "meaning": "v. 隔离", "difficulty": "intermediate" },
+  { "word": "shatter", "phonetic": "/ˈʃætər/", "meaning": "v. 粉碎", "difficulty": "advanced" },
+  { "word": "evade", "phonetic": "/ɪˈveɪd/", "meaning": "v. 逃避", "difficulty": "advanced" },
+  { "word": "pierce", "phonetic": "/pɪrs/", "meaning": "v. 刺透", "difficulty": "advanced" },
+  { "word": "intensity", "phonetic": "/ɪnˈtensəti/", "meaning": "n. 强烈", "difficulty": "intermediate" },
+  { "word": "deny", "phonetic": "/dɪˈnaɪ/", "meaning": "v. 否认", "difficulty": "beginner" },
+  { "word": "acknowledge", "phonetic": "/əkˈnɑːlɪdʒ/", "meaning": "v. 承认", "difficulty": "intermediate" },
+  { "word": "conceal", "phonetic": "/kənˈsiːl/", "meaning": "v. 隐藏", "difficulty": "advanced" },
+  { "word": "astonished", "phonetic": "/əˈstɑːnɪʃt/", "meaning": "adj. 震惊的", "difficulty": "intermediate" },
+  { "word": "accelerate", "phonetic": "/əkˈseləreɪt/", "meaning": "v. 加速", "difficulty": "intermediate" },
+  { "word": "randomness", "phonetic": "/ˈrændəmnəs/", "meaning": "n. 随机性", "difficulty": "advanced" },
+  { "word": "tremble", "phonetic": "/ˈtrembl/", "meaning": "v. 颤抖", "difficulty": "intermediate" },
+  { "word": "intentionally", "phonetic": "/ɪnˈtenʃənəli/", "meaning": "adv. 有意地", "difficulty": "intermediate" },
+  { "word": "orchestrate", "phonetic": "/ˈɔːrkɪstreɪt/", "meaning": "v. 精心安排", "difficulty": "advanced" },
+  { "word": "dominant", "phonetic": "/ˈdɑːmɪnənt/", "meaning": "adj. 占主导的", "difficulty": "intermediate" },
+  { "word": "suffocate", "phonetic": "/ˈsʌfəkeɪt/", "meaning": "v. 窒息", "difficulty": "advanced" },
+  { "word": "rescue", "phonetic": "/ˈreskjuː/", "meaning": "v. 营救", "difficulty": "beginner" },
+  { "word": "barrier", "phonetic": "/ˈbæriər/", "meaning": "n. 障碍", "difficulty": "intermediate" },
+  { "word": "fierce", "phonetic": "/fɪrs/", "meaning": "adj. 凶猛的", "difficulty": "advanced" },
+  { "word": "lethal", "phonetic": "/ˈliːθl/", "meaning": "adj. 致命的", "difficulty": "advanced" },
+  { "word": "facade", "phonetic": "/fəˈsɑːd/", "meaning": "n. 假象；表面", "difficulty": "advanced" },
+  { "word": "affection", "phonetic": "/əˈfekʃn/", "meaning": "n. 感情；喜爱", "difficulty": "intermediate" },
+  { "word": "obsession", "phonetic": "/əbˈseʃn/", "meaning": "n. 执念", "difficulty": "advanced" },
+  { "word": "shield", "phonetic": "/ʃiːld/", "meaning": "n. 盾牌", "difficulty": "intermediate" },
+  { "word": "possess", "phonetic": "/pəˈzes/", "meaning": "v. 占有", "difficulty": "intermediate" },
+  { "word": "confession", "phonetic": "/kənˈfeʃn/", "meaning": "n. 坦白", "difficulty": "intermediate" },
+  { "word": "conquer", "phonetic": "/ˈkɑːŋkər/", "meaning": "v. 征服", "difficulty": "intermediate" },
+  { "word": "fragile", "phonetic": "/ˈfrædʒl/", "meaning": "adj. 脆弱的", "difficulty": "intermediate" },
+  { "word": "desperate", "phonetic": "/ˈdespərət/", "meaning": "adj. 绝望的；极其渴望的", "difficulty": "intermediate" },
+  { "word": "restrain", "phonetic": "/rɪˈstreɪn/", "meaning": "v. 克制", "difficulty": "advanced" },
+  { "word": "collapse", "phonetic": "/kəˈlæps/", "meaning": "v. 坍塌", "difficulty": "intermediate" },
+  { "word": "urge", "phonetic": "/ɜːrdʒ/", "meaning": "n. 冲动", "difficulty": "intermediate" },
+  { "word": "impetuous", "phonetic": "/ɪmˈpetʃuəs/", "meaning": "adj. 冲动的", "difficulty": "advanced" },
+  { "word": "genuine", "phonetic": "/ˈdʒenjuɪn/", "meaning": "adj. 真实的", "difficulty": "intermediate" },
+  { "word": "resist", "phonetic": "/rɪˈzɪst/", "meaning": "v. 抵抗", "difficulty": "intermediate" },
+  { "word": "embrace", "phonetic": "/ɪmˈbreɪs/", "meaning": "n. 拥抱", "difficulty": "intermediate" },
+  { "word": "envelop", "phonetic": "/ɪnˈveləp/", "meaning": "v. 包围", "difficulty": "advanced" },
+  { "word": "intimacy", "phonetic": "/ˈɪntəməsi/", "meaning": "n. 亲密", "difficulty": "advanced" },
+  { "word": "transparent", "phonetic": "/trænsˈpærənt/", "meaning": "adj. 透明的", "difficulty": "intermediate" },
+  { "word": "illusion", "phonetic": "/ɪˈluːʒn/", "meaning": "n. 幻象；错觉", "difficulty": "advanced" },
+  { "word": "inevitable", "phonetic": "/ɪnˈevɪtəbl/", "meaning": "adj. 不可避免的", "difficulty": "advanced" },
+  { "word": "gamble", "phonetic": "/ˈɡæmbl/", "meaning": "n. 赌博", "difficulty": "intermediate" },
+  { "word": "relinquish", "phonetic": "/rɪˈlɪŋkwɪʃ/", "meaning": "v. 放弃", "difficulty": "advanced" },
+  { "word": "surrender", "phonetic": "/səˈrendər/", "meaning": "v. 投降", "difficulty": "intermediate" }
+]
+
+
+
+第 15 章：失控的温柔
+那场发生在车厢里、犹如 storm(n. 风暴) 般的 confession(n. 告白)，彻底打碎了我们之间用来伪装的 barrier(n. 障碍)。
+第二天早晨，我在主卧宽大的床上醒来。阳光透过半开的 curtain(n. 窗帘) 洒进来，带来一丝 warmth(n. 温暖)。我下意识地伸手摸向旁边，床单上还残留着属于他的温度和那种极具 distinctive(adj. 独特的) 的冷木香气。
+这不再是一场为了应付外界的 performance(n. 表演)，而是属于我们两人极其 private(adj. 私人的) 的 reality(n. 现实)。
+我洗漱完下楼，原本以为他已经像往常一样去了公司。但出乎意料的是，他正坐在阳光房的沙发上，腿上放着一台笔记本电脑。
+他今天没有穿那套象征着 authority(n. 权威) 的正装，而是换上了一件质地 soft(adj. 柔软的) 的居家服。听到我的脚步声，他抬起头，那双深邃的黑眸里褪去了所有的 indifference(n. 冷漠)，取而代之的是一种毫不掩饰的、极具 possessive(adj. 占有欲的) 的 affection(n. 柔情)。
+“你今天不应该有个跨国 conference(n. 会议) 吗？”我走到他身边，语气里带着一丝 confusion(n. 困惑)。
+“我把它 postpone(v. 推迟) 了。”他合上电脑，极其自然地伸手将我拉进他的怀里，让我坐在他的腿上。
+这个动作太过 intimate(adj. 亲密的)，让我瞬间红了脸。我试图 struggle(v. 挣扎) 一下，但他手臂的力量不容置疑。
+“傅司宴，我们之前约定的‘三条规则’……”我小声 remind(v. 提醒) 他。
+他发出一声低沉的轻笑，声音贴着我的耳畔，带来一阵 shiver(n. 颤栗)：“规则？那只是为了让你毫无防备地 step into(phrase. 踏入) 我的领地而设置的 trap(n. 陷阱) 罢了。”
+他的手指轻轻 stroke(v. 抚摸) 着我的脸颊，眼神里带着一种令人心惊的 devotion(n. 忠诚；奉献)：“林晚，现在，我才是你的规则。”
+吃早餐时，他展现出了让我极其 unfamiliar(adj. 陌生的) 的一面。
+他亲自为我切好牛排，甚至细致地帮我挑出沙拉里我不喜欢的 ingredient(n. 食材)。这种无微不至的 consideration(n. 体贴) 与他平日在商场上杀伐决断的 ruthless(adj. 无情的) 形象形成了极其强烈的 contrast(n. 反差)。
+“其实你不用这样 accommodate(v. 迁就) 我。”我看着他，内心涌起一种极其 complicated(adj. 复杂的) 的情绪。
+“这不是迁就，是我的 privilege(n. 特权)。”他目光专注地看着我，仿佛我是他失而复得的绝世 treasure(n. 珍宝)。
+下午，他带我去了庄园后面的一间被锁了很久的画室。
+推开门的那一刻，我被眼前的景象彻底 stun(v. 震惊) 了。宽敞的画室里，摆满了各种 portrait(n. 肖像画)。每一幅画上的女孩都是我——有十年前在图书馆低头看书的我，有穿着学士服毕业的我，还有在各种同传会议上神情专注的我。
+这些画笔触极其 delicate(adj. 细腻的)，倾注了极其深沉的 emotion(n. 情感)。
+“你一直都在？”我的声音开始发颤，眼泪不可遏制地 whelm(v. 涌出)。
+“我一直都在。”从十年前那场火灾之后，他就像一个沉默的 guardian(n. 守护者)，在黑暗中默默 witness(v. 见证) 着我所有的成长与苦难，直到他拥有足够的 power(n. 力量) 将我彻底纳入他的羽翼之下。
+原来，这场看似充满算计的契约，从头到尾都是他为了 secure(v. 确保) 我留在他身边而精心编织的 salvation(n. 救赎)。
+我转过身，紧紧 embrace(v. 拥抱) 住他。在这一刻，我终于放下了所有的 defense(n. 防备) 和 suspicion(n. 怀疑)。
+我不再是那个被迫签订契约的乙方，而是彻底 immerse(v. 沉浸) 在了他为我打造的这座温柔乡里。而这份爱，虽然带着极其 domineering(adj. 霸道的) 的掌控欲，却也给了我最 absolute(adj. 绝对的) 的安全感。
+
+📝 本章 vocabList
+JavaScript
+
+[
+  { "word": "storm", "phonetic": "/stɔːrm/", "meaning": "n. 风暴", "difficulty": "beginner" },
+  { "word": "confession", "phonetic": "/kənˈfeʃn/", "meaning": "n. 告白；坦白", "difficulty": "intermediate" },
+  { "word": "barrier", "phonetic": "/ˈbæriər/", "meaning": "n. 障碍", "difficulty": "intermediate" },
+  { "word": "curtain", "phonetic": "/ˈkɜːrtn/", "meaning": "n. 窗帘", "difficulty": "beginner" },
+  { "word": "warmth", "phonetic": "/wɔːrmθ/", "meaning": "n. 温暖", "difficulty": "intermediate" },
+  { "word": "distinctive", "phonetic": "/dɪˈstɪŋktɪv/", "meaning": "adj. 独特的", "difficulty": "advanced" },
+  { "word": "performance", "phonetic": "/pərˈfɔːrməns/", "meaning": "n. 表演", "difficulty": "intermediate" },
+  { "word": "private", "phonetic": "/ˈpraɪvət/", "meaning": "adj. 私人的", "difficulty": "beginner" },
+  { "word": "reality", "phonetic": "/riˈæləti/", "meaning": "n. 现实", "difficulty": "intermediate" },
+  { "word": "authority", "phonetic": "/əˈθɔːrəti/", "meaning": "n. 权威", "difficulty": "intermediate" },
+  { "word": "soft", "phonetic": "/sɔːft/", "meaning": "adj. 柔软的", "difficulty": "beginner" },
+  { "word": "indifference", "phonetic": "/ɪnˈdɪfrəns/", "meaning": "n. 冷漠", "difficulty": "advanced" },
+  { "word": "possessive", "phonetic": "/pəˈzesɪv/", "meaning": "adj. 占有欲的", "difficulty": "advanced" },
+  { "word": "affection", "phonetic": "/əˈfekʃn/", "meaning": "n. 柔情；感情", "difficulty": "intermediate" },
+  { "word": "conference", "phonetic": "/ˈkɑːnfərəns/", "meaning": "n. 会议", "difficulty": "beginner" },
+  { "word": "confusion", "phonetic": "/kənˈfjuːʒn/", "meaning": "n. 困惑", "difficulty": "intermediate" },
+  { "word": "postpone", "phonetic": "/poʊstˈpoʊn/", "meaning": "v. 推迟", "difficulty": "intermediate" },
+  { "word": "intimate", "phonetic": "/ˈɪntɪmət/", "meaning": "adj. 亲密的", "difficulty": "advanced" },
+  { "word": "struggle", "phonetic": "/ˈstrʌɡl/", "meaning": "v. 挣扎", "difficulty": "intermediate" },
+  { "word": "remind", "phonetic": "/rɪˈmaɪnd/", "meaning": "v. 提醒", "difficulty": "beginner" },
+  { "word": "shiver", "phonetic": "/ˈʃɪvər/", "meaning": "n. 颤栗", "difficulty": "intermediate" },
+  { "word": "step into", "phonetic": "/step ˈɪntuː/", "meaning": "phrase. 踏入", "difficulty": "beginner" },
+  { "word": "trap", "phonetic": "/træp/", "meaning": "n. 陷阱", "difficulty": "intermediate" },
+  { "word": "stroke", "phonetic": "/stroʊk/", "meaning": "v. 抚摸", "difficulty": "advanced" },
+  { "word": "devotion", "phonetic": "/dɪˈvoʊʃn/", "meaning": "n. 忠诚；奉献", "difficulty": "advanced" },
+  { "word": "unfamiliar", "phonetic": "/ˌʌnfəˈmɪliər/", "meaning": "adj. 陌生的", "difficulty": "intermediate" },
+  { "word": "ingredient", "phonetic": "/ɪnˈɡriːdiənt/", "meaning": "n. 食材；成分", "difficulty": "intermediate" },
+  { "word": "consideration", "phonetic": "/kənˌsɪdəˈreɪʃn/", "meaning": "n. 体贴；考虑", "difficulty": "intermediate" },
+  { "word": "ruthless", "phonetic": "/ˈruːθləs/", "meaning": "adj. 无情的", "difficulty": "advanced" },
+  { "word": "contrast", "phonetic": "/ˈkɑːntræst/", "meaning": "n. 反差", "difficulty": "intermediate" },
+  { "word": "accommodate", "phonetic": "/əˈkɑːmədeɪt/", "meaning": "v. 迁就；适应", "difficulty": "advanced" },
+  { "word": "complicated", "phonetic": "/ˈkɑːmplɪkeɪtɪd/", "meaning": "adj. 复杂的", "difficulty": "intermediate" },
+  { "word": "privilege", "phonetic": "/ˈprɪvəlɪdʒ/", "meaning": "n. 特权", "difficulty": "intermediate" },
+  { "word": "treasure", "phonetic": "/ˈtreʒər/", "meaning": "n. 珍宝", "difficulty": "beginner" },
+  { "word": "stun", "phonetic": "/stʌn/", "meaning": "v. 震惊", "difficulty": "intermediate" },
+  { "word": "portrait", "phonetic": "/ˈpɔːrtrət/", "meaning": "n. 肖像画", "difficulty": "intermediate" },
+  { "word": "delicate", "phonetic": "/ˈdelɪkət/", "meaning": "adj. 细腻的；精致的", "difficulty": "advanced" },
+  { "word": "emotion", "phonetic": "/ɪˈmoʊʃn/", "meaning": "n. 情感", "difficulty": "beginner" },
+  { "word": "whelm", "phonetic": "/welm/", "meaning": "v. 涌出；淹没", "difficulty": "advanced" },
+  { "word": "guardian", "phonetic": "/ˈɡɑːrdiən/", "meaning": "n. 守护者", "difficulty": "intermediate" },
+  { "word": "witness", "phonetic": "/ˈwɪtnəs/", "meaning": "v. 见证", "difficulty": "intermediate" },
+  { "word": "power", "phonetic": "/ˈpaʊər/", "meaning": "n. 力量", "difficulty": "beginner" },
+  { "word": "secure", "phonetic": "/səˈkjʊr/", "meaning": "v. 确保", "difficulty": "intermediate" },
+  { "word": "salvation", "phonetic": "/sælˈveɪʃn/", "meaning": "n. 救赎", "difficulty": "advanced" },
+  { "word": "embrace", "phonetic": "/ɪmˈbreɪs/", "meaning": "v. 拥抱", "difficulty": "intermediate" },
+  { "word": "defense", "phonetic": "/dɪˈfens/", "meaning": "n. 防备", "difficulty": "intermediate" },
+  { "word": "suspicion", "phonetic": "/səˈspɪʃn/", "meaning": "n. 怀疑", "difficulty": "intermediate" },
+  { "word": "immerse", "phonetic": "/ɪˈmɜːrs/", "meaning": "v. 沉浸", "difficulty": "advanced" },
+  { "word": "domineering", "phonetic": "/ˌdɑːmɪˈnɪrɪŋ/", "meaning": "adj. 霸道的", "difficulty": "advanced" },
+  { "word": "absolute", "phonetic": "/ˈæbsəluːt/", "meaning": "adj. 绝对的", "difficulty": "intermediate" }
+]
+
+
+第 16 章：神明降临
+本章剧情： 随着调查的深入，林晚父亲被陷害的真相逐渐浮出水面。幕后黑手狗急跳墙，带人闯入林晚的工作地点进行当面威胁。危急时刻，傅司宴带着保镖强势入场，对反派下达了破产通牒，给了林晚最极致的安全感。
+自从那晚的彻底坦白后，我们的关系变得极其 inseparable(adj. 形影不离的)。有了傅司宴无上限的资金支持，我父亲的案件终于迎来了真正的转机。
+周三上午，我前往郊区的看守 facility(n. 设施) 探视父亲。我聘请的顶级 investigator(n. 调查员) 已经向我提交了一份报告，证明我父亲绝对是 innocent(adj. 无辜的)。当年是有人恶意 forge(v. 伪造) 了财务报表，蓄意 frame(v. 陷害) 他入狱。
+这是一个极其 corrupt(adj. 腐败的) 的商业 scheme(n. 阴谋)，幕后黑手直指 B 市的另一家地产巨头。只要我们能找到那个 vital(adj. 至关重要的) 的 clue(n. 线索)，就能彻底 uncover(v. 揭露) 真相，在即将到来的 trial(n. 审判) 中为父亲讨回 justice(n. 正义)。
+探视结束后，我 resume(v. 恢复) 了下午的工作。
+当我正坐在会议室后方的 booth(n. 隔音厢) 里进行 simultaneous(adj. 同声传译的) 翻译时，会议室的门突然被人粗暴地推开，我的工作被强行 disrupt(v. 打断)。
+几个穿着黑西装的男人走了进来。带头的是那个地产巨头的副总，他用充满恶意的眼神看着我，企图当众 intimidate(v. 恐吓) 我。他用我父亲的安全作为 blackmail(n. 敲诈)，发出毫不掩饰的 threat(n. 威胁)，要求我立刻停止上诉。否则，他们不仅会制造 scandal(n. 丑闻) 让我彻底失去这份 career(n. 职业)，还会 ruin(v. 毁掉) 我好不容易建立起来的生活。
+面对他们的叫嚣，我甚至没有一丝 hesitation(n. 犹豫) 和恐惧。因为我知道，我不再是一个人。
+果然，不到三分钟，会议室外传来了一阵骚动。
+我的 savior(n. 救星) 如同神明降临。傅司宴带着十几名高大魁梧的 bodyguard(n. 保镖) 大步走入。他身上那种不怒自威的气场瞬间 dominate(v. 主导) 了整个空间，让刚才还嚣张跋扈的男人们瞬间噤若寒蝉。
+“你想毁了谁？”傅司宴的声音极其 harsh(adj. 严厉的)，透着令人胆寒的杀气。
+面对敢于伤害我的人，他展现出了极其 merciless(adj. 无情的) 的一面。他走到那个副总面前，眼神睥睨：“二十四小时内，我会让你的公司彻底 bankrupt(adj. 破产)，并向媒体全面 expose(v. 曝光) 你们所有的脏事。”
+他转过身，将我紧紧护在他宽广的胸膛里。这个怀抱是我最安全的 shelter(n. 庇护所)。他那极其 tender(adj. 温柔的) 的动作，瞬间驱散了我残存的最后一丝 nightmare(n. 噩梦)。
+“别怕，有我在。”他在我耳边低声 swear(v. 发誓)。
+为了我，他不惜向整个利益集团展开残酷的 revenge(n. 复仇)。而那些曾经伤害过我家人的人，都将成为他清算的 target(n. 目标)。
+在这个男人绝对的保护下，我对他的 faith(n. 信任) 达到了顶峰。这不仅仅是一纸契约，而是他用行动写下的 vow(n. 誓言)。他给了我这世上最 ultimate(adj. 最终的) 的偏爱。
+
+📝 本章 vocabList 
+JavaScript
+
+[
+  { "word": "inseparable", "phonetic": "/ɪnˈseprəbl/", "meaning": "adj. 形影不离的", "difficulty": "advanced" },
+  { "word": "facility", "phonetic": "/fəˈsɪləti/", "meaning": "n. 设施", "difficulty": "intermediate" },
+  { "word": "investigator", "phonetic": "/ɪnˈvestɪɡeɪtər/", "meaning": "n. 调查员", "difficulty": "intermediate" },
+  { "word": "innocent", "phonetic": "/ˈɪnəsnt/", "meaning": "adj. 无辜的", "difficulty": "intermediate" },
+  { "word": "forge", "phonetic": "/fɔːrdʒ/", "meaning": "v. 伪造", "difficulty": "advanced" },
+  { "word": "frame", "phonetic": "/freɪm/", "meaning": "v. 陷害；捏造", "difficulty": "intermediate" },
+  { "word": "corrupt", "phonetic": "/kəˈrʌpt/", "meaning": "adj. 腐败的", "difficulty": "intermediate" },
+  { "word": "scheme", "phonetic": "/skiːm/", "meaning": "n. 阴谋；计划", "difficulty": "intermediate" },
+  { "word": "vital", "phonetic": "/ˈvaɪtl/", "meaning": "adj. 至关重要的", "difficulty": "intermediate" },
+  { "word": "clue", "phonetic": "/kluː/", "meaning": "n. 线索", "difficulty": "beginner" },
+  { "word": "uncover", "phonetic": "/ʌnˈkʌvər/", "meaning": "v. 揭露", "difficulty": "intermediate" },
+  { "word": "trial", "phonetic": "/ˈtraɪəl/", "meaning": "n. 审判", "difficulty": "intermediate" },
+  { "word": "justice", "phonetic": "/ˈdʒʌstɪs/", "meaning": "n. 正义", "difficulty": "beginner" },
+  { "word": "resume", "phonetic": "/rɪˈzuːm/", "meaning": "v. 恢复；重新开始", "difficulty": "intermediate" },
+  { "word": "booth", "phonetic": "/buːθ/", "meaning": "n. 隔音厢；亭", "difficulty": "intermediate" },
+  { "word": "simultaneous", "phonetic": "/ˌsaɪmlˈteɪniəs/", "meaning": "adj. 同声传译的；同时发生的", "difficulty": "advanced" },
+  { "word": "disrupt", "phonetic": "/dɪsˈrʌpt/", "meaning": "v. 打断；扰乱", "difficulty": "advanced" },
+  { "word": "intimidate", "phonetic": "/ɪnˈtɪmɪdeɪt/", "meaning": "v. 恐吓", "difficulty": "advanced" },
+  { "word": "blackmail", "phonetic": "/ˈblækmeɪl/", "meaning": "n. 敲诈；勒索", "difficulty": "intermediate" },
+  { "word": "threat", "phonetic": "/θret/", "meaning": "n. 威胁", "difficulty": "intermediate" },
+  { "word": "scandal", "phonetic": "/ˈskændl/", "meaning": "n. 丑闻", "difficulty": "intermediate" },
+  { "word": "career", "phonetic": "/kəˈrɪr/", "meaning": "n. 职业", "difficulty": "beginner" },
+  { "word": "ruin", "phonetic": "/ˈruːɪn/", "meaning": "v. 毁掉", "difficulty": "intermediate" },
+  { "word": "hesitation", "phonetic": "/ˌhezɪˈteɪʃn/", "meaning": "n. 犹豫", "difficulty": "intermediate" },
+  { "word": "savior", "phonetic": "/ˈseɪvjər/", "meaning": "n. 救星", "difficulty": "intermediate" },
+  { "word": "bodyguard", "phonetic": "/ˈbɑːdiɡɑːrd/", "meaning": "n. 保镖", "difficulty": "intermediate" },
+  { "word": "dominate", "phonetic": "/ˈdɑːmɪneɪt/", "meaning": "v. 主导；支配", "difficulty": "intermediate" },
+  { "word": "harsh", "phonetic": "/hɑːrʃ/", "meaning": "adj. 严厉的", "difficulty": "intermediate" },
+  { "word": "merciless", "phonetic": "/ˈmɜːrsɪləs/", "meaning": "adj. 无情的；残忍的", "difficulty": "advanced" },
+  { "word": "bankrupt", "phonetic": "/ˈbæŋkrʌpt/", "meaning": "adj. 破产的 (此处作动词:使破产)", "difficulty": "intermediate" },
+  { "word": "expose", "phonetic": "/ɪkˈspoʊz/", "meaning": "v. 曝光", "difficulty": "intermediate" },
+  { "word": "shelter", "phonetic": "/ˈʃeltər/", "meaning": "n. 庇护所", "difficulty": "intermediate" },
+  { "word": "tender", "phonetic": "/ˈtendər/", "meaning": "adj. 温柔的", "difficulty": "intermediate" },
+  { "word": "nightmare", "phonetic": "/ˈnaɪtmer/", "meaning": "n. 噩梦", "difficulty": "intermediate" },
+  { "word": "swear", "phonetic": "/swer/", "meaning": "v. 发誓", "difficulty": "beginner" },
+  { "word": "revenge", "phonetic": "/rɪˈvendʒ/", "meaning": "n. 复仇", "difficulty": "intermediate" },
+  { "word": "target", "phonetic": "/ˈtɑːrɡɪt/", "meaning": "n. 目标", "difficulty": "beginner" },
+  { "word": "faith", "phonetic": "/feɪθ/", "meaning": "n. 信任；信念", "difficulty": "intermediate" },
+  { "word": "vow", "phonetic": "/vaʊ/", "meaning": "n. 誓言", "difficulty": "advanced" },
+  { "word": "ultimate", "phonetic": "/ˈʌltɪmət/", "meaning": "adj. 最终的；极端的", "difficulty": "intermediate" }
+]
+

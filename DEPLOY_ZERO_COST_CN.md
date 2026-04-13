@@ -10,7 +10,7 @@
 ## 为什么这样配
 - GitHub：方便被看到、被 Star。
 - Cloudflare Pages：静态站免费、部署快、比直接用 GitHub Pages 更适合前端路由。
-- 当前项目已加 `public/_redirects`，可避免 `/read/1/1` 刷新 404。
+- Cloudflare 新版 Workers & Pages 已自带 SPA fallback（无需额外 `_redirects` 文件）。
 
 ## 你需要准备的授权
 1. GitHub 账号（必须）

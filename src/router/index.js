@@ -5,6 +5,7 @@ const AppShell = () => import('@/components/layout/AppShell.vue')
 const HomeView = () => import('@/views/HomeView.vue')
 const ReadView = () => import('@/views/ReadView.vue')
 const VocabularyView = () => import('@/views/VocabularyView.vue')
+const ReviewView = () => import('@/views/ReviewView.vue')
 const DashboardView = () => import('@/views/DashboardView.vue')
 const LoginView = () => import('@/views/LoginView.vue')
 const ImportHubView = () => import('@/views/import/ImportHubView.vue')
@@ -23,7 +24,7 @@ const routes = [
       { path: 'import/plain', name: 'ImportPlain', component: ImportPlainView },
       { path: 'import/protocol', redirect: '/import' },
       { path: 'vocabulary', name: 'Vocabulary', component: VocabularyView },
-      { path: 'review', redirect: '/' },
+      { path: 'review', name: 'Review', component: ReviewView },
       { path: 'dashboard', name: 'Dashboard', component: DashboardView },
       { path: 'login', name: 'Login', component: LoginView },
     ],

@@ -208,4 +208,17 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
   opacity: 0;
   transform: translateX(-50%) translateY(-100%) scale(0.9);
 }
+
+@media (max-width: 767px) {
+  .word-tooltip {
+    min-width: min(92vw, 320px);
+    max-width: calc(100vw - 20px);
+  }
+  .tooltip-actions {
+    flex-direction: column;
+  }
+  .action-btn {
+    height: 40px;
+  }
+}
 </style>

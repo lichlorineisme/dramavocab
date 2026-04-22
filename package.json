@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/dev-smart.mjs",
     "dev:smart": "node scripts/dev-smart.mjs",
+    "dev:serve": "XDG_CONFIG_HOME=.wrangler WRANGLER_REGISTRY_PATH=.wrangler/.wrangler/registry vite",
     "build": "vite build",
-    "preview": "npm run build && wrangler dev",
+    "preview": "XDG_CONFIG_HOME=.wrangler WRANGLER_REGISTRY_PATH=.wrangler/.wrangler/registry sh -c 'npm run build && wrangler dev'",
     "smoke:reading": "node scripts/smoke-reading-chain.mjs",
     "deploy": "npm run build && wrangler deploy"
   },

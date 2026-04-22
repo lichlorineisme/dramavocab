@@ -1,5 +1,5 @@
 <template>
-  <div class="home" :class="{ dark: store.isDark }">
+  <div class="home dark">
     <section class="hero">
       <div class="hero-bg-effects">
         <div class="glow glow-1" />
@@ -13,17 +13,21 @@
 
         <div class="hero-cta">
           <router-link
-            v-for="book in featuredBooks"
+            v-for="(book, index) in featuredBooks"
             :key="book.id"
             :to="readingLink(book)"
             class="btn-primary btn-lg btn-book"
             @click="onBookClick(book, 'hero_cta')"
           >
-            {{ book?.emoji || '📖' }} 读《{{ book.title }}》→
+            <span class="book-cta-meta">系统书 · {{ String(index + 1).padStart(2, '0') }}</span>
+            <span class="book-cta-title">{{ book?.emoji || '📖' }} 读《{{ book.title }}》→</span>
           </router-link>
           <router-link to="/import" class="btn-tool-entry">
-            <span class="tool-tag">工具入口</span>
-            <span>✨ 导入私藏小说，开启 Drama 化 →</span>
+            <span class="tool-label" aria-hidden="true">
+              <span>工具</span>
+              <span>入口</span>
+            </span>
+            <span class="tool-copy">✨ 导入私藏小说，开启 Drama 化 →</span>
           </router-link>
         </div>
 
@@ -120,7 +124,7 @@
         <div class="feature-card">
           <span class="fc-icon">🎭</span>
           <h3>先上头，再记住</h3>
-          <p>先让你想读下去，再把词自然记进脑子里，不靠硬背。</p>
+          <p>先让你愿意读下去，再把词自然记进脑子里，不靠硬背。</p>
         </div>
         <div class="feature-card">
           <span class="fc-icon">🎯</span>
@@ -129,23 +133,23 @@
         </div>
         <div class="feature-card">
           <span class="fc-icon">⚡</span>
-          <h3>点词即查，不打断爽感</h3>
-          <p>不跳页面就能看词义，阅读不断流，理解更连贯。</p>
+          <h3>点词即查，不打断阅读</h3>
+          <p>不用跳页面，点一下就能看词义，阅读不断流，理解更连贯。</p>
         </div>
         <div class="feature-card">
           <span class="fc-icon">🔄</span>
-          <h3>错词自动进入复习</h3>
-          <p>做错的词会自动沉淀，复习有重点，不再盲目刷。</p>
+          <h3>错词自动进复习</h3>
+          <p>做错的词会自动沉淀下来，复习有重点，不再盲目刷。</p>
         </div>
         <div class="feature-card">
           <span class="fc-icon">📚</span>
-          <h3>不只系统书，你的私藏也能学</h3>
-          <p>支持导入你喜欢的小说，边看你爱看的，边学真正会用的词。</p>
+          <h3>支持私藏小说导入</h3>
+          <p>把你喜欢的小说导进来，边看你爱看的，边学真正会用的词。</p>
         </div>
         <div class="feature-card">
           <span class="fc-icon">⏱️</span>
           <h3>5 分钟上手，今天就能开始</h3>
-          <p>不用复杂设置，打开即读，马上进入状态。</p>
+          <p>不用复杂设置，打开就能读，马上进入状态。</p>
         </div>
       </div>
     </section>
@@ -155,10 +159,8 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useBookStore } from '@/stores/book.js'
-import { useReadingStore } from '@/stores/reading.js'
 import { EVENT, trackEvent } from '@/utils/analytics.js'
 
-const store = useReadingStore()
 const bookStore = useBookStore()
 
 const demoMode = ref('immersive')
@@ -222,12 +224,19 @@ function onBookClick(book, source = 'shelf') {
 <style scoped>
 .home {
   min-height: 100vh;
-  background: #f9fafb;
+  background:
+    radial-gradient(circle at top left, rgba(124, 58, 237, 0.18), transparent 34%),
+    radial-gradient(circle at 85% 15%, rgba(225, 29, 72, 0.12), transparent 28%),
+    linear-gradient(180deg, #1a0b2e 0%, #0f0a1a 100%);
+  color: #e5e7eb;
   transition: all 0.3s;
 }
 
 .home.dark {
-  background: #0f0a1a;
+  background:
+    radial-gradient(circle at top left, rgba(124, 58, 237, 0.18), transparent 34%),
+    radial-gradient(circle at 85% 15%, rgba(225, 29, 72, 0.12), transparent 28%),
+    linear-gradient(180deg, #1a0b2e 0%, #0f0a1a 100%);
   color: #e5e7eb;
 }
 
@@ -346,6 +355,12 @@ function onBookClick(book, source = 'shelf') {
 
 .btn-book {
   background: linear-gradient(135deg, #7c3aed, #e11d48);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  text-align: center;
 }
 
 .btn-book:nth-child(2) {
@@ -367,6 +382,7 @@ function onBookClick(book, source = 'shelf') {
   font-weight: 700;
   text-decoration: none;
   transition: all 0.22s ease;
+  min-width: 0;
 }
 
 .btn-tool-entry:hover {
@@ -375,18 +391,46 @@ function onBookClick(book, source = 'shelf') {
   box-shadow: 0 12px 26px rgba(16, 185, 129, 0.16);
 }
 
-.tool-tag {
+.book-cta-meta {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+}
+
+.book-cta-title {
+  font-size: inherit;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.tool-label {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2px 8px;
+  width: 42px;
+  min-height: 42px;
+  flex: 0 0 auto;
   border-radius: 999px;
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.35);
+  color: #34d399;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.04em;
-  color: #34d399;
-  background: rgba(52, 211, 153, 0.12);
-  border: 1px solid rgba(52, 211, 153, 0.35);
+  line-height: 1.05;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(16, 24, 45, 0.12);
+}
+
+.tool-copy {
+  min-width: 0;
+  flex: 1 1 auto;
+  white-space: normal;
+  line-height: 1.25;
+  text-wrap: balance;
 }
 
 .hero-contact {
@@ -457,7 +501,7 @@ function onBookClick(book, source = 'shelf') {
 .mock-reader {
   width: 420px;
   padding: 24px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(30, 27, 75, 0.65);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(124, 58, 237, 0.15);
   border-radius: 20px;
@@ -522,7 +566,7 @@ function onBookClick(book, source = 'shelf') {
 .mock-text {
   font-size: 14px;
   line-height: 2.1;
-  color: #374151;
+  color: #d1d5db;
   text-align: justify;
   min-height: 90px;
 }
@@ -564,7 +608,7 @@ function onBookClick(book, source = 'shelf') {
   height: 24px;
   border: 1.5px dashed rgba(124, 58, 237, 0.4);
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(30, 27, 75, 0.55);
   font-family: 'SF Mono', Monaco, monospace;
   font-size: 13px;
   padding: 0 4px;
@@ -628,6 +672,7 @@ function onBookClick(book, source = 'shelf') {
   padding: 60px 40px;
   max-width: 1100px;
   margin: 0 auto;
+  background: linear-gradient(180deg, rgba(15, 10, 26, 0.02), rgba(15, 10, 26, 0.06));
 }
 
 .section-title {
@@ -651,8 +696,8 @@ function onBookClick(book, source = 'shelf') {
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(156, 163, 175, 0.1);
+  background: rgba(30, 27, 75, 0.45);
+  border: 1px solid rgba(124, 58, 237, 0.1);
   border-radius: 18px;
   transition: all 0.3s;
   cursor: pointer;
@@ -737,7 +782,7 @@ function onBookClick(book, source = 'shelf') {
 .shelf-go {
   font-size: 13px;
   font-weight: 600;
-  color: #7c3aed;
+  color: #a78bfa;
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -752,6 +797,7 @@ function onBookClick(book, source = 'shelf') {
   padding: 80px 40px;
   max-width: 1100px;
   margin: 0 auto;
+  background: linear-gradient(180deg, rgba(15, 10, 26, 0.06), rgba(15, 10, 26, 0.1));
 }
 
 .features-subtitle {
@@ -771,8 +817,8 @@ function onBookClick(book, source = 'shelf') {
 
 .feature-card {
   padding: 32px 26px;
-  background: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(156, 163, 175, 0.1);
+  background: rgba(30, 27, 75, 0.4);
+  border: 1px solid rgba(124, 58, 237, 0.1);
   border-radius: 18px;
   transition: all 0.25s;
 }
@@ -805,6 +851,11 @@ function onBookClick(book, source = 'shelf') {
   font-size: 14px;
   color: #9ca3af;
   line-height: 1.6;
+}
+
+.section-title,
+.features-subtitle {
+  color: inherit;
 }
 
 @media (max-width: 1024px) {
@@ -840,25 +891,192 @@ function onBookClick(book, source = 'shelf') {
 }
 
 @media (max-width: 640px) {
+  .hero {
+    padding: 28px 14px 18px;
+    gap: 18px;
+  }
+
+  .hero-content,
+  .hero-visual {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand-badge {
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-size: 1.9rem;
+    line-height: 1.08;
+    margin-bottom: 14px;
+  }
+
   .features-grid {
     grid-template-columns: 1fr;
   }
 
   .hero-cta {
     flex-direction: column;
+    align-items: stretch;
+    margin-top: 18px;
+    gap: 8px;
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .btn-book,
+  .btn-tool-entry {
+    width: 100%;
+  }
+
+  .btn-book {
+    min-height: 62px;
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 1.3;
+    border-radius: 14px;
+    white-space: normal;
+    word-break: keep-all;
+  }
+
+  .book-cta-meta {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+
+  .book-cta-title {
+    line-height: 1.28;
+  }
+
+  .btn-tool-entry {
+    min-height: 68px;
+    padding: 12px 14px;
+    font-size: 12px;
+    line-height: 1.25;
+    border-radius: 14px;
+    text-align: left;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .btn-tool-entry .tool-label {
+    width: 40px;
+    min-height: 40px;
+    font-size: 10px;
   }
 
   .hero-subtitle {
+    display: block;
+    font-size: 14px;
+    line-height: 1.75;
     white-space: normal;
+    text-wrap: balance;
+    max-width: 22ch;
+  }
+
+  .hero-maker,
+  .hero-contact {
+    text-align: center;
+  }
+
+  .hero-maker {
+    margin-top: 12px;
+  }
+
+  .hero-visual {
+    align-items: center;
+    width: 100%;
+  }
+
+  .mock-reader {
+    width: 100%;
+    padding: 18px 14px 16px;
+    border-radius: 18px;
+  }
+
+  .mock-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .demo-mode-switcher {
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .demo-mode-switcher::-webkit-scrollbar {
+    display: none;
+  }
+
+  .demo-mode-btn {
+    flex: 0 0 auto;
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+
+  .mock-text {
+    font-size: 13px;
+    line-height: 2;
+    min-height: 0;
+    text-align: left;
+  }
+
+  .demo-tip {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .mock-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .mock-chip {
+    width: 100%;
+    padding: 6px 10px;
+    text-align: center;
+  }
+
+  .feature-preview {
+    width: 100%;
+    padding: 12px 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .fp-divider {
+    display: none;
+  }
+
+  .fp-item {
+    white-space: normal;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
   }
 
   .features-section {
-    padding: 48px 16px;
+    padding: 34px 14px 38px;
   }
 
   .features-subtitle {
-    margin: -12px auto 24px;
+    margin: -12px auto 20px;
     font-size: 14px;
+    line-height: 1.7;
   }
 
   .section-title {
@@ -866,7 +1084,7 @@ function onBookClick(book, source = 'shelf') {
   }
 
   .bookshelf-section {
-    padding: 40px 16px;
+    padding: 34px 14px 38px;
   }
 
   .bookshelf-grid {
@@ -876,10 +1094,30 @@ function onBookClick(book, source = 'shelf') {
   .shelf-card {
     flex-direction: row;
     align-items: stretch;
+    border-radius: 16px;
   }
 
   .shelf-cover {
     width: 100px;
+    min-height: 132px;
+  }
+
+  .shelf-info {
+    padding: 14px 14px 14px 16px;
+  }
+
+  .shelf-info h3 {
+    font-size: 0.98rem;
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .shelf-author,
+  .shelf-go {
+    font-size: 12px;
   }
 
   .mock-toolbar {
@@ -892,6 +1130,18 @@ function onBookClick(book, source = 'shelf') {
 
   .hero-contact {
     font-size: 12px;
+  }
+
+  .feature-card {
+    padding: 24px 20px;
+  }
+
+  .feature-card h3 {
+    line-height: 1.35;
+  }
+
+  .feature-card p {
+    line-height: 1.7;
   }
 }
 </style>

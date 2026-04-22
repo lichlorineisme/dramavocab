@@ -7,8 +7,12 @@
           <div>
             <h1 class="page-title">📖 生词本</h1>
             <p class="page-subtitle">共 {{ vocabStore.totalWords }} 个单词</p>
+            <p class="page-subnote">今日待复习 {{ dueReviewCount }} 个</p>
           </div>
-          <router-link to="/" class="back-read-btn">← 返回首页</router-link>
+          <div class="header-actions">
+            <button type="button" class="review-entry-btn" @click="goReview">🔄 去复习中心</button>
+            <router-link to="/" class="back-read-btn">← 返回首页</router-link>
+          </div>
         </div>
       </header>
 
@@ -145,10 +149,12 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useRouter } from 'vue-router'
 import { useReadingStore } from '../stores/reading.js'
 import { useVocabStore } from '../stores/vocab.js'
 import { useBookStore } from '../stores/book.js'
 
+const router = useRouter()
 const store = useReadingStore()
 const vocabStore = useVocabStore()
 const bookStore = useBookStore()
@@ -201,6 +207,12 @@ const masteryStats = computed(() => {
 })
 
 const books = computed(() => bookStore.books)
+const dueReviewCount = computed(() =>
+  (vocabStore.words || []).filter(w => {
+    if (!w.nextReview) return true
+    return new Date(w.nextReview) <= new Date()
+  }).length
+)
 
 // ===== 操作 =====
 
@@ -244,6 +256,14 @@ function exportVocab() {
   URL.revokeObjectURL(url)
 }
 
+function goReview() {
+  if (typeof window !== 'undefined') {
+    window.location.assign('/review')
+    return
+  }
+  router.push('/review')
+}
+
 // ===== 删除 =====
 const deleteTarget = ref(null)
 function confirmDelete(word) { deleteTarget.value = word }
@@ -283,7 +303,15 @@ function getMasteryLabel(level) {
 
 /* 头部 */
 .vocab-header { margin-bottom: 20px; }
-.header-row { display: flex; align-items: center; justify-content: space-between; }
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.review-entry-btn,
 .back-read-btn {
   font-size: 14px;
   font-weight: 600;
@@ -295,6 +323,12 @@ function getMasteryLabel(level) {
   transition: all 0.2s;
   white-space: nowrap;
 }
+.review-entry-btn {
+  background: linear-gradient(135deg, #7C3AED, #E11D48);
+  color: #fff;
+  border: none;
+}
+.review-entry-btn:hover { transform: translateY(-1px); }
 .back-read-btn:hover { background: rgba(124,58,237,0.08); }
 .page-title {
   font-size: 1.6rem;
@@ -304,6 +338,7 @@ function getMasteryLabel(level) {
   -webkit-text-fill-color: transparent;
 }
 .page-subtitle { font-size: 14px; color: #9CA3AF; margin-top: 4px; }
+.page-subnote { font-size: 12px; color: #A78BFA; margin-top: 4px; }
 
 /* 工具栏 */
 .vocab-toolbar {
@@ -575,6 +610,13 @@ function getMasteryLabel(level) {
 
 @media (max-width: 640px) {
   .vocab-page { padding: 16px; }
+  .header-row { flex-direction: column; align-items: stretch; }
+  .header-actions { width: 100%; }
+  .review-entry-btn,
+  .back-read-btn {
+    width: 100%;
+    text-align: center;
+  }
   .vocab-toolbar { flex-direction: column; }
   .search-box { min-width: unset; }
   .filter-group { flex-wrap: wrap; }

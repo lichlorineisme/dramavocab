@@ -148,12 +148,72 @@ async function copyPrompt() {
 
 @media (max-width: 760px) {
   .guide-page {
-    padding-top: 24px;
+    padding: 24px 0 56px;
+  }
+
+  .guide-hero h1 {
+    font-size: clamp(27px, 8.5vw, 34px);
+  }
+
+  .guide-hero p {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.62;
+  }
+
+  .guide-card {
+    margin-top: 14px;
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .guide-card h2 {
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+
+  .step-item {
+    border-radius: 14px;
+    padding: 12px;
+  }
+
+  .step-item strong {
+    font-size: 15px;
+    line-height: 1.45;
+    display: block;
+  }
+
+  .step-item p {
+    font-size: 13px;
+    line-height: 1.62;
   }
 
   .step-head {
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
+  }
+
+  .step-head .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+
+  .prompt-box {
+    min-height: 210px;
+    margin-top: 8px;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.58;
+  }
+
+  .jump-row .btn-primary {
+    width: 100%;
+    justify-content: center;
+    border-radius: 12px;
   }
 }
 </style>

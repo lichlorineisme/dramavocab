@@ -426,4 +426,123 @@ function onHistoryContinue(book) {
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 760px) {
+  .import-page {
+    padding: 24px 0 58px;
+  }
+
+  .import-hero h1 {
+    font-size: clamp(28px, 9vw, 34px);
+  }
+
+  .import-hero p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.64;
+  }
+
+  .value-strip {
+    margin-top: 14px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .value-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .value-strip span {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .flow-card,
+  .history-card {
+    border-radius: 18px;
+    padding: 15px 14px;
+  }
+
+  .flow-list article {
+    border-radius: 14px;
+    padding: 12px;
+  }
+
+  .flow-list strong {
+    line-height: 1.4;
+    display: block;
+  }
+
+  .primary-cta-card {
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    min-height: 0;
+    padding: 16px 14px;
+    border-radius: 18px;
+  }
+
+  .entry-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+
+  .entry-copy {
+    gap: 3px;
+  }
+
+  .entry-title {
+    font-size: 21px;
+  }
+
+  .entry-desc {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+
+  .entry-arrow {
+    display: none;
+  }
+
+  .secondary-wrap {
+    margin-top: 10px;
+  }
+
+  .secondary-link {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+
+  .history-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .history-main h3 {
+    line-height: 1.4;
+  }
+
+  .history-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .history-btn,
+  .history-delete {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
 </style>

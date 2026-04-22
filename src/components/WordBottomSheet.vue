@@ -200,4 +200,29 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
 .sheet-enter-active { transition: opacity 0.35s; }
 .sheet-leave-active { transition: opacity 0.2s; }
 .sheet-enter-from, .sheet-leave-to { opacity: 0; }
+
+@media (max-width: 767px) {
+  .sheet-panel {
+    max-height: 78vh;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .sheet-body {
+    padding: 10px 18px calc(28px + env(safe-area-inset-bottom));
+  }
+  .sheet-header {
+    flex-wrap: wrap;
+  }
+  .sheet-word {
+    font-size: 1.4rem;
+  }
+  .sheet-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .action-btn {
+    height: 42px;
+    font-size: 14px;
+  }
+}
 </style>

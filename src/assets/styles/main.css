@@ -51,6 +51,7 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 button,
@@ -207,5 +208,33 @@ a {
 @media (max-width: 768px) {
   .page-container {
     width: min(100vw - 28px, 1180px);
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    min-height: 42px;
+    padding: 10px 16px;
+    border-radius: 12px;
+  }
+
+  .page-surface {
+    min-height: calc(100vh - 132px);
+  }
+}
+
+@media (max-width: 640px) {
+  .page-container {
+    width: min(100vw - 24px, 1180px);
+  }
+
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }

@@ -159,18 +159,18 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 <style scoped>
 .reader-toolbar {
   position: sticky;
-  top: 0;
+  top: var(--reader-toolbar-top, 52px);
   z-index: 100;
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: rgba(15, 10, 26, 0.92);
+  background: var(--reader-surface);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(124, 58, 237, 0.15);
+  border-bottom: 1px solid var(--reader-border);
   flex-wrap: nowrap;
 }
-.reader-toolbar.dark { color: #E5E7EB; }
+.reader-toolbar.dark { color: inherit; }
 
 .toolbar-left {
   display: flex;
@@ -190,8 +190,8 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   font-size: 13px;
   font-weight: 600;
   color: inherit;
-  background: rgba(124, 58, 237, 0.15);
-  border: 1px solid rgba(124, 58, 237, 0.25);
+  background: rgba(124, 58, 237, 0.10);
+  border: 1px solid var(--reader-border-strong);
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s;
@@ -207,9 +207,9 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   min-width: 240px;
   max-height: 320px;
   overflow-y: auto;
-  background: rgba(30, 27, 75, 0.98);
+  background: var(--reader-panel);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(124, 58, 237, 0.25);
+  border: 1px solid var(--reader-border-strong);
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.5);
   z-index: 200;
@@ -232,7 +232,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   width: 100%;
   padding: 8px 10px;
   font-size: 13px;
-  color: #D1D5DB;
+  color: var(--reader-muted);
   background: none;
   border: none;
   border-radius: 8px;
@@ -243,7 +243,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 .chapter-item:hover { background: rgba(124, 58, 237, 0.12); }
 .chapter-item.active { background: rgba(124, 58, 237, 0.2); color: #C084FC; font-weight: 600; }
 .chapter-item.completed .ch-done { color: #10B981; }
-.ch-num { font-size: 11px; font-weight: 700; color: #6B7280; min-width: 22px; }
+.ch-num { font-size: 11px; font-weight: 700; color: var(--reader-soft); min-width: 22px; }
 .ch-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ch-done { font-size: 14px; }
 
@@ -257,8 +257,8 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   justify-content: center;
   font-size: 14px;
   color: inherit;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid var(--reader-border);
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s;
@@ -279,7 +279,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   padding: 5px 12px;
   font-size: 12px;
   font-weight: 600;
-  color: #9CA3AF;
+  color: var(--reader-muted);
   background: transparent;
   border: none;
   border-radius: 7px;
@@ -287,7 +287,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   transition: all 0.25s;
   white-space: nowrap;
 }
-.mode-btn:hover { color: #D1D5DB; }
+.mode-btn:hover { color: var(--reader-soft); }
 .mode-btn.active {
   color: #fff;
   background: linear-gradient(135deg, #7C3AED, #A78BFA);
@@ -309,14 +309,14 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  color: #9CA3AF;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.06);
+  color: var(--reader-muted);
+  background: rgba(124, 58, 237, 0.06);
+  border: 1px solid var(--reader-border);
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.tool-btn:hover { background: rgba(124, 58, 237, 0.12); color: #D1D5DB; }
+.tool-btn:hover { background: rgba(124, 58, 237, 0.12); color: var(--reader-text); }
 .tool-btn.active { background: rgba(124, 58, 237, 0.18); color: #C084FC; }
 
 /* 字号菜单 */
@@ -328,9 +328,9 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   top: calc(100% + 6px);
   min-width: 220px;
   padding: 14px;
-  background: rgba(30, 27, 75, 0.98);
+  background: var(--reader-panel);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(124, 58, 237, 0.25);
+  border: 1px solid var(--reader-border-strong);
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.5);
   z-index: 200;
@@ -339,7 +339,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   display: block;
   font-size: 12px;
   font-weight: 600;
-  color: #9CA3AF;
+  color: var(--reader-muted);
   margin-bottom: 10px;
 }
 .font-controls {
@@ -354,7 +354,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   font-weight: 700;
   color: inherit;
   background: rgba(124, 58, 237, 0.12);
-  border: 1px solid rgba(124, 58, 237, 0.2);
+  border: 1px solid var(--reader-border);
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s;
@@ -373,10 +373,43 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 
 /* 移动端适配 */
 @media (max-width: 640px) {
-  .reader-toolbar { gap: 4px; padding: 8px 10px; }
+  .reader-toolbar {
+    gap: 6px;
+    padding: 8px 10px;
+    align-items: center;
+  }
+  .toolbar-left {
+    gap: 4px;
+    min-width: 0;
+    flex: 1;
+  }
+  .chapter-selector {
+    min-width: 0;
+    flex: 1;
+  }
   .mode-btn { padding: 5px 8px; font-size: 11px; }
   .mode-switcher { gap: 2px; padding: 2px; }
   .tool-btn { width: 30px; height: 30px; font-size: 13px; }
-  .chapter-btn { font-size: 12px; padding: 5px 8px; }
+  .chapter-btn {
+    font-size: 11px;
+    padding: 5px 8px;
+    max-width: 100%;
+  }
+  .chapter-dropdown {
+    min-width: min(240px, calc(100vw - 20px));
+    max-width: calc(100vw - 20px);
+  }
+  .nav-btn {
+    width: 28px;
+    height: 28px;
+  }
+  .tool-group {
+    gap: 2px;
+    margin-left: 0;
+  }
+  .font-dropdown {
+    min-width: 200px;
+    max-width: calc(100vw - 20px);
+  }
 }
 </style>

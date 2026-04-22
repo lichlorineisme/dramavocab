@@ -18,6 +18,10 @@
             {{ singleWordMode ? '单个单词专项复习' : `今日待复习 ${pendingCount} 个单词` }}
             · 目标每次 <strong>{{ batchSize }} 词</strong>
           </p>
+          <div class="header-actions">
+            <router-link to="/vocabulary" class="header-link">📖 去生词本</router-link>
+            <router-link to="/" class="header-link header-link-secondary">← 返回首页</router-link>
+          </div>
         </header>
 
         <!-- 今日进度环（非单字模式才显示） -->
@@ -87,7 +91,7 @@
         </div>
 
         <!-- 队列为空时的友好提示 -->
-        <div v-else-if="safeReviewQueue.length === 0" class="empty-state">
+        <div v-else-if="activeReviewQueue.length === 0" class="empty-state">
           <span>📭</span>
           <h3>没有可复习的单词</h3>
           <p>复习队列为空，可能所有单词都已掌握。</p>
@@ -98,7 +102,7 @@
         <FlashCardReview
           v-else-if="activeMode === 'flashcard'"
           ref="reviewCompRef"
-          :words="safeReviewQueue"
+          :words="activeReviewQueue"
           @update="onReviewUpdate"
           @complete="onReviewComplete"
           @error="handleComponentError"
@@ -108,8 +112,11 @@
         <ChoiceReview
           v-else-if="activeMode === 'choice'"
           ref="reviewCompRef"
-          :queue="safeReviewQueue"
+          :queue="activeReviewQueue"
+          :dark="store.isDark"
           @finish="backToModes"
+          @complete="backToModes"
+          @exit="backToModes"
           @error="handleComponentError"
         />
       </template>
@@ -152,7 +159,7 @@ import { useReadingStore } from '../stores/reading.js'
 import { useVocabStore } from '../stores/vocab.js'
 import { trackEvent, EVENT } from '../utils/analytics.js'
 import FlashCardReview from '../components/FlashCardReview.vue'
-import ChoiceReview from '../components/ChoiceReview.vue'
+import ChoiceReview from '../components/review/ChoiceReview.vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -248,10 +255,12 @@ const activeMode = ref(null)
 const reviewFinished = ref(false)
 const reviewStats = ref({ correct: 0, wrong: 0 })
 const reviewCompRef = ref(null)
+const activeReviewQueue = ref([])
 /** 记录每道题的掌握度变化 */
 const levelChanges = ref([])
 
 function startMode(modeId) {
+  activeReviewQueue.value = (safeReviewQueue.value || []).map((w) => ({ ...w }))
   activeMode.value = modeId
   reviewFinished.value = false
   reviewStats.value = { correct: 0, wrong: 0 }
@@ -262,7 +271,7 @@ function startMode(modeId) {
   // Analytics: 漏斗第5步 — 开始复习
   trackEvent(EVENT.REVIEW_START, {
     mode: modeId,
-    word_count: safeReviewQueue.value.length,
+    word_count: activeReviewQueue.value.length,
     is_single_word: singleWordMode.value,
     target_word: singleWordMode.value ? route.query.word : undefined,
   })
@@ -271,6 +280,7 @@ function startMode(modeId) {
 function exitMode() {
   activeMode.value = null
   componentError.value = false
+  activeReviewQueue.value = []
 }
 
 function retryMode() {
@@ -283,6 +293,7 @@ function retryMode() {
 function backToModes() {
   activeMode.value = null
   reviewFinished.value = false
+  activeReviewQueue.value = []
   resetReview()
 }
 
@@ -307,7 +318,7 @@ function onReviewComplete(stats) {
     mode: activeMode.value,
     correct_count: stats?.correct || 0,
     wrong_count: stats?.wrong || 0,
-    total_words: safeReviewQueue.value.length,
+    total_words: activeReviewQueue.value.length,
     accuracy: (stats?.correct || 0) / Math.max((stats?.correct || 0) + (stats?.wrong || 0), 1),
   })
 }
@@ -380,6 +391,30 @@ function goBack() {
 
 /* 头部 */
 .review-header { margin-bottom: 24px; text-align: center; }
+.header-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.header-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(135deg, #7C3AED, #E11D48);
+}
+.header-link-secondary {
+  background: rgba(124,58,237,0.08);
+  border: 1px solid rgba(124,58,237,0.18);
+  color: #A78BFA;
+}
 .page-title {
   font-size: 1.6rem; font-weight: 800;
   background: linear-gradient(135deg, #E11D48, #7C3AED);
@@ -478,9 +513,82 @@ function goBack() {
 .inline-btn { margin-left: 12px; font-size: 13px; padding: 8px 20px; }
 
 @media (max-width: 640px) {
-  .review-page { padding: 16px; }
-  .mode-grid { grid-template-columns: 1fr; }
-  .mode-card { padding: 24px 12px; }
+  .review-page {
+    padding: 16px 14px calc(18px + env(safe-area-inset-bottom));
+  }
+  .review-container {
+    max-width: 100%;
+  }
+  .review-header {
+    margin-bottom: 18px;
+  }
+  .page-title {
+    font-size: 1.42rem;
+  }
+  .page-subtitle {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .header-actions {
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .header-link {
+    width: 100%;
+    max-width: 100%;
+    min-height: 40px;
+    border-radius: 12px;
+  }
+  .progress-ring-section {
+    margin-bottom: 18px;
+  }
+  .single-word-banner {
+    margin-bottom: 14px;
+    padding: 14px 12px;
+  }
+  .single-word-name {
+    font-size: 1.35rem;
+  }
+  .mode-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .mode-card {
+    padding: 18px 12px;
+    border-radius: 14px;
+    gap: 8px;
+  }
+  .mode-count {
+    top: 10px;
+    right: 10px;
+  }
   .mode-icon { font-size: 32px; }
+  .mode-name { font-size: 16px; }
+  .mode-desc { line-height: 1.45; }
+  .finish-stats {
+    gap: 16px;
+  }
+  .stat-num {
+    font-size: 1.7rem;
+  }
+  .level-changes {
+    padding: 12px;
+  }
+  .empty-state, .finish-screen {
+    padding: 40px 14px;
+    gap: 12px;
+  }
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 6px;
+  }
+  .inline-btn {
+    margin-left: 0;
+  }
+  .bottom-stats {
+    margin-top: 20px;
+    line-height: 1.6;
+  }
 }
 </style>

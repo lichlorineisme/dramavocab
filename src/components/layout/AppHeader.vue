@@ -42,13 +42,13 @@ function startReading(forceCloseMenu = false) {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-white/8 bg-night-900/72 backdrop-blur-xl">
-    <div class="page-container flex h-20 items-center justify-between gap-6">
-      <RouterLink to="/" class="flex min-w-0 items-center gap-3" @click="closeMenu">
-        <img :src="logoUrl" alt="DramaVocab" class="h-12 w-12 rounded-full object-cover shadow-lg shadow-brand-purple/20" />
-        <div class="min-w-0">
+  <header class="site-header sticky top-0 z-50 border-b border-white/8 bg-night-900/72 backdrop-blur-xl">
+    <div class="page-container site-header-inner flex h-20 items-center justify-between gap-6">
+      <RouterLink to="/" class="brand-link flex min-w-0 items-center gap-3" @click="closeMenu">
+        <img :src="logoUrl" alt="DramaVocab" class="brand-logo h-12 w-12 rounded-full object-cover shadow-lg shadow-brand-purple/20" />
+        <div class="min-w-0 brand-text">
           <div class="truncate font-display text-lg font-extrabold tracking-tight text-gradient">DramaVocab</div>
-          <div class="truncate text-xs text-white/60">抓马英语 · 看最狗血的文，背最高级的词</div>
+          <div class="truncate text-xs text-white/60 brand-subtitle">抓马英语 · 看最狗血的文，背最高级的词</div>
         </div>
       </RouterLink>
 
@@ -74,7 +74,7 @@ function startReading(forceCloseMenu = false) {
 
       <button
         type="button"
-        class="inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/4 text-white/80 transition hover:bg-white/8 lg:hidden"
+        class="mobile-toggle inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/4 text-white/80 transition hover:bg-white/8 lg:hidden"
         :aria-label="mobileLabel"
         @click="mobileMenuOpen = !mobileMenuOpen"
       >
@@ -84,7 +84,7 @@ function startReading(forceCloseMenu = false) {
     </div>
 
     <transition name="slide-down">
-      <div v-if="mobileMenuOpen" class="border-t border-white/8 bg-night-900/94 px-4 pb-4 pt-3 backdrop-blur-xl lg:hidden">
+      <div v-if="mobileMenuOpen" class="mobile-menu-panel border-t border-white/8 bg-night-900/94 px-4 pb-4 pt-3 backdrop-blur-xl lg:hidden">
         <div class="page-container flex flex-col gap-2">
           <RouterLink
             v-for="link in navLinks"
@@ -117,5 +117,49 @@ function startReading(forceCloseMenu = false) {
 .slide-down-leave-to {
   opacity: 0;
   transform: translateY(-8px);
+}
+
+@media (max-width: 760px) {
+  .site-header-inner {
+    height: 68px;
+    gap: 10px;
+  }
+
+  .brand-link {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .brand-logo {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  .brand-text {
+    min-width: 0;
+  }
+
+  .mobile-toggle {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu-panel {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-menu-panel :deep(.page-container) {
+    width: min(100vw - 24px, 1180px);
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-subtitle {
+    display: none;
+  }
 }
 </style>

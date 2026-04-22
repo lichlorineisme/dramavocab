@@ -685,9 +685,12 @@ watch(() => [props.chapter?.id, store.mode], async () => {
 .reader-content {
   max-width: 720px;
   margin: 0 auto;
-  padding: 24px 20px;
+  padding: 24px 20px 48px;
   line-height: 2;
+  color: inherit;
+  background: transparent;
   transition: background-color 0.3s, color 0.3s;
+  word-break: break-word;
 }
 
 /* ===== 章节头部 ===== */
@@ -700,6 +703,7 @@ watch(() => [props.chapter?.id, store.mode], async () => {
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  line-height: 1.25;
   background: linear-gradient(135deg, #E11D48, #7C3AED);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -747,6 +751,7 @@ watch(() => [props.chapter?.id, store.mode], async () => {
   color: #9CA3AF;
   font-weight: 500;
   margin-left: 1px;
+  word-break: break-word;
 }
 
 /* ===== ✏️ 挑战模式 ===== */
@@ -759,6 +764,7 @@ watch(() => [props.chapter?.id, store.mode], async () => {
   gap: 3px;
   vertical-align: middle;
   margin: 0 1px;
+  flex-wrap: wrap;
 }
 .challenge-hint {
   font-size: 0.85em;
@@ -892,5 +898,82 @@ watch(() => [props.chapter?.id, store.mode], async () => {
 .text-xl { font-size: 21px; }
 
 /* Dark Theme */
-.dark-theme { color: #E5E7EB; background: var(--bg-reader, #0F0A1A); }
+.dark-theme {
+  color: var(--reader-text);
+  background: transparent;
+}
+
+@media (max-width: 767px) {
+  .reader-content {
+    max-width: 100%;
+    padding: 18px 16px 64px;
+    line-height: 1.9;
+  }
+  .chapter-header {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+  }
+  .chapter-title {
+    font-size: 1.28rem;
+  }
+  .chapter-meta {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+  .paragraph {
+    margin-bottom: 18px;
+    text-align: start;
+    text-indent: 1.5em;
+    line-height: 1.95;
+  }
+  .immersive-mode :deep(.word-highlight),
+  .perspective-mode :deep(.word-highlight) {
+    padding: 0 1px;
+  }
+  .perspective-mode :deep(.xr-meaning) {
+    font-size: 0.78em;
+    line-height: 1.25;
+  }
+  .challenge-wrap {
+    gap: 4px;
+    align-items: flex-start;
+  }
+  .challenge-hint {
+    font-size: 0.78em;
+    white-space: normal;
+    line-height: 1.35;
+  }
+  .challenge-input {
+    width: 5.3em;
+    min-width: 4.8em;
+    height: 30px;
+    font-size: 0.95em;
+  }
+  .challenge-btn {
+    height: 30px;
+    padding: 0 10px;
+  }
+  .result-icon {
+    font-size: 12px;
+  }
+  .correct-answer {
+    font-size: 0.84em;
+  }
+  .mastered-label {
+    font-size: 9px;
+  }
+  .challenge-retry-btn {
+    height: 24px;
+    font-size: 9px;
+  }
+  .chapter-complete-banner {
+    margin-top: 32px;
+    padding: 18px 14px;
+    font-size: 0.98em;
+  }
+  .btn-primary {
+    width: 100%;
+    padding: 10px 16px;
+  }
+}
 </style>

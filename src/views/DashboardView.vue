@@ -48,15 +48,17 @@
         <p class="heatmap-rule">
           当天有收藏单词、复习单词、或阅读记录即记为活跃（颜色越深=当天学习次数越多）
         </p>
-        <div class="heatmap-grid">
-          <!-- 12周 × 7天 = 84格 -->
-          <div
-            v-for="(day, idx) in heatmapData"
-            :key="'d-' + idx"
-            class="heat-cell"
-            :class="'level-' + day.level"
-            :title="day.date + (day.count > 0 ? ` · ${day.count}次学习` : '')"
-          />
+        <div class="heatmap-scroll">
+          <div class="heatmap-grid">
+            <!-- 12周 × 7天 = 84格 -->
+            <div
+              v-for="(day, idx) in heatmapData"
+              :key="'d-' + idx"
+              class="heat-cell"
+              :class="'level-' + day.level"
+              :title="day.date + (day.count > 0 ? ` · ${day.count}次学习` : '')"
+            />
+          </div>
         </div>
         <div class="heatmap-legend">
           <span>少</span>
@@ -264,6 +266,22 @@ function getHeatLevel(count) {
   grid-auto-flow: dense;
   gap: 3px;
 }
+
+.heatmap-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+}
+
+.heatmap-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.heatmap-scroll::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.28);
+  border-radius: 99px;
+}
+
 .heat-cell {
   aspect-ratio: 1;
   border-radius: 3px;
@@ -324,9 +342,84 @@ function getHeatLevel(count) {
 }
 
 @media (max-width: 768px) {
-  .dashboard { padding: 16px; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-  .quick-actions { grid-template-columns: 1fr; }
-  .heatmap-grid { grid-template-columns: repeat(7, 1fr); }
+  .dashboard {
+    padding: 16px 14px 24px;
+  }
+
+  .dash-header {
+    margin-bottom: 18px;
+  }
+
+  .page-title {
+    font-size: 1.55rem;
+  }
+
+  .greeting {
+    font-size: 13px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .stat-card {
+    padding: 14px 12px;
+    border-radius: 14px;
+    gap: 10px;
+  }
+
+  .stat-icon {
+    font-size: 22px;
+  }
+
+  .stat-num {
+    font-size: 1.45rem;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .heatmap-section {
+    padding: 16px 14px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+
+  .section-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .section-header h2 {
+    font-size: 14px;
+  }
+
+  .heatmap-rule {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+
+  .heatmap-grid {
+    min-width: 210px;
+  }
+
+  .heatmap-legend {
+    justify-content: flex-start;
+  }
+
+  .quick-actions {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .action-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+    gap: 4px;
+  }
 }
 </style>

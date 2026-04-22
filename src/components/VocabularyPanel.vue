@@ -8,7 +8,10 @@
             <h1 class="page-title">📖 生词本</h1>
             <p class="page-subtitle">共 {{ vocabStore.totalWords }} 个单词</p>
           </div>
-          <button class="continue-read-btn" @click="$emit('close')">← 继续阅读</button>
+          <div class="header-actions">
+            <button type="button" class="review-entry-btn" @click="goReview">🔄 去复习中心</button>
+            <button class="continue-read-btn" @click="$emit('close')">← 继续阅读</button>
+          </div>
         </div>
       </header>
 
@@ -142,12 +145,14 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useRouter } from 'vue-router'
 import { useReadingStore } from '../stores/reading.js'
 import { useVocabStore } from '../stores/vocab.js'
 import { useBookStore } from '../stores/book.js'
 
 defineEmits(['close'])
 
+const router = useRouter()
 const store = useReadingStore()
 const vocabStore = useVocabStore()
 const bookStore = useBookStore()
@@ -184,6 +189,13 @@ const masteryStats = computed(() => {
 })
 
 const books = computed(() => bookStore.books)
+function goReview() {
+  if (typeof window !== 'undefined') {
+    window.location.assign('/review')
+    return
+  }
+  router.push('/review')
+}
 
 function speakWord(word) {
   try {
@@ -251,13 +263,28 @@ function getMasteryLabel(level) {
 .vocab-container { max-width: 800px; margin: 0 auto; }
 
 .vocab-header { margin-bottom: 20px; }
-.header-row { display: flex; align-items: center; justify-content: space-between; }
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.review-entry-btn,
 .continue-read-btn {
   font-size: 14px; font-weight: 600; color: #7C3AED;
   background: none; border: 1px solid rgba(124,58,237,0.25);
   padding: 8px 16px; border-radius: 8px; cursor: pointer;
   transition: all 0.2s; white-space: nowrap;
 }
+.review-entry-btn {
+  background: linear-gradient(135deg, #7C3AED, #E11D48);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+.review-entry-btn:hover { transform: translateY(-1px); }
 .continue-read-btn:hover { background: rgba(124,58,237,0.08); }
 .page-title {
   font-size: 1.6rem; font-weight: 800;
@@ -418,10 +445,106 @@ function getMasteryLabel(level) {
 .slide-up-enter-from, .slide-up-leave-to { opacity: 0; }
 
 @media (max-width: 640px) {
-  .vocab-panel { padding: 16px; }
-  .vocab-toolbar { flex-direction: column; }
-  .search-box { min-width: unset; }
-  .filter-group { flex-wrap: wrap; }
-  .word-card { padding: 12px 14px; }
+  .vocab-panel {
+    padding: 16px 14px 24px;
+  }
+  .vocab-container {
+    max-width: 100%;
+  }
+  .vocab-header {
+    margin-bottom: 16px;
+  }
+  .header-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .header-actions {
+    width: 100%;
+  }
+  .review-entry-btn,
+  .continue-read-btn {
+    width: 100%;
+  }
+  .vocab-toolbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .search-box {
+    min-width: unset;
+    width: 100%;
+  }
+  .filter-group {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-select,
+  .export-btn {
+    width: 100%;
+  }
+  .stats-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+  }
+  .stat-chip {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .word-card {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 14px;
+  }
+  .word-main {
+    flex: 1 1 100%;
+  }
+  .word-text {
+    display: block;
+    margin-bottom: 2px;
+  }
+  .word-phonetic,
+  .word-meaning {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+  .word-meta {
+    order: 2;
+    flex-wrap: wrap;
+  }
+  .delete-btn {
+    order: 3;
+    margin-left: auto;
+    opacity: 1;
+  }
+  .empty-state {
+    padding: 56px 12px;
+  }
+  .empty-tips {
+    padding: 14px 16px;
+  }
+  .detail-sheet {
+    max-height: 78vh;
+  }
+  .sheet-body {
+    padding: 10px 18px calc(28px + env(safe-area-inset-bottom));
+  }
+  .sheet-header {
+    flex-wrap: wrap;
+  }
+  .detail-stats {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .detail-actions {
+    flex-direction: column;
+  }
+  .action-btn {
+    height: 42px;
+  }
 }
 </style>

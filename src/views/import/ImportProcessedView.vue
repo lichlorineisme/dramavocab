@@ -505,20 +505,175 @@ textarea::placeholder {
     grid-template-columns: 1fr;
   }
 
+  .editor-panel,
+  .preview-panel {
+    padding: 20px;
+    border-radius: 22px;
+  }
+
   .entry-head small {
     white-space: normal;
     text-align: left;
+    overflow: visible;
   }
 }
 
 @media (max-width: 760px) {
   .import-page {
-    padding-top: 24px;
+    padding: 22px 0 58px;
+  }
+
+  .back-row {
+    margin-bottom: 10px;
+  }
+
+  .back-btn {
+    width: 100%;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+
+  .editor-grid {
+    gap: 14px;
+  }
+
+  .editor-panel,
+  .preview-panel {
+    padding: 16px 14px;
+    border-radius: 18px;
+  }
+
+  .panel-head h1 {
+    margin: 10px 0 8px;
+    font-size: clamp(28px, 8vw, 34px);
+  }
+
+  .panel-head h2 {
+    margin: 10px 0 8px;
+    font-size: 22px;
+  }
+
+  .panel-head p {
+    font-size: 13px;
+    line-height: 1.62;
+  }
+
+  .form-grid {
+    margin-top: 16px;
+    gap: 10px;
   }
 
   .form-grid,
   .summary-grid {
     grid-template-columns: 1fr;
+  }
+
+  input,
+  textarea {
+    border-radius: 14px;
+    padding: 12px 13px;
+  }
+
+  textarea {
+    min-height: 240px;
+  }
+
+  .content-entry-grid {
+    margin-top: 14px;
+    gap: 12px;
+  }
+
+  .entry-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    min-height: 0;
+  }
+
+  .entry-head span {
+    white-space: normal;
+  }
+
+  .entry-head small {
+    width: 100%;
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  .upload-group {
+    padding: 12px;
+    border-radius: 14px;
+    gap: 10px;
+  }
+
+  .upload-dropzone {
+    min-height: 134px;
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .upload-dropzone strong {
+    font-size: 15px;
+  }
+
+  .file-tip {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .action-row {
+    margin-top: 16px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-row .btn-primary,
+  .action-row .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .summary-grid {
+    margin-top: 14px;
+    gap: 8px;
+  }
+
+  .summary-card {
+    border-radius: 14px;
+    padding: 12px;
+  }
+
+  .summary-card strong {
+    font-size: 24px;
+  }
+
+  .preview-block {
+    margin-top: 12px;
+    border-radius: 14px;
+    padding: 13px;
+  }
+
+  .token-grid {
+    gap: 8px;
+  }
+
+  .token {
+    max-width: 100%;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+
+  .token small {
+    font-size: 11px;
+  }
+
+  .empty-state {
+    margin-top: 14px;
+    padding: 14px;
+    border-radius: 14px;
   }
 }
 </style>

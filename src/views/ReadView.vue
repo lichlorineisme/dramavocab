@@ -1,5 +1,13 @@
 <template>
-  <div class="read-page" :class="{ dark: store.isDark }">
+  <div class="read-page" :class="{ dark: store.isDark, mobile: isMobile }">
+    <!-- 顶部首页入口 -->
+    <div class="page-top-bar" :class="{ dark: store.isDark }">
+      <router-link to="/" class="back-home-link">← 返回首页</router-link>
+      <div v-if="book" class="page-top-book">
+        {{ book.title }}
+      </div>
+    </div>
+
     <!-- 顶部工具栏 -->
     <ReaderToolbar
       :chapters="chapters"
@@ -12,9 +20,6 @@
 
     <!-- Tab 切换栏：阅读 / 单词本 -->
     <div class="tab-bar" :class="{ dark: store.isDark }">
-      <div class="tab-bar-left">
-        <router-link to="/" class="back-home-link">← 返回首页</router-link>
-      </div>
       <div class="tab-switcher">
         <button
           class="tab-btn"
@@ -31,7 +36,6 @@
           📝 单词本
         </button>
       </div>
-      <div class="tab-bar-right" />
     </div>
 
     <!-- ========== 阅读Tab ========== -->
@@ -164,7 +168,9 @@ const showSidebar = ref(false)
 function toggleSidebar() { showSidebar.value = !showSidebar.value }
 
 function handleViewportChange() {
-  isMobile.value = window.innerWidth < 768
+  const mobile = window.innerWidth < 768
+  isMobile.value = mobile
+  showSidebar.value = !mobile
 }
 
 /** 切换阅读模式 + 埋点 */
@@ -348,8 +354,8 @@ onMounted(async () => {
   // 进入阅读页默认回到沉浸模式，保持主链路一致
   store.setMode('immersive')
   restoreScroll()
-  // 桌面端默认展开侧边栏
-  if (window.innerWidth >= 768) showSidebar.value = true
+  // 桌面端默认展开侧边栏，移动端默认收起
+  showSidebar.value = window.innerWidth >= 768
 
   // ===== Analytics: 漏斗第3步 — 进入阅读页 =====
   trackEvent(EVENT.READING_ENTER, {
@@ -394,43 +400,91 @@ onBeforeUnmount(() => {
 .read-page {
   min-height: 100vh;
   display: flex; flex-direction: column;
-  background: #F9FAFB;
+  --reader-bg: #F9FAFB;
+  --reader-surface: rgba(255, 255, 255, 0.94);
+  --reader-surface-strong: rgba(255, 255, 255, 0.98);
+  --reader-text: #1F2937;
+  --reader-muted: #6B7280;
+  --reader-soft: #9CA3AF;
+  --reader-border: rgba(124, 58, 237, 0.10);
+  --reader-border-strong: rgba(124, 58, 237, 0.16);
+  --reader-panel: #FFFFFF;
+  --reader-toolbar-top: 52px;
+  --reader-tabbar-top: 104px;
+  --reader-modebar-top: 156px;
+  background: var(--reader-bg);
+  color: var(--reader-text);
   transition: background-color 0.3s;
 }
-.read-page.dark { background: #0F0A1A; color: #E5E7EB; }
+.read-page.dark {
+  --reader-bg: #0F0A1A;
+  --reader-surface: rgba(15, 10, 26, 0.96);
+  --reader-surface-strong: rgba(15, 10, 26, 0.99);
+  --reader-text: #E5E7EB;
+  --reader-muted: #9CA3AF;
+  --reader-soft: #C4B5FD;
+  --reader-border: rgba(124, 58, 237, 0.14);
+  --reader-border-strong: rgba(124, 58, 237, 0.22);
+  --reader-panel: #1E174B;
+}
+
+/* ===== 首页入口 ===== */
+.page-top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 110;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 24px;
+  background: var(--reader-surface);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--reader-border);
+}
+.page-top-book {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--reader-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* ===== Tab 切换栏 ===== */
 .tab-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px 24px;
-  background: rgba(255,255,255,0.95);
-  border-bottom: 1px solid rgba(124,58,237,0.1);
+  background: var(--reader-surface-strong);
+  border-bottom: 1px solid var(--reader-border);
   backdrop-filter: blur(8px);
   position: sticky;
-  top: 52px;
+  top: var(--reader-tabbar-top);
   z-index: 50;
 }
 .tab-bar.dark {
-  background: rgba(15,10,26,0.95);
-  border-bottom-color: rgba(124,58,237,0.15);
+  background: var(--reader-surface-strong);
+  border-bottom-color: var(--reader-border);
 }
-.tab-bar-left, .tab-bar-right { min-width: 80px; }
-.tab-bar-right { text-align: right; }
-
 .back-home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   font-weight: 600;
-  color: #6B7280;
+  color: var(--reader-text);
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 8px;
   transition: all 0.2s;
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid var(--reader-border);
 }
 .back-home-link:hover {
-  background: rgba(124,58,237,0.08);
-  color: #C084FC;
+  background: rgba(124, 58, 237, 0.14);
+  color: #A855F7;
 }
 
 .tab-switcher {
@@ -444,14 +498,14 @@ onBeforeUnmount(() => {
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 700;
-  color: #6B7280;
+  color: var(--reader-muted);
   background: transparent;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.25s;
 }
-.tab-btn:hover { color: #9CA3AF; }
+.tab-btn:hover { color: var(--reader-soft); }
 .tab-btn.active {
   color: #fff;
   background: linear-gradient(135deg, #7C3AED, #A78BFA);
@@ -465,13 +519,16 @@ onBeforeUnmount(() => {
   justify-content: center;
   gap: 20px;
   padding: 12px 24px;
-  background: rgba(255,255,255,0.92);
-  border-bottom: 1px solid rgba(124,58,237,0.08);
+  background: var(--reader-surface);
+  border-bottom: 1px solid var(--reader-border);
   backdrop-filter: blur(8px);
+  position: sticky;
+  top: var(--reader-modebar-top);
+  z-index: 45;
 }
 .mode-bar.dark {
-  background: rgba(15,10,26,0.92);
-  border-bottom-color: rgba(124,58,237,0.12);
+  background: var(--reader-surface);
+  border-bottom-color: var(--reader-border);
 }
 
 .mode-switcher-large {
@@ -486,7 +543,7 @@ onBeforeUnmount(() => {
   padding: 8px 20px;
   font-size: 15px;
   font-weight: 700;
-  color: #6B7280;
+  color: var(--reader-muted);
   background: transparent;
   border: none;
   border-radius: 10px;
@@ -495,7 +552,7 @@ onBeforeUnmount(() => {
   white-space: nowrap;
 }
 .mode-btn-large:hover {
-  color: #9CA3AF;
+  color: var(--reader-soft);
   background: rgba(255,255,255,0.3);
 }
 .mode-btn-large.active {
@@ -506,7 +563,7 @@ onBeforeUnmount(() => {
 
 .mode-hint {
   font-size: 12px;
-  color: #9CA3AF;
+  color: var(--reader-soft);
   max-width: 180px;
   text-align: right;
 }
@@ -518,19 +575,19 @@ onBeforeUnmount(() => {
 .chapter-sidebar {
   width: 280px; min-width: 280px;
   display: flex; flex-direction: column;
-  background: rgba(255,255,255,0.92);
-  border-right: 1px solid rgba(124,58,237,0.1);
+  background: var(--reader-surface-strong);
+  border-right: 1px solid var(--reader-border);
   overflow-y: auto; z-index: 60;
   flex-shrink: 0;
 }
 .chapter-sidebar.dark {
-  background: rgba(15,10,26,0.96);
-  border-right-color: rgba(124,58,237,0.12);
+  background: var(--reader-surface-strong);
+  border-right-color: var(--reader-border);
 }
 
 .sidebar-header {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 18px 20px 14px; border-bottom: 1px solid rgba(124,58,237,0.08);
+  padding: 18px 20px 14px; border-bottom: 1px solid var(--reader-border);
 }
 .sidebar-header h3 { font-size: 15px; font-weight: 700; color: #C084FC; margin: 0; }
 .sidebar-close {
@@ -543,10 +600,10 @@ onBeforeUnmount(() => {
 
 .sidebar-book-info {
   padding: 10px 20px; font-size: 13px; font-weight: 600;
-  color: #6B7280; border-bottom: 1px solid rgba(156,163,175,0.06);
+  color: var(--reader-muted); border-bottom: 1px solid rgba(156,163,175,0.06);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.dark .sidebar-book-info { color: #9CA3AF; }
+.dark .sidebar-book-info { color: var(--reader-muted); }
 
 .chapter-nav-list { padding: 8px 10px; flex: 1; overflow-y: auto; }
 .sidebar-ch-item {
@@ -557,7 +614,7 @@ onBeforeUnmount(() => {
 }
 .sidebar-ch-item:hover { background: rgba(124,58,237,0.06); }
 .sidebar-ch-item.active { background: rgba(124,58,237,0.12); color: #C084FC; font-weight: 600; }
-.s-ch-num { font-size: 11px; font-weight: 800; color: #6B7280; min-width: 24px; }
+.s-ch-num { font-size: 11px; font-weight: 800; color: var(--reader-muted); min-width: 24px; }
 .sidebar-ch-item.active .s-ch-num { color: #A78BFA; }
 .s-ch-title { flex: 1; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .s-ch-meta { display: flex; align-items: center; gap: 4px; }
@@ -570,7 +627,7 @@ onBeforeUnmount(() => {
 .sidebar-footer { padding: 14px 20px; border-top: 1px solid rgba(156,163,175,0.06); }
 .back-home-btn {
   display: block; text-align: center; padding: 8px; font-size: 13px; font-weight: 600;
-  color: #9CA3AF; text-decoration: none;
+  color: var(--reader-muted); text-decoration: none;
   border: 1px dashed rgba(156,163,175,0.15); border-radius: 8px;
   transition: all 0.2s;
 }
@@ -579,7 +636,7 @@ onBeforeUnmount(() => {
 /* 遮罩 */
 .sidebar-overlay { 
   position: fixed; 
-  inset: 52px 0 0 0; 
+  inset: var(--reader-toolbar-top, 52px) 0 0 0; 
   background: rgba(0,0,0,0.3); 
   z-index: 55;
 }
@@ -588,12 +645,13 @@ onBeforeUnmount(() => {
 .reader-main {
   flex: 1; overflow-y: auto;
   -webkit-overflow-scrolling: touch; scroll-behavior: smooth;
+  background: var(--reader-bg);
 }
 
 /* 加载 & 空状态 */
 .loading-state {
   display: flex; align-items: center; justify-content: center; gap: 12px;
-  padding: 80px 20px; font-size: 15px; color: #6B7280;
+  padding: 80px 20px; font-size: 15px; color: var(--reader-muted);
 }
 .spinner {
   width: 22px; height: 22px;
@@ -615,10 +673,10 @@ onBeforeUnmount(() => {
 .bottom-nav {
   position: sticky; bottom: 0; z-index: 50;
   display: flex; justify-content: space-around; align-items: center;
-  padding: 10px 16px; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(0,0,0,0.06);
+  padding: 10px 16px; background: var(--reader-surface-strong); backdrop-filter: blur(10px);
+  border-top: 1px solid var(--reader-border);
 }
-.dark .bottom-nav { background: rgba(15,10,26,0.95); border-top-color: rgba(124,58,237,0.15); }
+.dark .bottom-nav { background: var(--reader-surface-strong); border-top-color: var(--reader-border); }
 .bottom-nav-btn {
   padding: 8px 14px; font-size: 12px; font-weight: 600; color: inherit;
   background: rgba(124,58,237,0.08); border: 1px solid rgba(124,58,237,0.18);
@@ -641,14 +699,65 @@ onBeforeUnmount(() => {
 
 /* 移动端 */
 @media (max-width: 767px) {
+  .read-page {
+    --reader-toolbar-top: 46px;
+    --reader-tabbar-top: 92px;
+    --reader-modebar-top: 138px;
+  }
+  .page-top-bar {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .back-home-link {
+    font-size: 12px;
+    padding: 5px 10px;
+    flex-shrink: 0;
+  }
+  .page-top-book {
+    font-size: 12px;
+    text-align: right;
+    max-width: calc(100vw - 120px);
+  }
+  .tab-bar { padding: 8px 12px; }
+  .tab-switcher { width: 100%; }
+  .tab-btn {
+    flex: 1;
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+  .mode-bar {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .mode-switcher-large {
+    width: 100%;
+    gap: 6px;
+  }
+  .mode-btn-large {
+    flex: 1;
+    padding: 7px 8px;
+    font-size: 12px;
+  }
+  .mode-hint { display: none; }
   .chapter-sidebar {
-    position: fixed; top: 52px; left: 0; width: min(280px, 80vw);
-    height: calc(100vh - 52px); z-index: 70;
+    position: fixed;
+    top: var(--reader-toolbar-top, 46px);
+    left: 0;
+    width: min(300px, 84vw);
+    height: calc(100dvh - var(--reader-toolbar-top, 46px));
+    z-index: 70;
     box-shadow: 4px 0 24px rgba(0,0,0,0.2);
   }
   .sidebar-close { display: flex; align-items: center; justify-content: center; }
   .sidebar-overlay { display: block; }
-  .bottom-nav { padding: 8px 12px; }
-  .bottom-nav-btn { padding: 6px 10px; font-size: 11px; }
+  .bottom-nav {
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+    gap: 6px;
+  }
+  .bottom-nav-btn {
+    flex: 1;
+    padding: 8px 6px;
+    font-size: 11px;
+  }
 }
 </style>
